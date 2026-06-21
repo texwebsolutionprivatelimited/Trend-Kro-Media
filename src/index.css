@@ -157,3 +157,21 @@
 .form-input {
   @apply w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white font-sans transition-all placeholder:text-slate-500 focus:outline-none focus:border-brand-pink focus:ring-1 focus:ring-brand-pink;
 }
+
+/* Premium footer brand signature style with mouse effect */
+.brand-signature-stamp {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.15);
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  background-image: linear-gradient(135deg, rgba(255, 134, 199, 0.05), rgba(217, 70, 239, 0.05));
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.brand-signature-stamp:hover {
+  -webkit-text-stroke: 1px transparent;
+  background-image: linear-gradient(135deg, #ff86c7, #d946ef, #a855f7);
+  filter: drop-shadow(0 0 35px rgba(217, 70, 239, 0.4));
+  transform: scale(1.02) translateY(-2px);
+}
+

@@ -33,7 +33,14 @@ export default function BlogArchive() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
         {/* Page Header */}
         <div className="text-center mb-16 max-w-2xl mx-auto">
-          <span className="text-brand-pink text-xs font-black uppercase tracking-wider block mb-3">Trend Kro Insights</span>
+          {/* Tagline with blinking icon and background */}
+          <div className="inline-flex items-center gap-2.5 px-4.5 py-2 bg-brand-pink/10 border border-brand-pink/20 rounded-full mb-4 shadow-md">
+            <span className="relative flex h-2.5 w-2.5">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-pink opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-brand-pink"></span>
+            </span>
+            <span className="text-xs font-extrabold uppercase tracking-widest text-slate-300">Trend Kro Insights</span>
+          </div>
           <h1 className="font-montserrat font-black text-4xl md:text-5xl text-white tracking-tight mb-4">
             Explore Our <span className="text-gradient">Blog</span>
           </h1>
