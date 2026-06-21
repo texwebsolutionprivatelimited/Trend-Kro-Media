@@ -301,7 +301,7 @@ export default function Home() {
       
       {/* 1. HERO SECTION */}
       <span id="home"></span>
-      <section className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 pt-2 pb-8 lg:pt-3 lg:pb-12 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+      <section className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 pt-2 pb-8 lg:pt-3 lg:pb-12 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-16 items-center">
         {/* Left Column - Text Content */}
         <div className="lg:col-span-7 flex flex-col items-center text-center lg:items-start lg:text-left">
           <motion.div
@@ -337,7 +337,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.45 }}
-            className="flex flex-col sm:flex-row gap-4 w-full justify-center lg:justify-start mb-6"
+            className="flex flex-col sm:flex-row gap-4 w-full justify-center lg:justify-start mb-0 lg:mb-6"
           >
             <a
               href="#contact"

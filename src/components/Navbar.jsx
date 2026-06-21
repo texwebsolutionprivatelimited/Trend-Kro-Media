@@ -11,9 +11,9 @@ export default function Navbar() {
 
   const navLinks = [
     { label: 'Home', target: '#home' },
-    { label: 'Services', target: '#services' },
     { label: 'Stats', target: '#stats' },
     { label: 'Case Studies', target: '#results' },
+    { label: 'Services', target: '#services' },
     { label: 'Portfolio', target: '#portfolio' },
     { label: 'Packages', target: '#packages' },
     { label: 'FAQ', target: '#faq' },
