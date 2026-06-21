@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence, useInView } from 'framer-motion';
 import { ArrowRight, Check, Play, User, Users, Star, Award, ChevronDown, Sparkles, MessageCircle, Send, CheckCircle2, Target, Code, Palette, Film, Share2, Globe, Megaphone, PenTool, Clapperboard, Pencil, ExternalLink, Mail } from 'lucide-react';
-import heroImg from '../assets/hero_marketing_growth.png';
-import heroImg2 from '../assets/hero_smm_branding.png';
-import heroImg3 from '../assets/hero_web_dev.png';
-import heroImg4 from '../assets/hero_ads_scaling.png';
-import portfolioWeb from '../assets/portfolio_web_dev.png';
-import portfolioWeb2 from '../assets/portfolio_web_dev_2.png';
-import portfolioSocial from '../assets/portfolio_social_media.png';
-import portfolioSocial2 from '../assets/portfolio_social_media_2.png';
-import portfolioAds from '../assets/portfolio_paid_ads.png';
-import portfolioAds2 from '../assets/portfolio_paid_ads_2.png';
-import portfolioVideo from '../assets/portfolio_video_editing.png';
-import portfolioVideo2 from '../assets/portfolio_video_editing_2.png';
-import teamAarohi from '../assets/team_aarohi.png';
-import teamKabir from '../assets/team_kabir.png';
+import heroImg from '../assets/hero_marketing_growth.webp';
+import heroImg2 from '../assets/hero_smm_branding.webp';
+import heroImg3 from '../assets/hero_web_dev.webp';
+import heroImg4 from '../assets/hero_ads_scaling.webp';
+import portfolioWeb from '../assets/portfolio_web_dev.webp';
+import portfolioWeb2 from '../assets/portfolio_web_dev_2.webp';
+import portfolioSocial from '../assets/portfolio_social_media.webp';
+import portfolioSocial2 from '../assets/portfolio_social_media_2.webp';
+import portfolioAds from '../assets/portfolio_paid_ads.webp';
+import portfolioAds2 from '../assets/portfolio_paid_ads_2.webp';
+import portfolioVideo from '../assets/portfolio_video_editing.webp';
+import portfolioVideo2 from '../assets/portfolio_video_editing_2.webp';
+import teamAarohi from '../assets/team_aarohi.webp';
+import teamKabir from '../assets/team_kabir.webp';
 
 // Hero Images Array
 const heroImages = [heroImg, heroImg2, heroImg3, heroImg4];

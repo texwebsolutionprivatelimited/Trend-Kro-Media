@@ -1,8 +1,8 @@
-import blogMarketing from '../assets/blog_marketing.png';
-import blogBranding from '../assets/blog_branding.png';
-import blogAds from '../assets/blog_ads.png';
-import blogWebdev from '../assets/blog_webdev.png';
-import blogSmm from '../assets/blog_smm.png';
+import blogMarketing from '../assets/blog_marketing.webp';
+import blogBranding from '../assets/blog_branding.webp';
+import blogAds from '../assets/blog_ads.webp';
+import blogWebdev from '../assets/blog_webdev.webp';
+import blogSmm from '../assets/blog_smm.webp';
 
 export const blogsData = [
     {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { Menu, X, ArrowRight } from 'lucide-react';
-import logoImg from '../assets/logo.png';
+import logoImg from '../assets/logo.webp';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
