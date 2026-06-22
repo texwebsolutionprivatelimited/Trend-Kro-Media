@@ -1,8 +1,616 @@
 {
-    "rewrites": [
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "has": [
         {
-            "source": "/(.*)",
-            "destination": "/index.html"
+          "type": "query",
+          "key": "p",
+          "value": "^5965(\\.html)?$"
         }
-    ]
+      ],
+      "permanent": true,
+      "destination": "/how-to-increase-views-on-instagram-reels/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5965(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/how-to-increase-views-on-instagram-reels/"
+    },
+    {
+      "source": "/index.html_p=5965.html",
+      "permanent": true,
+      "destination": "/how-to-increase-views-on-instagram-reels/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6076(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/instagram-growth-case-study/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6076(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/instagram-growth-case-study/"
+    },
+    {
+      "source": "/index.html_p=6076.html",
+      "permanent": true,
+      "destination": "/instagram-growth-case-study/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5952(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/how-to-get-10k-followers-on-instagram/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5952(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/how-to-get-10k-followers-on-instagram/"
+    },
+    {
+      "source": "/index.html_p=5952.html",
+      "permanent": true,
+      "destination": "/how-to-get-10k-followers-on-instagram/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6061(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/personal-branding-for-real-estate-agents/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6061(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/personal-branding-for-real-estate-agents/"
+    },
+    {
+      "source": "/index.html_p=6061.html",
+      "permanent": true,
+      "destination": "/personal-branding-for-real-estate-agents/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5892(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/personal-branding-for-entrepreneurs/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5892(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/personal-branding-for-entrepreneurs/"
+    },
+    {
+      "source": "/index.html_p=5892.html",
+      "permanent": true,
+      "destination": "/personal-branding-for-entrepreneurs/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6026(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/personal-branding-for-finance-influencers/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6026(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/personal-branding-for-finance-influencers/"
+    },
+    {
+      "source": "/index.html_p=6026.html",
+      "permanent": true,
+      "destination": "/personal-branding-for-finance-influencers/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6010(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/how-to-build-personal-brand-on-instagram/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6010(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/how-to-build-personal-brand-on-instagram/"
+    },
+    {
+      "source": "/index.html_p=6010.html",
+      "permanent": true,
+      "destination": "/how-to-build-personal-brand-on-instagram/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6143(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/how-to-get-leads-from-instagram-reels/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6143(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/how-to-get-leads-from-instagram-reels/"
+    },
+    {
+      "source": "/index.html_p=6143.html",
+      "permanent": true,
+      "destination": "/how-to-get-leads-from-instagram-reels/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5978(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/personal-branding-for-founders/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5978(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/personal-branding-for-founders/"
+    },
+    {
+      "source": "/index.html_p=5978.html",
+      "permanent": true,
+      "destination": "/personal-branding-for-founders/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6084(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/personal-branding-for-coaches/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6084(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/personal-branding-for-coaches/"
+    },
+    {
+      "source": "/index.html_p=6084.html",
+      "permanent": true,
+      "destination": "/personal-branding-for-coaches/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5445(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/career/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5445(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/career/"
+    },
+    {
+      "source": "/index.html_p=5445.html",
+      "permanent": true,
+      "destination": "/career/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6005(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/how-to-get-clients-from-instagram-reels/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6005(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/how-to-get-clients-from-instagram-reels/"
+    },
+    {
+      "source": "/index.html_p=6005.html",
+      "permanent": true,
+      "destination": "/how-to-get-clients-from-instagram-reels/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6068(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/youtube-shorts-vs-instagram-reels-for-business/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6068(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/youtube-shorts-vs-instagram-reels-for-business/"
+    },
+    {
+      "source": "/index.html_p=6068.html",
+      "permanent": true,
+      "destination": "/youtube-shorts-vs-instagram-reels-for-business/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5936(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/personal-branding-strategy/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5936(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/personal-branding-strategy/"
+    },
+    {
+      "source": "/index.html_p=5936.html",
+      "permanent": true,
+      "destination": "/personal-branding-strategy/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5960(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/how-to-get-clients-from-instagram/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5960(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/how-to-get-clients-from-instagram/"
+    },
+    {
+      "source": "/index.html_p=5960.html",
+      "permanent": true,
+      "destination": "/how-to-get-clients-from-instagram/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5956(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/why-my-instagram-is-not-growing/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5956(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/why-my-instagram-is-not-growing/"
+    },
+    {
+      "source": "/index.html_p=5956.html",
+      "permanent": true,
+      "destination": "/why-my-instagram-is-not-growing/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5947(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/instagram-growth-mistakes/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5947(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/instagram-growth-mistakes/"
+    },
+    {
+      "source": "/index.html_p=5947.html",
+      "permanent": true,
+      "destination": "/instagram-growth-mistakes/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6014(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/how-to-monetize-personal-brand-on-instagram/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6014(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/how-to-monetize-personal-brand-on-instagram/"
+    },
+    {
+      "source": "/index.html_p=6014.html",
+      "permanent": true,
+      "destination": "/how-to-monetize-personal-brand-on-instagram/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6043(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/personal-branding-agency-in-delhi/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6043(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/personal-branding-agency-in-delhi/"
+    },
+    {
+      "source": "/index.html_p=6043.html",
+      "permanent": true,
+      "destination": "/personal-branding-agency-in-delhi/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5989(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/abhyudaya-singh-instagram-growth-case-study/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5989(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/abhyudaya-singh-instagram-growth-case-study/"
+    },
+    {
+      "source": "/index.html_p=5989.html",
+      "permanent": true,
+      "destination": "/abhyudaya-singh-instagram-growth-case-study/"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6018(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/how-to-get-patients-from-instagram/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6018(\\.html)?$"
+        }
+      ],
+      "permanent": true,
+      "destination": "/how-to-get-patients-from-instagram/"
+    },
+    {
+      "source": "/index.html_p=6018.html",
+      "permanent": true,
+      "destination": "/how-to-get-patients-from-instagram/"
+    }
+  ],
+  "rewrites": []
 }

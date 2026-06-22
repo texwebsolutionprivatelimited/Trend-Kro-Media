@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions - Trend Kro Media</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0b0d17;
+            color: #94a3b8;
+            font-family: 'Space Grotesk', sans-serif;
+            line-height: 1.6;
+        }
+
+        .site-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 999999;
+            background: rgba(20, 27, 48, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .site-header.scrolled {
+            background: rgba(15, 18, 30, 0.95);
+            border-bottom-color: rgba(238, 130, 238, 0.3);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .header-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .main-nav {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 35px;
+            align-items: center;
+        }
+
+        .nav-menu a {
+            color: rgba(255, 255, 255, 0.85);
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+            position: relative;
+            padding: 5px 0;
+            cursor: pointer;
+        }
+
+        .nav-menu a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #ee82ee, #d946ef);
+            transition: width 0.3s ease;
+        }
+
+        .nav-menu a:hover {
+            color: #ee82ee;
+        }
+
+        .nav-menu a:hover::after {
+            width: 100%;
+        }
+
+        .header-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 28px;
+            background: linear-gradient(135deg, #ee82ee, #d946ef);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(238, 130, 238, 0.3);
+            cursor: pointer;
+        }
+
+        .header-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(238, 130, 238, 0.5);
+        }
+
+        .mobile-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            padding: 8px;
+            z-index: 1000000;
+            background: transparent;
+            border: none;
+        }
+
+        .mobile-toggle span {
+            width: 28px;
+            height: 3px;
+            background: #ee82ee;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+            display: block;
+        }
+
+        .mobile-toggle.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        .mobile-toggle.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .mobile-toggle.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(7px, -7px);
+        }
+
+        @media (max-width: 968px) {
+            .main-nav {
+                position: fixed;
+                top: 58px;
+                left: 0;
+                width: 100%;
+                height: calc(100vh - 58px);
+                background: #0f121e !important;
+                backdrop-filter: blur(20px);
+                flex-direction: column;
+                justify-content: flex-start;
+                padding: 40px 20px;
+                gap: 0;
+                transform: translateX(-100%);
+                transition: transform 0.4s ease;
+                border-top: 1px solid rgba(238, 130, 238, 0.2);
+                overflow-y: auto;
+            }
+
+            .main-nav.active {
+                transform: translateX(0);
+            }
+
+            .nav-menu {
+                flex-direction: column;
+                gap: 0;
+                width: 100%;
+            }
+
+            .nav-menu li {
+                width: 100%;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            }
+
+            .nav-menu a {
+                display: block;
+                width: 100%;
+                padding: 18px 20px;
+                font-size: 16px;
+            }
+
+            .header-cta {
+                margin-top: 20px;
+                width: 100%;
+                justify-content: center;
+            }
+
+            .mobile-toggle {
+                display: flex;
+            }
+            .logo-text-nav {
+                font-size: 18px !important;
+                white-space: nowrap;
+            }
+            .header-container {
+                padding: 12px 20px !important;
+            }
+            .header-logo img {
+                height: 34px !important;
+                width: 34px !important;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .main-nav {
+                top: 50px !important;
+                height: calc(100vh - 50px) !important;
+            }
+            .logo-text-nav {
+                font-size: 14px !important;
+                white-space: nowrap;
+                letter-spacing: 0.2px !important;
+            }
+            .header-container {
+                padding: 10px 12px !important;
+            }
+            .header-logo img {
+                height: 30px !important;
+                width: 30px !important;
+            }
+        }
+
+        /* POLICY CONTAINER STYLING */
+        .policy-section {
+            padding: 150px 20px 80px 20px;
+            background: radial-gradient(circle at top left, rgba(238, 130, 238, 0.05) 0%, transparent 40%),
+                        radial-gradient(circle at bottom right, rgba(217, 70, 239, 0.05) 0%, transparent 40%);
+            min-height: 80vh;
+        }
+
+        .policy-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 24px;
+            padding: 50px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+        }
+
+        .policy-title {
+            font-size: 38px;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 10px;
+            font-family: 'Space Grotesk', sans-serif;
+        }
+
+        .policy-gradient-text {
+            background: linear-gradient(135deg, #ff86c7, #d946ef);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .policy-updated {
+            font-size: 14px;
+            color: #ff86c7;
+            margin-bottom: 40px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .policy-content h2 {
+            color: #ffffff;
+            font-size: 22px;
+            font-weight: 700;
+            margin: 35px 0 15px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            padding-bottom: 8px;
+        }
+
+        .policy-content p {
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #94a3b8;
+            line-height: 1.7;
+        }
+
+        .policy-content ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        .policy-content li {
+            margin-bottom: 10px;
+            font-size: 15px;
+            color: #94a3b8;
+        }
+
+        /* FOOTER */
+        .tkm-footer {
+            background: #090b12 !important;
+            border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+            padding: 80px 20px 30px 20px !important;
+            color: #94a3b8 !important;
+        }
+        .tkm-footer-grid {
+            max-width: 1100px !important;
+            margin: 0 auto 50px auto !important;
+            display: grid !important;
+            grid-template-columns: 1.5fr 1fr 1fr 1.2fr !important;
+            gap: 40px !important;
+        }
+        .tkm-footer-col h4 {
+            font-family: 'Montserrat', sans-serif !important;
+            color: white !important;
+            font-size: 16px !important;
+            font-weight: 700 !important;
+            margin-bottom: 25px !important;
+            text-transform: uppercase !important;
+            letter-spacing: 1px !important;
+        }
+        .tkm-footer-logo {
+            font-family: 'Space Grotesk', sans-serif !important;
+            font-weight: 800 !important;
+            font-size: 24px !important;
+            color: #ffffff !important;
+            letter-spacing: 0.5px !important;
+            margin-bottom: 20px !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            gap: 10px !important;
+            text-decoration: none !important;
+        }
+        .tkm-footer-logo span {
+            background: linear-gradient(135deg, #ff86c7, #d946ef) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            background-clip: text !important;
+        }
+        .tkm-footer-desc {
+            font-size: 14px !important;
+            line-height: 1.6 !important;
+            margin-bottom: 20px !important;
+        }
+        .tkm-footer-links {
+            list-style: none !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+        .tkm-footer-links li {
+            margin-bottom: 12px !important;
+        }
+        .tkm-footer-links a {
+            color: #94a3b8 !important;
+            text-decoration: none !important;
+            font-size: 14px !important;
+            transition: color 0.3s ease !important;
+        }
+        .tkm-footer-links a:hover {
+            color: #ff86c7 !important;
+        }
+        .tkm-footer-contact {
+            font-size: 14px !important;
+            line-height: 1.6 !important;
+        }
+        .tkm-footer-contact p {
+            margin-bottom: 15px !important;
+        }
+        .tkm-footer-contact a {
+            color: #ffffff !important;
+            text-decoration: none !important;
+            transition: color 0.3s ease !important;
+            font-weight: 600 !important;
+        }
+        .tkm-footer-contact a:hover {
+            color: #ff86c7 !important;
+        }
+        .tkm-footer-socials {
+            display: flex !important;
+            gap: 12px !important;
+            margin-top: 20px !important;
+        }
+        .tkm-footer-social-btn {
+            width: 36px !important;
+            height: 36px !important;
+            border-radius: 50% !important;
+            background: rgba(255,255,255,0.04) !important;
+            border: 1px solid rgba(255,255,255,0.1) !important;
+            color: white !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            font-size: 16px !important;
+            text-decoration: none !important;
+            transition: all 0.3s ease !important;
+        }
+        .tkm-footer-social-btn:hover {
+            background: rgba(255, 134, 199, 0.1) !important;
+            border-color: rgba(255, 134, 199, 0.3) !important;
+            color: #ff86c7 !important;
+            transform: translateY(-2px) !important;
+        }
+        .tkm-footer-bottom {
+            max-width: 1100px !important;
+            margin: 0 auto !important;
+            padding-top: 30px !important;
+            border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+            display: flex !important;
+            justify-content: space-between !important;
+            align-items: center !important;
+            font-size: 13px !important;
+        }
+        @media (max-width: 768px) {
+            .tkm-footer-grid {
+                grid-template-columns: 1fr !important;
+                gap: 45px !important;
+                text-align: left !important;
+            }
+            .tkm-footer-socials {
+                justify-content: flex-start !important;
+            }
+            .tkm-footer-bottom {
+                flex-direction: column !important;
+                gap: 15px !important;
+                text-align: center !important;
+            }
+            .policy-container {
+                padding: 30px 20px;
+            }
+            .policy-title {
+                font-size: 28px;
+            }
+        }
+        .cursor-light {
+            position: fixed;
+            width: 320px;
+            height: 320px;
+            background: radial-gradient(circle, rgba(238, 130, 238, 0.15), transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+            filter: blur(45px);
+            transition: 0.1s ease-out;
+            will-change: transform, opacity;
+        }
+        @media (max-width: 768px) {
+            .cursor-light { display: none; }
+        }
+
+        /* ENHANCED BRAND GUIDELINES CSS - LEAD MODAL */
+        .lead-modal-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(20, 27, 48, 0.85);
+            backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+            z-index: 99999;
+            display: flex; align-items: center; justify-content: center;
+            opacity: 0; pointer-events: none;
+            transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            font-family: 'Montserrat', sans-serif;
+            overflow-y: auto;
+            padding: 20px 10px;
+        }
+        .lead-modal-overlay.active { opacity: 1; pointer-events: auto; }
+        
+        .lead-modal-content {
+            background: linear-gradient(145deg, rgba(30, 41, 70, 0.98) 0%, rgba(20, 27, 48, 1) 100%);
+            border: 2px solid rgba(238, 130, 238, 0.4);
+            border-radius: 28px;
+            padding: 45px;
+            width: 100%; max-width: 480px;
+            box-shadow: 0 25px 60px rgba(0,0,0,0.7), 0 0 40px rgba(238, 130, 238, 0.15);
+            transform: translateY(60px) scale(0.95);
+            transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative; text-align: center; color: #fff;
+            margin: auto;
+        }
+        .lead-modal-overlay.active .lead-modal-content { 
+            transform: translateY(0) scale(1); 
+        }
+
+        .tkm-close-btn {
+            position: absolute; top: 20px; right: 20px;
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.1);
+            color: white;
+            width: 36px; height: 36px; border-radius: 50%;
+            font-size: 20px; cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .tkm-close-btn:hover { 
+            background: rgba(238, 130, 238, 0.2); 
+            color: #ee82ee; 
+            border-color: #ee82ee;
+            transform: rotate(90deg);
+        }
+
+        .tkm-modal-header h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 32px; margin: 0 0 10px 0;
+            color: white; font-weight: 700;
+            line-height: 1.2;
+        }
+        .tkm-gradient-text {
+            background: linear-gradient(135deg, #ee82ee 0%, #d946ef 50%, #c026d3 100%);
+            -webkit-background-clip: text; 
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+        }
+        .tkm-modal-header p {
+            font-size: 15px; color: rgba(255,255,255,0.75);
+            margin: 0 0 30px 0;
+            line-height: 1.5;
+        }
+
+        .tkm-input-group { margin-bottom: 16px; text-align: left; }
+        .tkm-input-group input {
+            width: 100%; padding: 16px 18px;
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+            color: #1e293b; font-size: 15px;
+            font-family: 'Montserrat', sans-serif;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .tkm-input-group input::placeholder {
+            color: #64748b;
+        }
+        .tkm-input-group input:focus {
+            outline: none; 
+            border-color: #ee82ee;
+            background: #ffffff;
+            box-shadow: 0 0 0 4px rgba(238, 130, 238, 0.15), 0 0 20px rgba(238, 130, 238, 0.1);
+        }
+
+        .tkm-submit-btn {
+            width: 100%; padding: 18px; margin-top: 12px;
+            background: linear-gradient(135deg, #ee82ee 0%, #d946ef 100%);
+            border: none; border-radius: 14px;
+            color: white; font-weight: 700; font-size: 16px;
+            font-family: 'Space Grotesk', sans-serif;
+            cursor: pointer; 
+            display: flex; align-items: center; justify-content: center; gap: 12px;
+            box-shadow: 0 12px 24px rgba(238, 130, 238, 0.25);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        .tkm-submit-btn::before {
+            content: '';
+            position: absolute;
+            top: 0; left: -100%;
+            width: 100%; height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+        .tkm-submit-btn:hover::before {
+            left: 100%;
+        }
+        .tkm-submit-btn:hover { 
+            transform: translateY(-3px); 
+            box-shadow: 0 18px 36px rgba(238, 130, 238, 0.4); 
+        }
+        .tkm-submit-btn:active {
+            transform: translateY(-1px);
+        }
+
+        .tkm-success-msg {
+            display: none; color: #4ade80; font-weight: 600;
+            margin-top: 18px; font-size: 14px;
+            padding: 12px;
+            background: rgba(74, 222, 128, 0.1);
+            border-radius: 10px;
+            border: 1px solid rgba(74, 222, 128, 0.3);
+        }
+        
+        .tkm-privacy-text {
+            font-size: 12px;
+            color: rgba(255,255,255,0.5);
+            margin-top: 20px;
+            line-height: 1.5;
+        }
+        
+        /* Tablet & Mobile Responsive */
+        @media (max-width: 768px) {
+            .lead-modal-content {
+                padding: 35px 25px;
+                border-radius: 20px;
+            }
+            .tkm-modal-header h3 {
+                font-size: 26px;
+            }
+            .tkm-modal-header p {
+                margin-bottom: 20px;
+            }
+        }
+        
+        /* Small Mobile view (down to 320px) */
+        @media (max-width: 480px) {
+            .lead-modal-overlay {
+                padding: 10px 5px;
+            }
+            .lead-modal-content {
+                padding: 25px 18px;
+                border-radius: 16px;
+            }
+            .tkm-modal-header h3 {
+                font-size: 22px;
+                margin-bottom: 6px;
+            }
+            .tkm-modal-header p {
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+            .tkm-input-group {
+                margin-bottom: 12px;
+            }
+            .tkm-input-group input {
+                padding: 12px 14px;
+                font-size: 14px;
+                border-radius: 10px;
+            }
+            .tkm-submit-btn {
+                padding: 14px;
+                font-size: 15px;
+                border-radius: 10px;
+                margin-top: 6px;
+            }
+            .tkm-close-btn {
+                top: 12px; right: 12px;
+                width: 30px; height: 30px;
+                font-size: 18px;
+            }
+            .tkm-privacy-text {
+                margin-top: 15px;
+                font-size: 11px;
+            }
+        }
+
+        .site-header.hide-nav {
+            transform: translateY(-100%);
+            opacity: 0;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="cursor-light"></div>
+
+<header class="site-header">
+    <div class="header-container">
+        <a href="/" class="header-logo" style="text-decoration: none; display: flex; align-items: center; gap: 10px;">
+            <img src="/tkm-logo-96.webp" alt="Trend Kro Media Logo" width="38" height="38" style="height: 38px; width: 38px; border-radius: 6px; object-fit: cover;">
+            <span class="logo-text-nav" style="font-family: 'Space Grotesk', sans-serif; font-weight: 800; font-size: 22px; color: #ffffff; letter-spacing: 0.5px; display: inline-block;">TREND KRO <span style="background: linear-gradient(135deg, #ff86c7, #d946ef); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">MEDIA</span></span>
+        </a>
+
+        <nav class="main-nav" id="mainNav">
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/#stats">Stats</a></li>
+                <li><a href="/#why-choose">Why Us</a></li>
+                <li><a href="/#services">Services</a></li>
+                <li><a href="/#faq">FAQ</a></li>
+                <li><a href="/#testimonials">Clients</a></li>
+                <li><a href="/#founder">About Us</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
+            <a href="https://wa.me/919691488875?text=Hi,%20I'd%20like%20to%20book%20a%20free%20strategy%20call." target="_blank" rel="noopener" class="header-cta">
+                <i class="fa-brands fa-whatsapp"></i> Free Strategy Call
+            </a>
+        </nav>
+
+        <div class="mobile-toggle" id="mobileToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header>
+
+<section class="policy-section">
+    <div class="policy-container">
+        <h1 class="policy-title">Terms & <span class="policy-gradient-text">Conditions</span></h1>
+        <div class="policy-updated">Last Updated: June 23, 2026</div>
+        
+        <div class="policy-content">
+            <p>Welcome to Trend Kro Media. These Terms & Conditions outline the rules and regulations for the use of Trend Kro Media's Website, located at <a href="/" style="color:#ff86c7; text-decoration:none;">trendkromedia.com</a>.</p>
+            
+            <p>By accessing this website, we assume you accept these terms and conditions. Do not continue to use Trend Kro Media if you do not agree to take all of the terms and conditions stated on this page.</p>
+
+            <h2>1. Services Offered</h2>
+            <p>Trend Kro Media is a premium growth agency providing digital marketing, branding, media, and authority-building services, including but not limited to:</p>
+            <ul>
+                <li>Social Media Management & Video Editing</li>
+                <li>Paid Advertising (Meta Ads, Google Ads)</li>
+                <li>Personal Branding Strategy & Consultation</li>
+                <li>PR & Media Coverage (Press Releases, Publications)</li>
+                <li>TEDx & Josh Talks Positioning and prep support</li>
+                <li>Podcast Collaborations & Lead Generation Campaigns</li>
+            </ul>
+
+            <h2>2. Disclaimer & Growth Projections</h2>
+            <p>While Trend Kro Media applies top industry strategies, custom growth roadmaps, and expert optimizations, we make no guarantees regarding specific metrics, virality, financial gains, or conversions. Organic reach, algorithm behavior, advertising performance, and media approvals are subject to external platform rules, market conditions, and target audience feedback.</p>
+
+            <h2>3. Client Responsibilities</h2>
+            <p>To deliver quality campaigns and results, client collaboration is crucial. Clients are responsible for:</p>
+            <ul>
+                <li>Providing accurate branding details, media assets (raw video clips, images), and context in a timely manner.</li>
+                <li>Granting necessary access/logins to advertising managers or social channels where required for optimization.</li>
+                <li>Reviewing drafts, media, and schedules promptly to ensure execution timelines are met.</li>
+            </ul>
+
+            <h2>4. Payment Terms & Refund Policy</h2>
+            <p>Services are booked on pre-payment terms (monthly retainers or project-based advances) unless agreed otherwise in writing. Because our services require immediate allocation of strategic planners, content curators, ad budgets, media bookings, and production resources, all payments made to Trend Kro Media are non-refundable.</p>
+
+            <h2>5. Intellectual Property Rights</h2>
+            <p>Unless otherwise stated, Trend Kro Media owns the intellectual property rights for all custom-developed branding templates, strategy roadmaps, and systems developed during campaigns. Clients retain ownership of their personal brand identity, raw personal media assets, and published content upon complete clearance of service invoices.</p>
+
+            <h2>6. Limitation of Liability</h2>
+            <p>In no event shall Trend Kro Media, nor any of its founders, officers, or employees, be held liable for any indirect, consequential, or special liability arising out of or in any way connected with your use of this Website or our growth campaigns.</p>
+
+            <h2>7. Severability & Modifications</h2>
+            <p>If any provision of these Terms is found to be invalid under any applicable law, such provisions shall be deleted without affecting the remaining provisions herein. Trend Kro Media is permitted to revise these Terms at any time as it sees fit, and by using this Website you are expected to review these Terms on a regular basis.</p>
+
+            <h2>8. Governing Law</h2>
+            <p>These Terms will be governed by and interpreted in accordance with the laws of India, and you submit to the non-exclusive jurisdiction of the state and federal courts located in Delhi/NCR, India, for the resolution of any disputes.</p>
+        </div>
+    </div>
+</section>
+
+<footer class="tkm-footer">
+    <div class="tkm-footer-grid">
+        <div class="tkm-footer-col">
+            <a href="/" class="tkm-footer-logo">
+                <img src="/tkm-logo-96.webp" alt="Trend Kro Media Logo" width="38" height="38" loading="lazy" style="height: 38px; width: 38px; border-radius: 6px; object-fit: cover;">
+                TREND KRO <span>MEDIA</span>
+            </a>
+            <p class="tkm-footer-desc">
+                Premium Growth Partner for Brands & Entrepreneurs. Helping you build authority, visibility, and sustainable growth through strategic marketing, media, and branding solutions.
+            </p>
+        </div>
+        <div class="tkm-footer-col">
+            <h4>Quick Links</h4>
+            <ul class="tkm-footer-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/#stats">Stats</a></li>
+                <li><a href="/#why-choose">Why Us</a></li>
+                <li><a href="/#services">Services</a></li>
+                <li><a href="/#faq">FAQ</a></li>
+                <li><a href="/#testimonials">Clients</a></li>
+                <li><a href="/#founder">About Us</a></li>
+                <li><a href="/#contact">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="tkm-footer-col">
+            <h4>Services</h4>
+            <ul class="tkm-footer-links">
+                <li><a href="/#services">Social Media Management</a></li>
+                <li><a href="/#services">Meta & Google Ads</a></li>
+                <li><a href="/#services">Personal Branding</a></li>
+                <li><a href="/#services">PR & Media Coverage</a></li>
+                <li><a href="/#services">TEDx Opportunities</a></li>
+                <li><a href="/#services">Podcast Collaborations</a></li>
+                <li><a href="/#services">Website Development</a></li>
+            </ul>
+        </div>
+        <div class="tkm-footer-col">
+            <h4>Contact Us</h4>
+            <div class="tkm-footer-contact">
+                <p>
+                    <strong>WhatsApp:</strong><br>
+                    <a href="https://wa.me/919691488875" target="_blank" rel="noopener">+91 96914 88875</a>
+                </p>
+                <p>
+                    <strong>Email:</strong><br>
+                    <a href="mailto:hello@trendkromedia.com">hello@trendkromedia.com</a>
+                </p>
+            </div>
+            <div class="tkm-footer-socials">
+                <a href="https://instagram.com/trendkromedia" class="tkm-footer-social-btn" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com/trendkromedia" class="tkm-footer-social-btn" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/atul-verma/" class="tkm-footer-social-btn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://youtube.com/" class="tkm-footer-social-btn" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="tkm-footer-bottom">
+        <div>
+            <a href="/privacy-policy" style="color:#94a3b8;text-decoration:none;margin-right:20px;">Privacy Policy</a>
+            <a href="/terms-conditions" style="color:#94a3b8;text-decoration:none;">Terms &amp; Conditions</a>
+        </div>
+        <div>© 2026 Trend Kro Media. All rights reserved.</div>
+    </div>
+</footer>
+
+    <!-- Ready to Scale Lead Modal -->
+    <div id="tkm-lead-modal" class="lead-modal-overlay">
+        <div class="lead-modal-content">
+            <button class="tkm-close-btn" id="tkm-close-btn" aria-label="Close">&times;</button>
+            <div class="tkm-modal-header">
+                <h3>Ready to <span class="tkm-gradient-text">Scale?</span></h3>
+                <p>Request a call and we&#039;ll get back to you.</p>
+            </div>
+            <form id="tkm-lead-form">
+                <input type="hidden" name="source_form" value="Lead Popup Modal">
+                <div class="tkm-input-group">
+                    <input type="text" name="tkm_name" placeholder="Your Name" required>
+                </div>
+                <div class="tkm-input-group">
+                    <input type="email" name="tkm_email" placeholder="Email Address" required>
+                </div>
+                <div class="tkm-input-group">
+                    <input type="tel" name="tkm_phone" placeholder="Phone / WhatsApp Number" pattern="[0-9+\-\s()]+" title="Please enter a valid phone number">
+                </div>
+                <div class="tkm-input-group">
+                    <input type="url" name="tkm_website" placeholder="Website / Social Link (Optional)">
+                </div>
+                <button type="submit" class="tkm-submit-btn">
+                    <span class="btn-text">Request a Call</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <p class="tkm-success-msg" id="tkm-success-msg">
+                    <i class="fa-solid fa-circle-check"></i> Thanks! We'll get back to you soon.
+                </p>
+                <p class="tkm-privacy-text">
+                    🔒 Your information is secure and will never be shared.
+                </p>
+            </form>
+        </div>
+    </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Cursor Follow
+    const circle = document.querySelector('.cursor-light');
+    document.addEventListener('mousemove', (e) => {
+        if(circle) {
+            circle.style.left = e.clientX + 'px';
+            circle.style.top = e.clientY + 'px';
+        }
+    });
+
+    // Header scroll effect
+    const header = document.querySelector('.site-header');
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+
+    // Mobile menu toggle
+    const mobileToggle = document.getElementById('mobileToggle');
+    const mainNav = document.getElementById('mainNav');
+    if (mobileToggle && mainNav) {
+        mobileToggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            this.classList.toggle('active');
+            mainNav.classList.toggle('active');
+        });
+    }
+
+    // Lead Modal Trigger and Logic
+    const modal = document.getElementById('tkm-lead-modal');
+    const closeBtn = document.getElementById('tkm-close-btn');
+    const form = document.getElementById('tkm-lead-form');
+    const header = document.querySelector('.site-header');
+    let formShown = false;
+
+    function showModal() {
+        modal.classList.add('active');
+        if (header) header.classList.add('hide-nav');
+    }
+
+    function hideModal() {
+        modal.classList.remove('active');
+        if (header) header.classList.remove('hide-nav');
+    }
+
+    // SCROLL TRIGGER LOGIC
+    const scrollThreshold = 30 / 100;
+    
+    window.addEventListener('scroll', () => {
+        const scrollPercent = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
+        if (scrollPercent > scrollThreshold && !formShown) {
+            if(!sessionStorage.getItem('tkm_lead_submitted')) {
+                showModal();
+                formShown = true;
+            }
+        }
+    });
+
+    // Close Logic
+    if(closeBtn) closeBtn.addEventListener('click', () => {
+        hideModal();
+    });
+    
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) hideModal();
+    });
+    
+    // ESC key to close
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.classList.contains('active')) {
+            hideModal();
+        }
+    });
+
+    // Google Sheets AJAX Submission (with fallback)
+    if(form) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const btn = form.querySelector('button[type="submit"]');
+            const btnText = form.querySelector('.btn-text');
+            
+            const originalText = btnText.innerText;
+            btnText.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending...';
+            btn.style.opacity = '0.7';
+            btn.disabled = true;
+
+            // REPLACE THIS WITH YOUR GOOGLE WEB APP URL
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwEDnKZADOMtl0lakHE7S6HmZTwhwIxVFVwVTOt8bDkpu6hvg32QryR1LR7BLzJ6-QiVg/exec';
+            const formData = new FormData(form);
+
+            if (scriptURL && scriptURL !== 'YOUR_GOOGLE_SHEET_SCRIPT_URL') {
+                fetch(scriptURL, { method: 'POST', body: formData })
+                    .then(response => {
+                        console.log('Success!', response);
+                        handleSuccess();
+                    })
+                    .catch(error => {
+                        console.error('Error!', error.message);
+                        alert('Something went wrong. Please try again or contact us via WhatsApp.');
+                        btnText.innerText = originalText;
+                        btn.style.opacity = '1';
+                        btn.disabled = false;
+                    });
+            } else {
+                // Fallback to simulation if URL is not configured yet
+                setTimeout(() => {
+                    handleSuccess();
+                }, 1200);
+            }
+
+            function handleSuccess() {
+                document.getElementById('tkm-success-msg').style.display = 'block';
+                btnText.innerText = originalText;
+                btn.style.opacity = '1';
+                btn.disabled = false;
+                form.reset();
+                sessionStorage.setItem('tkm_lead_submitted', 'true');
+                
+                setTimeout(() => {
+                    hideModal();
+                    setTimeout(() => {
+                        document.getElementById('tkm-success-msg').style.display = 'none';
+                    }, 500);
+                }, 2500);
+            }
+        });
+    }
+});
+</script>
+</body>
+</html>
