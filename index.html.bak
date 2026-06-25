@@ -550,11 +550,11 @@ div.banner.wow.fadeInUp.animated {
             <ul class="nav-menu">
                 <li><a href="/">Home</a></li>
                 <li><a href="/#stats">Results</a></li>
-                <li><a href="/#services">Services</a></li>
                 <li><a href="/#why-choose">Why Us</a></li>
-                <li><a href="/#testimonials">Reviews</a></li>
-                <li><a href="/#founder">About Us</a></li>
+                <li><a href="/#services">Services</a></li>
                 <li><a href="/#faq">FAQ</a></li>
+                <li><a href="/#testimonials">Clients</a></li>
+                <li><a href="/#founder">About Us</a></li>
                 <li><a href="/#contact">Contact</a></li>
             </ul>
             <a href="https://wa.me/919691488875?text=Hi,%20I'd%20like%20to%20book%20a%20free%20strategy%20call." target="_blank" rel="noopener" class="header-cta">
@@ -630,7 +630,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
         // Active menu tracking
-    const sections = ['home', 'stats', 'services', 'why-choose', 'testimonials', 'founder', 'faq', 'contact'];
+    const sections = ['home', 'stats', 'why-choose', 'services', 'faq', 'testimonials', 'founder', 'contact'];
     
     function updateActiveLink() {
         const menuLinks = document.querySelectorAll('.nav-menu a');
@@ -1023,20 +1023,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .founder-info-container { margin-top: 0px; text-align: center; width: 100%; position: relative; height: 80px; }
         .info-slide { position: absolute; top: 0; left: 0; width: 100%; opacity: 0; transform: translateY(10px); transition: all 0.5s ease; pointer-events: none; }
         .info-slide.active { opacity: 1; transform: translateY(0); pointer-events: auto; }
-        .founder-label {
-            display: inline-block;
-            padding: 5px 14px;
-            background: rgba(255, 134, 199, 0.1);
-            border: 1px solid rgba(255, 134, 199, 0.25);
-            border-radius: 50px;
-            font-size: 10px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            color: #ff86c7 !important;
-            margin-bottom: 12px;
-            font-family: 'Space Grotesk', sans-serif !important;
-        }
+        .founder-label { font-size: 11px; text-transform: uppercase; letter-spacing: 2px; color: rgba(255,255,255,0.5) !important; margin-bottom: 8px; }
         .founder-name { font-size: 28px; font-weight: 700; color: #ffffff !important; margin-bottom: 8px; line-height: 1.1; }
 
         .slider-controls { display: flex; justify-content: center; gap: 12px; margin-top: 10px; z-index: 20; position: relative; }
@@ -1151,7 +1138,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <!-- Left Text Content -->
             <div class="content-wrapper">
                 <div class="logo-badge hero-fade-in delay-1">
-                    <span style="height: 28px; width: 28px; border-radius: 6px; background: linear-gradient(135deg, #ff86c7, #d946ef); display: inline-flex; align-items: center; justify-content: center; font-family: 'Space Grotesk', sans-serif; font-weight: 800; font-size: 12px; color: #ffffff; text-transform: uppercase; flex-shrink: 0; box-shadow: 0 3px 8px rgba(217, 70, 239, 0.35);">TKM</span>
+                    <span style="height: 28px; width: 28px; border-radius: 6px; background: linear-gradient(135deg, #ff86c7, #d946ef); display: inline-flex; align-items: center; justify-content: center; font-family: 'Space Grotesk', sans-serif; font-weight: 800; font-size: 12px; color: #ffffff; text-transform: lowercase; flex-shrink: 0; box-shadow: 0 3px 8px rgba(217, 70, 239, 0.35);">tkm</span>
                     <span class="logo-text">TREND KRO MEDIA</span>
                 </div>
 
@@ -1194,7 +1181,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="founder-slider-wrapper">
                         <!-- Founder Slide -->
                         <div class="founder-slide active" id="slide-0">
-                            <img decoding="async" src="/wp-content/uploads/2026/06/founder-atul-cutout-320.png?v=2" alt="Atul Verma" class="founder-img riya" width="320" height="320" style="width: 100%; margin-bottom: 0px; border-radius: 0;">
+                            <img decoding="async" src="/wp-content/uploads/2026/06/founder-atul-cutout-320.png" alt="Atul Verma" class="founder-img riya" width="320" height="320" style="width: 100%; margin-bottom: 0px; border-radius: 0;">
                         </div>
                     </div>
                     
@@ -1209,8 +1196,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
                     <div class="float-card card-social-riya" style="display: flex;">
                         <div class="social-links">
-                            <span class="social-icon" style="cursor: default;"><i class="fa-brands fa-instagram"></i></span>
-                            <span class="social-icon" style="cursor: default;"><i class="fa-brands fa-linkedin"></i></span>
+                            <a href="https://instagram.com/trendkromedia" target="_blank" class="social-icon" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/atul-verma/" target="_blank" class="social-icon" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
                         </div>
                     </div>
 
@@ -1619,7 +1606,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <h2>Real Results. <span class="gradient-text">Real Clients.</span></h2>
             <h3 class="sub-heading">
-                Delivering measurable growth through Digital Growth Management, Branding & Media
+                Delivering measurable growth through Digital Marketing, Branding & Media
             </h3>
             <h3 class="sub-heading" style="margin-top: 15px !important;">
                 <strong>Generate Revenue &bull; Build Authority &bull; Gain Massive Reach</strong>
@@ -1738,847 +1725,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </body>
 </html>				</div>
-				<div class="elementor-element elementor-element-714c0bb elementor-widget elementor-widget-html" data-id="714c0bb" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-					<div id="services"></div>				</div>
-				<div class="elementor-element elementor-element-349108e elementor-widget elementor-widget-html" data-id="349108e" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-					<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Packages - Neon Glass</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<style>
-/* RESET & BASE */
-.packages-section-wrapper * {
-    margin: 0 !important;
-    padding: 0 !important;
-    box-sizing: border-box !important;
-}
-
-/* SECTION CONTAINER */
-.packages-section {
-    width: 100% !important;
-    padding: 60px 20px !important;
-    background: #0f121e !important; /* Matches dark theme */
-    position: relative !important;
-    overflow: hidden !important;
-    font-family: 'Space Grotesk', sans-serif !important;
-    color: white !important;
-    text-align: center !important;
-}
-
-/* AMBIENT GLOWS */
-.packages-glow {
-    position: absolute !important;
-    width: 800px !important;
-    height: 800px !important;
-    background: radial-gradient(circle, rgba(236, 72, 153, 0.08), transparent 70%) !important;
-    border-radius: 50% !important;
-    pointer-events: none !important;
-    z-index: 0 !important;
-}
-.glow-center { top: 50% !important; left: 50% !important; transform: translate(-50%, -50%) !important; }
-
-/* HEADER */
-.packages-header {
-    position: relative !important;
-    z-index: 2 !important;
-    margin-bottom: 80px !important;
-}
-
-.packages-badge {
-    display: inline-block !important;
-    padding: 8px 24px !important;
-    background: rgba(255, 255, 255, 0.05) !important;
-    border: 1px solid rgba(255, 255, 255, 0.1) !important;
-    border-radius: 50px !important;
-    font-size: 12px !important;
-    color: #ff86c7 !important;
-    font-weight: 700 !important;
-    letter-spacing: 2px !important;
-    margin-bottom: 20px !important;
-    text-transform: uppercase !important;
-}
-
-.packages-title {
-    font-size: clamp(36px, 5vw, 60px) !important;
-    font-weight: 800 !important;
-    margin-bottom: 15px !important;
-    color: white !important;
-    line-height: 1.1 !important;
-    letter-spacing: -0.2px !important;
-    font-family: 'Space Grotesk', sans-serif !important;
-    word-spacing: 2px !important;
-}
-
-.gradient-text {
-    background: linear-gradient(135deg, #ff86c7, #d946ef, #a855f7) !important;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
-    background-clip: text !important;
-    display: inline-block !important;
-}
-
-.packages-desc {
-    font-size: clamp(16px, 2vw, 18px) !important;
-    color: #94a3b8 !important;
-    font-family: 'Space Grotesk', sans-serif !important;
-    max-width: 600px !important;
-    margin: 0 auto !important;
-    line-height: 1.6 !important;
-}
-
-/* CARDS CONTAINER */
-.packages-row {
-    display: flex !important;
-    justify-content: center !important;
-    gap: 30px !important;
-    max-width: 1300px !important;
-    margin: 0 auto !important;
-    position: relative !important;
-    z-index: 5 !important;
-    flex-wrap: wrap !important;
-    align-items: stretch !important;
-}
-
-/* CARD BASE STYLE */
-.package-card {
-    flex: 1 !important;
-    min-width: 320px !important;
-    max-width: 400px !important;
-    background: rgba(255, 255, 255, 0.03) !important;
-    border: 1px solid rgba(255, 255, 255, 0.08) !important;
-    backdrop-filter: blur(10px) !important;
-    border-radius: 24px !important;
-    padding: 40px 30px !important;
-    position: relative !important;
-    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease !important;
-    display: flex !important;
-    flex-direction: column !important;
-    overflow: hidden !important;
-}
-
-.package-card:hover {
-    transform: translateY(-10px) !important;
-    border-color: rgba(255, 134, 199, 0.3) !important;
-    box-shadow: 0 20px 50px -10px rgba(0,0,0,0.5) !important;
-}
-
-/* FEATURED CARD (MOMENTUM) */
-.package-card.featured {
-    border-color: rgba(255, 134, 199, 0.5) !important;
-    background: linear-gradient(180deg, rgba(255, 134, 199, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%) !important;
-    box-shadow: 0 0 30px rgba(255, 134, 199, 0.1) !important;
-    transform: scale(1.05) !important;
-    z-index: 2 !important;
-}
-
-.package-card.featured:hover {
-    transform: scale(1.05) translateY(-10px) !important;
-    box-shadow: 0 20px 60px -10px rgba(255, 134, 199, 0.2) !important;
-}
-
-/* TAGS */
-.package-tag {
-    position: absolute !important;
-    top: 20px !important;
-    right: 20px !important;
-    padding: 6px 12px !important;
-    border-radius: 6px !important;
-    font-size: 11px !important;
-    font-weight: 700 !important;
-    text-transform: uppercase !important;
-    letter-spacing: 1px !important;
-}
-
-.tag-popular {
-    background: #ff86c7 !important;
-    color: #0f121e !important;
-}
-
-.tag-value {
-    background: rgba(255, 255, 255, 0.1) !important;
-    border: 1px solid rgba(255, 255, 255, 0.2) !important;
-    color: #fff !important;
-}
-
-/* CARD CONTENT */
-.package-name {
-    font-size: 22px !important;
-    font-weight: 700 !important;
-    color: white !important;
-    margin-bottom: 8px !important;
-    text-align: left !important;
-    font-family: 'Montserrat', sans-serif !important;
-}
-
-.package-price {
-    font-size: 32px !important;
-    font-weight: 800 !important;
-    color: #ff86c7 !important;
-    margin-bottom: 15px !important;
-    text-align: left !important;
-    font-family: 'Montserrat', sans-serif !important;
-}
-
-.package-desc {
-    font-size: 15px !important;
-    color: #94a3b8 !important;
-    font-family: 'Space Grotesk', sans-serif !important;
-    margin-bottom: 25px !important;
-    text-align: left !important;
-    line-height: 1.5 !important;
-}
-
-/* Separator Line */
-.package-line {
-    width: 100% !important;
-    height: 1px !important;
-    background: rgba(255, 255, 255, 0.1) !important;
-    margin-bottom: 25px !important;
-}
-
-/* FEATURES LIST */
-.package-features {
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 0 0 30px 0 !important;
-    text-align: left !important;
-    flex-grow: 1 !important;
-}
-
-.package-features li {
-    display: flex !important;
-    align-items: flex-start !important;
-    margin-bottom: 12px !important;
-    font-size: 14px !important;
-    color: #e2e8f0 !important;
-    font-family: 'Space Grotesk', sans-serif !important;
-    line-height: 1.5 !important;
-}
-
-.package-features li i {
-    color: #ff86c7 !important;
-    margin-right: 10px !important;
-    margin-top: 4px !important;
-    font-size: 12px !important;
-    flex-shrink: 0 !important;
-}
-
-/* HIGHLIGHT TEXT */
-.highlight-text {
-    font-size: 14px !important;
-    color: #fff !important;
-    background: rgba(255, 134, 199, 0.1) !important;
-    padding: 12px 15px !important;
-    border-radius: 10px !important;
-    margin-bottom: 25px !important;
-    text-align: left !important;
-    font-weight: 600 !important;
-    font-family: 'Space Grotesk', sans-serif !important;
-    border-left: 3px solid #ff86c7 !important;
-    line-height: 1.5 !important;
-}
-
-/* GUARANTEE BOX */
-.guarantee-box {
-    background: rgba(255, 134, 199, 0.05) !important;
-    border: 1px dashed rgba(255, 134, 199, 0.3) !important;
-    padding: 15px !important;
-    border-radius: 12px !important;
-    margin-bottom: 25px !important;
-    text-align: left !important;
-}
-
-.guarantee-title {
-    font-size: 13px !important;
-    font-weight: 700 !important;
-    color: #ff86c7 !important;
-    margin-bottom: 5px !important;
-    text-transform: uppercase !important;
-    letter-spacing: 1px !important;
-    font-family: 'Montserrat', sans-serif !important;
-}
-
-.guarantee-text {
-    font-size: 13px !important;
-    color: #fff !important;
-    font-family: 'Space Grotesk', sans-serif !important;
-    line-height: 1.5 !important;
-}
-
-/* CTA BUTTON */
-.package-btn {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    width: 100% !important;
-    padding: 16px !important;
-    border-radius: 12px !important;
-    font-weight: 700 !important;
-    text-decoration: none !important;
-    transition: all 0.3s ease !important;
-    font-size: 16px !important;
-    text-transform: uppercase !important;
-    letter-spacing: 0.5px !important;
-    font-family: 'Montserrat', sans-serif !important;
-}
-
-.btn-outline {
-    background: transparent !important;
-    border: 1px solid rgba(255, 255, 255, 0.2) !important;
-    color: white !important;
-}
-
-.btn-outline:hover {
-    border-color: #ff86c7 !important;
-    background: rgba(255, 134, 199, 0.1) !important;
-}
-
-.btn-filled {
-    background: linear-gradient(135deg, #ff86c7, #d946ef) !important;
-    color: #0f121e !important;
-    border: none !important;
-    box-shadow: 0 10px 30px rgba(217, 70, 239, 0.3) !important;
-}
-
-.btn-filled:hover {
-    transform: translateY(-3px) !important;
-    box-shadow: 0 15px 40px rgba(217, 70, 239, 0.5) !important;
-}
-
-/* RESPONSIVE */
-@media (max-width: 1024px) {
-    .packages-row {
-        flex-direction: column !important;
-        align-items: center !important;
-        gap: 40px !important;
-    }
-    
-    .package-card {
-        width: 100% !important;
-        max-width: 500px !important;
-    }
-    
-    .package-card.featured {
-        transform: scale(1) !important;
-        order: -1 !important;
-    }
-    
-    .package-card.featured:hover {
-        transform: translateY(-10px) !important;
-    }
-}
-</style>
-<body>
-
-<section class="packages-section" id="services">
-    <div class="packages-glow glow-center"></div>
-
-    <!-- Header -->
-    <div class="packages-header">
-        <div class="packages-badge">OUR SOLUTIONS</div>
-        <h2 class="packages-title">Growth, Branding &amp; <span class="gradient-text">Authority Solutions Under One Roof</span></h2>
-        <p class="packages-desc">All-in-one strategic marketing, media &amp; positioning services — tailored to your unique goals</p>
-    </div>
-
-    <!-- Category Tabs -->
-
-
-    <!-- Services Grid -->
-    <div class="services-grid-17" id="servicesGrid">
-
-        <!-- ===== DIGITAL GROWTH MANAGEMENT ===== -->
-        <div class="srv-cat-divider" data-cat="digital">
-            <span><i class="fa-solid fa-chart-line"></i> Digital Growth Management</span>
-        </div>
-
-        <div class="srv-card" data-cat="digital">
-            <div class="srv-icon digi"><i class="fa-brands fa-instagram"></i></div>
-            <h3 class="srv-name">Social Media Management</h3>
-            <p class="srv-desc">Strategic content planning, daily posting, community management &amp; growth across all major platforms.</p>
-            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Social%20Media%20Management." target="_blank" rel="noopener" class="srv-btn digi-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-
-        <div class="srv-card featured" data-cat="digital">
-            <div class="srv-tag digi-tag">Most Popular</div>
-            <div class="srv-icon digi"><i class="fa-brands fa-meta"></i></div>
-            <h3 class="srv-name">Meta Ads (Facebook &amp; Instagram)</h3>
-            <p class="srv-desc">High-converting ad campaigns on Meta platforms to maximize ROAS and scale your brand's reach.</p>
-            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Meta%20Ads." target="_blank" rel="noopener" class="srv-btn digi-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-
-        <div class="srv-card" data-cat="digital">
-            <div class="srv-icon digi"><i class="fa-brands fa-google"></i></div>
-            <h3 class="srv-name">Google Ads</h3>
-            <p class="srv-desc">Search, display &amp; YouTube campaigns optimized for quality leads and cost-effective conversions.</p>
-            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Google%20Ads." target="_blank" rel="noopener" class="srv-btn digi-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-
-        <div class="srv-card" data-cat="digital">
-            <div class="srv-icon digi"><i class="fa-solid fa-filter-circle-dollar"></i></div>
-            <h3 class="srv-name">Lead Generation Campaigns</h3>
-            <p class="srv-desc">Targeted campaigns across platforms designed to fill your pipeline with qualified, high-intent leads.</p>
-            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Lead%20Generation." target="_blank" rel="noopener" class="srv-btn digi-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-
-        <!-- ===== CONTENT & BRANDING ===== -->
-        <div class="srv-cat-divider" data-cat="branding">
-            <span><i class="fa-solid fa-paint-brush"></i> Content &amp; Branding</span>
-        </div>
-
-        <div class="srv-card featured" data-cat="branding">
-            <div class="srv-tag brand-tag">Core Service</div>
-            <div class="srv-icon brand"><i class="fa-solid fa-crown"></i></div>
-            <h3 class="srv-name">Personal Branding Strategy</h3>
-            <p class="srv-desc">Complete personal brand blueprint — positioning, messaging, content strategy &amp; audience growth.</p>
-            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Personal%20Branding%20Strategy." target="_blank" rel="noopener" class="srv-btn brand-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-
-        <div class="srv-card" data-cat="branding">
-            <div class="srv-icon brand"><i class="fa-solid fa-film"></i></div>
-            <h3 class="srv-name">Video Editing</h3>
-            <p class="srv-desc">Professional reels, YouTube videos, ads &amp; brand content edited to captivate your audience.</p>
-            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Video%20Editing." target="_blank" rel="noopener" class="srv-btn brand-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-
-        <div class="srv-card" data-cat="branding">
-            <div class="srv-icon brand"><i class="fa-solid fa-pen-nib"></i></div>
-            <h3 class="srv-name">Graphic Design</h3>
-            <p class="srv-desc">Stunning visuals, brand kits, social creatives &amp; marketing collateral that make your brand stand out.</p>
-            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Graphic%20Design." target="_blank" rel="noopener" class="srv-btn brand-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-
-        <div class="srv-card" data-cat="branding">
-            <div class="srv-icon brand"><i class="fa-solid fa-star"></i></div>
-            <h3 class="srv-name">Influencer Marketing</h3>
-            <p class="srv-desc">Strategic influencer partnerships for authentic reach, brand awareness &amp; trust-driven conversions.</p>
-            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Influencer%20Marketing." target="_blank" rel="noopener" class="srv-btn brand-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-
-        <!-- ===== MEDIA & AUTHORITY ===== -->
-        <div class="srv-cat-divider" data-cat="media">
-            <span><i class="fa-solid fa-newspaper"></i> Media &amp; Authority</span>
-        </div>
-
-        <div class="srv-card featured" data-cat="media">
-            <div class="srv-tag media-tag">Authority Builder</div>
-            <div class="srv-icon media"><i class="fa-solid fa-newspaper"></i></div>
-            <h3 class="srv-name">Press Release &amp; Media Coverage</h3>
-            <p class="srv-desc">Get featured in top media publications to build credibility, trust &amp; massive brand authority.</p>
-            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Press%20Release." target="_blank" rel="noopener" class="srv-btn media-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-
-        <div class="srv-card" data-cat="media">
-            <div class="srv-icon media"><i class="fa-solid fa-microphone-lines"></i></div>
-            <h3 class="srv-name">Podcast Collaborations</h3>
-            <p class="srv-desc">Feature on top podcasts to share your story, expertise &amp; expand your audience authentically.</p>
-            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Podcast%20Collaborations." target="_blank" rel="noopener" class="srv-btn media-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-
-        <div class="srv-card featured" data-cat="media">
-            <div class="srv-tag media-tag">Premium</div>
-            <div class="srv-icon media"><i class="fa-solid fa-microphone"></i></div>
-            <h3 class="srv-name">TEDx &amp; Josh Talks Positioning</h3>
-            <p class="srv-desc">End-to-end positioning, strategic facilitation &amp; support to get you featured on TEDx and Josh Talks stages as a thought leader.</p>
-            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20TEDx%20%26%20Josh%20Talks%20Positioning." target="_blank" rel="noopener" class="srv-btn media-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-
-        <div class="srv-card" data-cat="media">
-            <div class="srv-icon media"><i class="fa-solid fa-trophy"></i></div>
-            <h3 class="srv-name">Awards &amp; Recognition</h3>
-            <p class="srv-desc">Identify and apply for prestigious industry awards to boost your brand's credibility &amp; authority.</p>
-            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Awards%20%26%20Recognition." target="_blank" rel="noopener" class="srv-btn media-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-
-        <!-- ===== TECH & EVENTS ===== -->
-        <div class="srv-cat-divider" data-cat="events">
-            <span><i class="fa-solid fa-calendar-star"></i> Tech &amp; Events</span>
-        </div>
-
-        <div class="srv-card featured" data-cat="events">
-            <div class="srv-tag events-tag">Dev</div>
-            <div class="srv-icon events"><i class="fa-solid fa-laptop-code"></i></div>
-            <h3 class="srv-name">Website Development</h3>
-            <p class="srv-desc">High-performance, conversion-optimized websites and landing pages designed to impress and convert.</p>
-            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Website%20Development." target="_blank" rel="noopener" class="srv-btn events-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-
-        <div class="srv-card featured" data-cat="events">
-            <div class="srv-tag events-tag">Dev</div>
-            <div class="srv-icon events"><i class="fa-solid fa-mobile-screen-button"></i></div>
-            <h3 class="srv-name">App Development</h3>
-            <p class="srv-desc">Custom iOS &amp; Android mobile applications designed with premium UX/UI and robust performance to scale your business.</p>
-            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20App%20Development." target="_blank" rel="noopener" class="srv-btn events-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-
-        <div class="srv-card" data-cat="events">
-            <div class="srv-icon events"><i class="fa-solid fa-calendar-check"></i></div>
-            <h3 class="srv-name">Event Management</h3>
-            <p class="srv-desc">End-to-end planning, execution &amp; promotion of brand events, product launches &amp; corporate functions.</p>
-            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Event%20Management." target="_blank" rel="noopener" class="srv-btn events-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-
-        <div class="srv-card" data-cat="events">
-            <div class="srv-icon events"><i class="fa-solid fa-graduation-cap"></i></div>
-            <h3 class="srv-name">College &amp; School Event Management</h3>
-            <p class="srv-desc">Organizing fests, career fairs &amp; brand activation programs across schools, campuses and top educational institutions.</p>
-            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20College%20%26%20School%20Event%20Management." target="_blank" rel="noopener" class="srv-btn events-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-
-    </div>
-
-    <!-- Bottom CTA -->
-    <div class="srv-bottom-cta">
-        <p>Not sure which service fits your brand? Let's figure it out together.</p>
-        <a href="https://wa.me/919691488875?text=Hi,%20I'd%20like%20to%20book%20a%20free%20strategy%20call." target="_blank" rel="noopener" class="srv-cta-btn">
-            <i class="fa-solid fa-phone"></i> Book Free Strategy Call
-        </a>
-    </div>
-
-</section>
-
-<style>
-/* ====== TAB SYSTEM ====== */
-.srv-tabs-wrapper {
-    display: flex !important;
-    justify-content: center !important;
-    margin-bottom: 30px !important;
-    position: relative !important;
-    z-index: 10 !important;
-}
-.srv-tabs {
-    display: flex !important;
-    gap: 10px !important;
-    background: rgba(255,255,255,0.03) !important;
-    border: 1px solid rgba(255,255,255,0.08) !important;
-    border-radius: 60px !important;
-    padding: 6px !important;
-    flex-wrap: wrap !important;
-    justify-content: center !important;
-}
-.srv-tab {
-    display: flex !important;
-    align-items: center !important;
-    gap: 7px !important;
-    padding: 10px 20px !important;
-    border-radius: 50px !important;
-    border: none !important;
-    background: transparent !important;
-    color: #94a3b8 !important;
-    font-size: 14px !important;
-    font-weight: 600 !important;
-    font-family: "Space Grotesk", sans-serif !important;
-    cursor: pointer !important;
-    transition: all 0.3s ease !important;
-    white-space: nowrap !important;
-}
-.srv-tab:hover { color: #fff !important; background: rgba(255,255,255,0.05) !important; }
-.srv-tab.active { background: linear-gradient(135deg, #ee82ee, #d946ef) !important; color: #fff !important; box-shadow: 0 4px 20px rgba(217,70,239,0.4) !important; }
-.srv-count {
-    background: rgba(255,255,255,0.15) !important;
-    border-radius: 20px !important;
-    padding: 2px 8px !important;
-    font-size: 11px !important;
-    font-weight: 700 !important;
-}
-.srv-tab.active .srv-count { background: rgba(255,255,255,0.25) !important; }
-
-/* CATEGORY LABEL */
-.srv-cat-label {
-    text-align: center !important;
-    margin-bottom: 30px !important;
-    position: relative !important;
-    z-index: 5 !important;
-}
-.srv-cat-pill {
-    display: inline-flex !important;
-    align-items: center !important;
-    gap: 8px !important;
-    padding: 8px 20px !important;
-    border-radius: 30px !important;
-    font-size: 13px !important;
-    font-weight: 700 !important;
-    letter-spacing: 0.5px !important;
-    font-family: "Space Grotesk", sans-serif !important;
-}
-.all-pill  { background: rgba(255,255,255,0.06) !important; color: #e2e8f0 !important; border: 1px solid rgba(255,255,255,0.1) !important; }
-.digi-pill { background: rgba(34,211,238,0.1) !important; color: #22d3ee !important; border: 1px solid rgba(34,211,238,0.25) !important; }
-.brand-pill { background: rgba(251,191,36,0.1) !important; color: #fbbf24 !important; border: 1px solid rgba(251,191,36,0.25) !important; }
-.media-pill { background: rgba(238,130,238,0.1) !important; color: #ee82ee !important; border: 1px solid rgba(238,130,238,0.25) !important; }
-.events-pill { background: rgba(52,211,153,0.1) !important; color: #34d399 !important; border: 1px solid rgba(52,211,153,0.25) !important; }
-
-/* CATEGORY DIVIDER */
-.srv-cat-divider {
-    grid-column: 1 / -1 !important;
-    display: flex !important;
-    align-items: center !important;
-    gap: 15px !important;
-    margin: 20px 0 5px !important;
-    transition: all 0.3s ease !important;
-}
-.srv-cat-divider:first-child { margin-top: 0 !important; }
-.srv-cat-divider span {
-    display: flex !important;
-    align-items: center !important;
-    gap: 8px !important;
-    font-size: 13px !important;
-    font-weight: 700 !important;
-    text-transform: uppercase !important;
-    letter-spacing: 2px !important;
-    white-space: nowrap !important;
-    padding: 8px 18px !important;
-    border-radius: 30px !important;
-    font-family: "Space Grotesk", sans-serif !important;
-}
-.srv-cat-divider::after {
-    content: "" !important;
-    flex: 1 !important;
-    height: 1px !important;
-    background: rgba(255,255,255,0.07) !important;
-}
-
-/* color per category */
-[data-cat="digital"].srv-cat-divider span { background: rgba(34,211,238,0.08) !important; color: #22d3ee !important; border: 1px solid rgba(34,211,238,0.2) !important; }
-[data-cat="branding"].srv-cat-divider span { background: rgba(251,191,36,0.08) !important; color: #fbbf24 !important; border: 1px solid rgba(251,191,36,0.2) !important; }
-[data-cat="media"].srv-cat-divider span { background: rgba(238,130,238,0.08) !important; color: #ee82ee !important; border: 1px solid rgba(238,130,238,0.2) !important; }
-[data-cat="events"].srv-cat-divider span { background: rgba(52,211,153,0.08) !important; color: #34d399 !important; border: 1px solid rgba(52,211,153,0.2) !important; }
-
-/* ====== SERVICES GRID ====== */
-.services-grid-17 {
-    display: grid !important;
-    grid-template-columns: repeat(4, 1fr) !important;
-    gap: 20px !important;
-    max-width: 1300px !important;
-    margin: 0 auto !important;
-    position: relative !important;
-    z-index: 5 !important;
-}
-
-/* CARDS */
-.srv-card {
-    background: rgba(255,255,255,0.03) !important;
-    border: 1px solid rgba(255,255,255,0.08) !important;
-    border-radius: 18px !important;
-    padding: 24px !important;
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 10px !important;
-    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
-    position: relative !important;
-    overflow: hidden !important;
-}
-.srv-card::after {
-    content: "" !important;
-    position: absolute !important;
-    top: 0 !important; left: 0 !important;
-    width: 100% !important; height: 2px !important;
-    opacity: 0 !important;
-    transition: opacity 0.3s !important;
-}
-.srv-card:hover {
-    transform: translateY(-8px) !important;
-    box-shadow: 0 24px 48px rgba(0,0,0,0.35) !important;
-}
-.srv-card:hover::after { opacity: 1 !important; }
-.srv-card.hidden { display: none !important; }
-
-/* Digital */
-[data-cat="digital"].srv-card::after { background: linear-gradient(90deg, transparent, #22d3ee, transparent) !important; }
-[data-cat="digital"].srv-card:hover { border-color: rgba(34,211,238,0.35) !important; background: rgba(34,211,238,0.04) !important; }
-[data-cat="digital"].srv-card.featured { background: rgba(34,211,238,0.06) !important; border-color: rgba(34,211,238,0.2) !important; }
-[data-cat="digital"].srv-card.featured::after { opacity: 1 !important; }
-
-/* Branding */
-[data-cat="branding"].srv-card::after { background: linear-gradient(90deg, transparent, #fbbf24, transparent) !important; }
-[data-cat="branding"].srv-card:hover { border-color: rgba(251,191,36,0.35) !important; background: rgba(251,191,36,0.04) !important; }
-[data-cat="branding"].srv-card.featured { background: rgba(251,191,36,0.06) !important; border-color: rgba(251,191,36,0.2) !important; }
-[data-cat="branding"].srv-card.featured::after { opacity: 1 !important; }
-
-/* Media */
-[data-cat="media"].srv-card::after { background: linear-gradient(90deg, transparent, #ee82ee, transparent) !important; }
-[data-cat="media"].srv-card:hover { border-color: rgba(238,130,238,0.35) !important; background: rgba(238,130,238,0.04) !important; }
-[data-cat="media"].srv-card.featured { background: rgba(238,130,238,0.06) !important; border-color: rgba(238,130,238,0.2) !important; }
-[data-cat="media"].srv-card.featured::after { opacity: 1 !important; }
-
-/* Events */
-[data-cat="events"].srv-card::after { background: linear-gradient(90deg, transparent, #34d399, transparent) !important; }
-[data-cat="events"].srv-card:hover { border-color: rgba(52,211,153,0.35) !important; background: rgba(52,211,153,0.04) !important; }
-[data-cat="events"].srv-card.featured { background: rgba(52,211,153,0.06) !important; border-color: rgba(52,211,153,0.2) !important; }
-[data-cat="events"].srv-card.featured::after { opacity: 1 !important; }
-
-/* ICONS */
-.srv-icon {
-    width: 50px !important; height: 50px !important;
-    border-radius: 14px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    font-size: 20px !important;
-    flex-shrink: 0 !important;
-}
-.srv-icon.digi   { background: rgba(34,211,238,0.12) !important; border: 1px solid rgba(34,211,238,0.25) !important; color: #22d3ee !important; }
-.srv-icon.brand  { background: rgba(251,191,36,0.12) !important; border: 1px solid rgba(251,191,36,0.25) !important; color: #fbbf24 !important; }
-.srv-icon.media  { background: rgba(238,130,238,0.12) !important; border: 1px solid rgba(238,130,238,0.25) !important; color: #ee82ee !important; }
-.srv-icon.events { background: rgba(52,211,153,0.12) !important; border: 1px solid rgba(52,211,153,0.25) !important; color: #34d399 !important; }
-
-/* TAGS */
-.srv-tag {
-    display: inline-block !important;
-    font-size: 9px !important;
-    font-weight: 800 !important;
-    text-transform: uppercase !important;
-    letter-spacing: 1.5px !important;
-    border-radius: 30px !important;
-    padding: 3px 10px !important;
-    width: fit-content !important;
-}
-.digi-tag  { color: #22d3ee !important; background: rgba(34,211,238,0.12) !important; border: 1px solid rgba(34,211,238,0.25) !important; }
-.brand-tag { color: #fbbf24 !important; background: rgba(251,191,36,0.12) !important; border: 1px solid rgba(251,191,36,0.25) !important; }
-.media-tag { color: #ee82ee !important; background: rgba(238,130,238,0.12) !important; border: 1px solid rgba(238,130,238,0.25) !important; }
-.events-tag{ color: #34d399 !important; background: rgba(52,211,153,0.12) !important; border: 1px solid rgba(52,211,153,0.25) !important; }
-
-.srv-name {
-    font-size: 16px !important;
-    font-weight: 700 !important;
-    color: #ffffff !important;
-    font-family: "Space Grotesk", sans-serif !important;
-    line-height: 1.3 !important;
-    margin: 0 !important;
-    letter-spacing: 0.3px !important;
-    word-spacing: 2px !important;
-}
-.srv-desc {
-    font-size: 13px !important;
-    color: #94a3b8 !important;
-    line-height: 1.6 !important;
-    flex-grow: 1 !important;
-    margin: 0 !important;
-}
-
-/* BUTTONS */
-.srv-btn {
-    display: inline-flex !important;
-    align-items: center !important;
-    gap: 7px !important;
-    padding: 9px 16px !important;
-    border-radius: 10px !important;
-    font-size: 12px !important;
-    font-weight: 600 !important;
-    text-decoration: none !important;
-    transition: all 0.3s ease !important;
-    width: fit-content !important;
-    margin-top: auto !important;
-    border: 1px solid transparent !important;
-    font-family: "Space Grotesk", sans-serif !important;
-    letter-spacing: 0.5px !important;
-    word-spacing: 1px !important;
-}
-.digi-btn  { color: #22d3ee !important; border-color: rgba(34,211,238,0.3) !important; background: rgba(34,211,238,0.07) !important; }
-.brand-btn { color: #fbbf24 !important; border-color: rgba(251,191,36,0.3) !important; background: rgba(251,191,36,0.07) !important; }
-.media-btn { color: #ee82ee !important; border-color: rgba(238,130,238,0.3) !important; background: rgba(238,130,238,0.07) !important; }
-.events-btn{ color: #34d399 !important; border-color: rgba(52,211,153,0.3) !important; background: rgba(52,211,153,0.07) !important; }
-
-.digi-btn:hover  { background: rgba(34,211,238,0.18) !important; border-color: #22d3ee !important; color: #fff !important; transform: translateX(3px) !important; }
-.brand-btn:hover { background: rgba(251,191,36,0.18) !important; border-color: #fbbf24 !important; color: #fff !important; transform: translateX(3px) !important; }
-.media-btn:hover { background: rgba(238,130,238,0.18) !important; border-color: #ee82ee !important; color: #fff !important; transform: translateX(3px) !important; }
-.events-btn:hover{ background: rgba(52,211,153,0.18) !important; border-color: #34d399 !important; color: #fff !important; transform: translateX(3px) !important; }
-
-/* BOTTOM CTA */
-.srv-bottom-cta {
-    text-align: center !important;
-    margin-top: 50px !important;
-    position: relative !important;
-    z-index: 5 !important;
-}
-.srv-bottom-cta p {
-    color: #94a3b8 !important;
-    margin-bottom: 20px !important;
-    font-size: 16px !important;
-    font-family: "Space Grotesk", sans-serif !important;
-}
-.srv-cta-btn {
-    display: inline-flex !important;
-    align-items: center !important;
-    gap: 10px !important;
-    padding: 16px 40px !important;
-    border-radius: 14px !important;
-    font-size: 17px !important;
-    text-decoration: none !important;
-    background: linear-gradient(135deg, #ee82ee, #d946ef) !important;
-    color: #fff !important;
-    font-weight: 700 !important;
-    font-family: "Montserrat", sans-serif !important;
-    transition: all 0.3s ease !important;
-    box-shadow: 0 10px 30px rgba(217,70,239,0.3) !important;
-}
-.srv-cta-btn:hover { transform: translateY(-3px) !important; box-shadow: 0 16px 40px rgba(217,70,239,0.45) !important; }
-
-/* RESPONSIVE */
-@media (max-width: 1200px) {
-    .services-grid-17 { grid-template-columns: repeat(3, 1fr) !important; }
-}
-@media (max-width: 900px) {
-    .services-grid-17 { grid-template-columns: repeat(2, 1fr) !important; }
-    .srv-tabs { gap: 6px !important; }
-    .srv-tab { padding: 8px 14px !important; font-size: 12px !important; }
-}
-@media (max-width: 580px) {
-    .services-grid-17 { grid-template-columns: 1fr !important; gap: 14px !important; }
-    .srv-tabs-wrapper { padding: 0 10px !important; }
-}
-</style>
-
-<script>
-(function() {
-    var tabs = document.querySelectorAll(".srv-tab");
-    var cards = document.querySelectorAll(".services-grid-17 .srv-card");
-    var dividers = document.querySelectorAll(".srv-cat-divider");
-    var catLabel = document.getElementById("srvCatLabel");
-
-    var catInfo = {
-        all:      { label: "All 17 Services",        icon: "fa-th-large",        cls: "all-pill" },
-        digital:  { label: "Digital Growth Management",       icon: "fa-chart-line",      cls: "digi-pill" },
-        branding: { label: "Content & Branding",      icon: "fa-paint-brush",     cls: "brand-pill" },
-        media:    { label: "Media & Authority",        icon: "fa-newspaper",       cls: "media-pill" },
-        events:   { label: "Tech & Events",            icon: "fa-calendar-star",   cls: "events-pill" }
-    };
-
-    function filter(cat) {
-        cards.forEach(function(c) {
-            if (cat === "all" || c.getAttribute("data-cat") === cat) {
-                c.classList.remove("hidden");
-            } else {
-                c.classList.add("hidden");
-            }
-        });
-        dividers.forEach(function(d) {
-            if (cat === "all" || d.getAttribute("data-cat") === cat) {
-                d.style.display = "";
-            } else {
-                d.style.display = "none";
-            }
-        });
-        var info = catInfo[cat];
-        catLabel.innerHTML = '<span class="srv-cat-pill ' + info.cls + '"><i class="fa-solid ' + info.icon + '"></i> ' + info.label + "</span>";
-    }
-
-    tabs.forEach(function(tab) {
-        tab.addEventListener("click", function() {
-            tabs.forEach(function(t) { t.classList.remove("active"); });
-            tab.classList.add("active");
-            filter(tab.getAttribute("data-cat"));
-        });
-    });
-})();
-</script>
-
-</body>
-
 				<div class="elementor-element elementor-element-17c0203 elementor-widget elementor-widget-html" data-id="17c0203" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 					<div id="stats"></div>				</div>
 				<div class="elementor-element elementor-element-f51f8d7 elementor-widget elementor-widget-html" data-id="f51f8d7" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
@@ -2976,7 +2122,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="step-details">
                         <div class="step-icon"><i class="fa-solid fa-briefcase"></i></div>
                         <h3>One-Stop Growth Partner</h3>
-                        <p>We handle everything from digital growth management and content creation to PR, media positioning, and offline events under one single roof.</p>
+                        <p>We handle everything from digital marketing and content creation to PR, media positioning, and offline events under one single roof.</p>
                     </div>
                 </div>
             </div>
@@ -3122,7 +2268,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="step-details">
                         <div class="step-icon"><i class="fa-solid fa-award"></i></div>
                         <h3>7+ Years of Experience</h3>
-                        <p>Leveraging nearly a decade of experience in the media and digital growth management space to navigate algorithms and deliver reliable growth.</p>
+                        <p>Leveraging nearly a decade of experience in the media and digital marketing space to navigate algorithms and deliver reliable growth.</p>
                     </div>
                 </div>
             </div>
@@ -3171,6 +2317,1143 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 </body>
+</html>				</div>
+				<div class="elementor-element elementor-element-714c0bb elementor-widget elementor-widget-html" data-id="714c0bb" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
+					<div id="services"></div>				</div>
+				<div class="elementor-element elementor-element-349108e elementor-widget elementor-widget-html" data-id="349108e" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
+					<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Packages - Neon Glass</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* RESET & BASE */
+.packages-section-wrapper * {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+/* SECTION CONTAINER */
+.packages-section {
+    width: 100% !important;
+    padding: 60px 20px !important;
+    background: #0f121e !important; /* Matches dark theme */
+    position: relative !important;
+    overflow: hidden !important;
+    font-family: 'Space Grotesk', sans-serif !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+/* AMBIENT GLOWS */
+.packages-glow {
+    position: absolute !important;
+    width: 800px !important;
+    height: 800px !important;
+    background: radial-gradient(circle, rgba(236, 72, 153, 0.08), transparent 70%) !important;
+    border-radius: 50% !important;
+    pointer-events: none !important;
+    z-index: 0 !important;
+}
+.glow-center { top: 50% !important; left: 50% !important; transform: translate(-50%, -50%) !important; }
+
+/* HEADER */
+.packages-header {
+    position: relative !important;
+    z-index: 2 !important;
+    margin-bottom: 80px !important;
+}
+
+.packages-badge {
+    display: inline-block !important;
+    padding: 8px 24px !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 50px !important;
+    font-size: 12px !important;
+    color: #ff86c7 !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+    margin-bottom: 20px !important;
+    text-transform: uppercase !important;
+}
+
+.packages-title {
+    font-size: clamp(36px, 5vw, 60px) !important;
+    font-weight: 800 !important;
+    margin-bottom: 15px !important;
+    color: white !important;
+    line-height: 1.1 !important;
+    letter-spacing: -0.2px !important;
+    font-family: 'Space Grotesk', sans-serif !important;
+    word-spacing: 2px !important;
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, #ff86c7, #d946ef, #a855f7) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+    display: inline-block !important;
+}
+
+.packages-desc {
+    font-size: clamp(16px, 2vw, 18px) !important;
+    color: #94a3b8 !important;
+    font-family: 'Space Grotesk', sans-serif !important;
+    max-width: 600px !important;
+    margin: 0 auto !important;
+    line-height: 1.6 !important;
+}
+
+/* CARDS CONTAINER */
+.packages-row {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 30px !important;
+    max-width: 1300px !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    z-index: 5 !important;
+    flex-wrap: wrap !important;
+    align-items: stretch !important;
+}
+
+/* CARD BASE STYLE */
+.package-card {
+    flex: 1 !important;
+    min-width: 320px !important;
+    max-width: 400px !important;
+    background: rgba(255, 255, 255, 0.03) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 24px !important;
+    padding: 40px 30px !important;
+    position: relative !important;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease !important;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: hidden !important;
+}
+
+.package-card:hover {
+    transform: translateY(-10px) !important;
+    border-color: rgba(255, 134, 199, 0.3) !important;
+    box-shadow: 0 20px 50px -10px rgba(0,0,0,0.5) !important;
+}
+
+/* FEATURED CARD (MOMENTUM) */
+.package-card.featured {
+    border-color: rgba(255, 134, 199, 0.5) !important;
+    background: linear-gradient(180deg, rgba(255, 134, 199, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%) !important;
+    box-shadow: 0 0 30px rgba(255, 134, 199, 0.1) !important;
+    transform: scale(1.05) !important;
+    z-index: 2 !important;
+}
+
+.package-card.featured:hover {
+    transform: scale(1.05) translateY(-10px) !important;
+    box-shadow: 0 20px 60px -10px rgba(255, 134, 199, 0.2) !important;
+}
+
+/* TAGS */
+.package-tag {
+    position: absolute !important;
+    top: 20px !important;
+    right: 20px !important;
+    padding: 6px 12px !important;
+    border-radius: 6px !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+}
+
+.tag-popular {
+    background: #ff86c7 !important;
+    color: #0f121e !important;
+}
+
+.tag-value {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: #fff !important;
+}
+
+/* CARD CONTENT */
+.package-name {
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    color: white !important;
+    margin-bottom: 8px !important;
+    text-align: left !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.package-price {
+    font-size: 32px !important;
+    font-weight: 800 !important;
+    color: #ff86c7 !important;
+    margin-bottom: 15px !important;
+    text-align: left !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.package-desc {
+    font-size: 15px !important;
+    color: #94a3b8 !important;
+    font-family: 'Space Grotesk', sans-serif !important;
+    margin-bottom: 25px !important;
+    text-align: left !important;
+    line-height: 1.5 !important;
+}
+
+/* Separator Line */
+.package-line {
+    width: 100% !important;
+    height: 1px !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    margin-bottom: 25px !important;
+}
+
+/* FEATURES LIST */
+.package-features {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 0 30px 0 !important;
+    text-align: left !important;
+    flex-grow: 1 !important;
+}
+
+.package-features li {
+    display: flex !important;
+    align-items: flex-start !important;
+    margin-bottom: 12px !important;
+    font-size: 14px !important;
+    color: #e2e8f0 !important;
+    font-family: 'Space Grotesk', sans-serif !important;
+    line-height: 1.5 !important;
+}
+
+.package-features li i {
+    color: #ff86c7 !important;
+    margin-right: 10px !important;
+    margin-top: 4px !important;
+    font-size: 12px !important;
+    flex-shrink: 0 !important;
+}
+
+/* HIGHLIGHT TEXT */
+.highlight-text {
+    font-size: 14px !important;
+    color: #fff !important;
+    background: rgba(255, 134, 199, 0.1) !important;
+    padding: 12px 15px !important;
+    border-radius: 10px !important;
+    margin-bottom: 25px !important;
+    text-align: left !important;
+    font-weight: 600 !important;
+    font-family: 'Space Grotesk', sans-serif !important;
+    border-left: 3px solid #ff86c7 !important;
+    line-height: 1.5 !important;
+}
+
+/* GUARANTEE BOX */
+.guarantee-box {
+    background: rgba(255, 134, 199, 0.05) !important;
+    border: 1px dashed rgba(255, 134, 199, 0.3) !important;
+    padding: 15px !important;
+    border-radius: 12px !important;
+    margin-bottom: 25px !important;
+    text-align: left !important;
+}
+
+.guarantee-title {
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    color: #ff86c7 !important;
+    margin-bottom: 5px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.guarantee-text {
+    font-size: 13px !important;
+    color: #fff !important;
+    font-family: 'Space Grotesk', sans-serif !important;
+    line-height: 1.5 !important;
+}
+
+/* CTA BUTTON */
+.package-btn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 16px !important;
+    border-radius: 12px !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.btn-outline {
+    background: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+}
+
+.btn-outline:hover {
+    border-color: #ff86c7 !important;
+    background: rgba(255, 134, 199, 0.1) !important;
+}
+
+.btn-filled {
+    background: linear-gradient(135deg, #ff86c7, #d946ef) !important;
+    color: #0f121e !important;
+    border: none !important;
+    box-shadow: 0 10px 30px rgba(217, 70, 239, 0.3) !important;
+}
+
+.btn-filled:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 15px 40px rgba(217, 70, 239, 0.5) !important;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+    .packages-row {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 40px !important;
+    }
+    
+    .package-card {
+        width: 100% !important;
+        max-width: 500px !important;
+    }
+    
+    .package-card.featured {
+        transform: scale(1) !important;
+        order: -1 !important;
+    }
+    
+    .package-card.featured:hover {
+        transform: translateY(-10px) !important;
+    }
+}
+</style>
+<body>
+
+<section class="packages-section" id="services">
+    <div class="packages-glow glow-center"></div>
+
+    <!-- Header -->
+    <div class="packages-header">
+        <div class="packages-badge">OUR SOLUTIONS</div>
+        <h2 class="packages-title">Growth, Branding &amp; <span class="gradient-text">Authority Solutions Under One Roof</span></h2>
+        <p class="packages-desc">All-in-one strategic marketing, media &amp; positioning services — tailored to your unique goals</p>
+    </div>
+
+    <!-- Category Tabs -->
+
+
+    <!-- Services Grid -->
+    <div class="services-grid-17" id="servicesGrid">
+
+        <!-- ===== DIGITAL MARKETING ===== -->
+        <div class="srv-cat-divider" data-cat="digital">
+            <span><i class="fa-solid fa-chart-line"></i> Digital Marketing</span>
+        </div>
+
+        <div class="srv-card" data-cat="digital">
+            <div class="srv-icon digi"><i class="fa-brands fa-instagram"></i></div>
+            <h3 class="srv-name">Social Media Management</h3>
+            <p class="srv-desc">Strategic content planning, daily posting, community management &amp; growth across all major platforms.</p>
+            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Social%20Media%20Management." target="_blank" rel="noopener" class="srv-btn digi-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="srv-card featured" data-cat="digital">
+            <div class="srv-tag digi-tag">Most Popular</div>
+            <div class="srv-icon digi"><i class="fa-brands fa-meta"></i></div>
+            <h3 class="srv-name">Meta Ads (Facebook &amp; Instagram)</h3>
+            <p class="srv-desc">High-converting ad campaigns on Meta platforms to maximize ROAS and scale your brand's reach.</p>
+            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Meta%20Ads." target="_blank" rel="noopener" class="srv-btn digi-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="srv-card" data-cat="digital">
+            <div class="srv-icon digi"><i class="fa-brands fa-google"></i></div>
+            <h3 class="srv-name">Google Ads</h3>
+            <p class="srv-desc">Search, display &amp; YouTube campaigns optimized for quality leads and cost-effective conversions.</p>
+            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Google%20Ads." target="_blank" rel="noopener" class="srv-btn digi-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="srv-card" data-cat="digital">
+            <div class="srv-icon digi"><i class="fa-solid fa-filter-circle-dollar"></i></div>
+            <h3 class="srv-name">Lead Generation Campaigns</h3>
+            <p class="srv-desc">Targeted campaigns across platforms designed to fill your pipeline with qualified, high-intent leads.</p>
+            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Lead%20Generation." target="_blank" rel="noopener" class="srv-btn digi-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <!-- ===== CONTENT & BRANDING ===== -->
+        <div class="srv-cat-divider" data-cat="branding">
+            <span><i class="fa-solid fa-paint-brush"></i> Content &amp; Branding</span>
+        </div>
+
+        <div class="srv-card featured" data-cat="branding">
+            <div class="srv-tag brand-tag">Core Service</div>
+            <div class="srv-icon brand"><i class="fa-solid fa-crown"></i></div>
+            <h3 class="srv-name">Personal Branding Strategy</h3>
+            <p class="srv-desc">Complete personal brand blueprint — positioning, messaging, content strategy &amp; audience growth.</p>
+            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Personal%20Branding%20Strategy." target="_blank" rel="noopener" class="srv-btn brand-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="srv-card" data-cat="branding">
+            <div class="srv-icon brand"><i class="fa-solid fa-film"></i></div>
+            <h3 class="srv-name">Video Editing</h3>
+            <p class="srv-desc">Professional reels, YouTube videos, ads &amp; brand content edited to captivate your audience.</p>
+            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Video%20Editing." target="_blank" rel="noopener" class="srv-btn brand-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="srv-card" data-cat="branding">
+            <div class="srv-icon brand"><i class="fa-solid fa-pen-nib"></i></div>
+            <h3 class="srv-name">Graphic Design</h3>
+            <p class="srv-desc">Stunning visuals, brand kits, social creatives &amp; marketing collateral that make your brand stand out.</p>
+            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Graphic%20Design." target="_blank" rel="noopener" class="srv-btn brand-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="srv-card" data-cat="branding">
+            <div class="srv-icon brand"><i class="fa-solid fa-star"></i></div>
+            <h3 class="srv-name">Influencer Marketing</h3>
+            <p class="srv-desc">Strategic influencer partnerships for authentic reach, brand awareness &amp; trust-driven conversions.</p>
+            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Influencer%20Marketing." target="_blank" rel="noopener" class="srv-btn brand-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <!-- ===== MEDIA & AUTHORITY ===== -->
+        <div class="srv-cat-divider" data-cat="media">
+            <span><i class="fa-solid fa-newspaper"></i> Media &amp; Authority</span>
+        </div>
+
+        <div class="srv-card featured" data-cat="media">
+            <div class="srv-tag media-tag">Authority Builder</div>
+            <div class="srv-icon media"><i class="fa-solid fa-newspaper"></i></div>
+            <h3 class="srv-name">Press Release &amp; Media Coverage</h3>
+            <p class="srv-desc">Get featured in top media publications to build credibility, trust &amp; massive brand authority.</p>
+            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Press%20Release." target="_blank" rel="noopener" class="srv-btn media-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="srv-card" data-cat="media">
+            <div class="srv-icon media"><i class="fa-solid fa-microphone-lines"></i></div>
+            <h3 class="srv-name">Podcast Collaborations</h3>
+            <p class="srv-desc">Feature on top podcasts to share your story, expertise &amp; expand your audience authentically.</p>
+            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Podcast%20Collaborations." target="_blank" rel="noopener" class="srv-btn media-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="srv-card featured" data-cat="media">
+            <div class="srv-tag media-tag">Premium</div>
+            <div class="srv-icon media"><i class="fa-solid fa-person-chalkboard"></i></div>
+            <h3 class="srv-name">TEDx Opportunities</h3>
+            <p class="srv-desc">End-to-end positioning &amp; support to get you on the TEDx stage as a recognized thought leader.</p>
+            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20TEDx%20Opportunities." target="_blank" rel="noopener" class="srv-btn media-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="srv-card" data-cat="media">
+            <div class="srv-icon media"><i class="fa-solid fa-bullhorn"></i></div>
+            <h3 class="srv-name">Josh Talks Positioning</h3>
+            <p class="srv-desc">Strategic positioning and facilitation to get your story featured on Josh Talks platform.</p>
+            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Josh%20Talks%20Positioning." target="_blank" rel="noopener" class="srv-btn media-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="srv-card" data-cat="media">
+            <div class="srv-icon media"><i class="fa-solid fa-trophy"></i></div>
+            <h3 class="srv-name">Awards &amp; Recognition</h3>
+            <p class="srv-desc">Identify and apply for prestigious industry awards to boost your brand's credibility &amp; authority.</p>
+            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Awards%20%26%20Recognition." target="_blank" rel="noopener" class="srv-btn media-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <!-- ===== TECH & EVENTS ===== -->
+        <div class="srv-cat-divider" data-cat="events">
+            <span><i class="fa-solid fa-calendar-star"></i> Tech &amp; Events</span>
+        </div>
+
+        <div class="srv-card featured" data-cat="events">
+            <div class="srv-tag events-tag">Dev</div>
+            <div class="srv-icon events"><i class="fa-solid fa-laptop-code"></i></div>
+            <h3 class="srv-name">Website Development</h3>
+            <p class="srv-desc">High-performance, conversion-optimized websites and landing pages designed to impress and convert.</p>
+            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Website%20Development." target="_blank" rel="noopener" class="srv-btn events-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="srv-card" data-cat="events">
+            <div class="srv-icon events"><i class="fa-solid fa-calendar-check"></i></div>
+            <h3 class="srv-name">Event Management</h3>
+            <p class="srv-desc">End-to-end planning, execution &amp; promotion of brand events, product launches &amp; corporate functions.</p>
+            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Event%20Management." target="_blank" rel="noopener" class="srv-btn events-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="srv-card" data-cat="events">
+            <div class="srv-icon events"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h3 class="srv-name">College Events Management</h3>
+            <p class="srv-desc">Organizing impactful college fests, seminars &amp; brand activation events across top campuses.</p>
+            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20College%20Events%20Management." target="_blank" rel="noopener" class="srv-btn events-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="srv-card" data-cat="events">
+            <div class="srv-icon events"><i class="fa-solid fa-school"></i></div>
+            <h3 class="srv-name">School Events Management</h3>
+            <p class="srv-desc">Curating engaging school events, career fairs &amp; awareness programs for educational institutions.</p>
+            <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20School%20Events%20Management." target="_blank" rel="noopener" class="srv-btn events-btn">Inquire Now <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+    </div>
+
+    <!-- Bottom CTA -->
+    <div class="srv-bottom-cta">
+        <p>Not sure which service fits your brand? Let's figure it out together.</p>
+        <a href="https://wa.me/919691488875?text=Hi,%20I'd%20like%20to%20book%20a%20free%20strategy%20call." target="_blank" rel="noopener" class="srv-cta-btn">
+            <i class="fa-solid fa-phone"></i> Book Free Strategy Call
+        </a>
+    </div>
+
+</section>
+
+<style>
+/* ====== TAB SYSTEM ====== */
+.srv-tabs-wrapper {
+    display: flex !important;
+    justify-content: center !important;
+    margin-bottom: 30px !important;
+    position: relative !important;
+    z-index: 10 !important;
+}
+.srv-tabs {
+    display: flex !important;
+    gap: 10px !important;
+    background: rgba(255,255,255,0.03) !important;
+    border: 1px solid rgba(255,255,255,0.08) !important;
+    border-radius: 60px !important;
+    padding: 6px !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+}
+.srv-tab {
+    display: flex !important;
+    align-items: center !important;
+    gap: 7px !important;
+    padding: 10px 20px !important;
+    border-radius: 50px !important;
+    border: none !important;
+    background: transparent !important;
+    color: #94a3b8 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    font-family: "Space Grotesk", sans-serif !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    white-space: nowrap !important;
+}
+.srv-tab:hover { color: #fff !important; background: rgba(255,255,255,0.05) !important; }
+.srv-tab.active { background: linear-gradient(135deg, #ee82ee, #d946ef) !important; color: #fff !important; box-shadow: 0 4px 20px rgba(217,70,239,0.4) !important; }
+.srv-count {
+    background: rgba(255,255,255,0.15) !important;
+    border-radius: 20px !important;
+    padding: 2px 8px !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+}
+.srv-tab.active .srv-count { background: rgba(255,255,255,0.25) !important; }
+
+/* CATEGORY LABEL */
+.srv-cat-label {
+    text-align: center !important;
+    margin-bottom: 30px !important;
+    position: relative !important;
+    z-index: 5 !important;
+}
+.srv-cat-pill {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    padding: 8px 20px !important;
+    border-radius: 30px !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px !important;
+    font-family: "Space Grotesk", sans-serif !important;
+}
+.all-pill  { background: rgba(255,255,255,0.06) !important; color: #e2e8f0 !important; border: 1px solid rgba(255,255,255,0.1) !important; }
+.digi-pill { background: rgba(34,211,238,0.1) !important; color: #22d3ee !important; border: 1px solid rgba(34,211,238,0.25) !important; }
+.brand-pill { background: rgba(251,191,36,0.1) !important; color: #fbbf24 !important; border: 1px solid rgba(251,191,36,0.25) !important; }
+.media-pill { background: rgba(238,130,238,0.1) !important; color: #ee82ee !important; border: 1px solid rgba(238,130,238,0.25) !important; }
+.events-pill { background: rgba(52,211,153,0.1) !important; color: #34d399 !important; border: 1px solid rgba(52,211,153,0.25) !important; }
+
+/* CATEGORY DIVIDER */
+.srv-cat-divider {
+    grid-column: 1 / -1 !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+    margin: 20px 0 5px !important;
+    transition: all 0.3s ease !important;
+}
+.srv-cat-divider:first-child { margin-top: 0 !important; }
+.srv-cat-divider span {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    white-space: nowrap !important;
+    padding: 8px 18px !important;
+    border-radius: 30px !important;
+    font-family: "Space Grotesk", sans-serif !important;
+}
+.srv-cat-divider::after {
+    content: "" !important;
+    flex: 1 !important;
+    height: 1px !important;
+    background: rgba(255,255,255,0.07) !important;
+}
+
+/* color per category */
+[data-cat="digital"].srv-cat-divider span { background: rgba(34,211,238,0.08) !important; color: #22d3ee !important; border: 1px solid rgba(34,211,238,0.2) !important; }
+[data-cat="branding"].srv-cat-divider span { background: rgba(251,191,36,0.08) !important; color: #fbbf24 !important; border: 1px solid rgba(251,191,36,0.2) !important; }
+[data-cat="media"].srv-cat-divider span { background: rgba(238,130,238,0.08) !important; color: #ee82ee !important; border: 1px solid rgba(238,130,238,0.2) !important; }
+[data-cat="events"].srv-cat-divider span { background: rgba(52,211,153,0.08) !important; color: #34d399 !important; border: 1px solid rgba(52,211,153,0.2) !important; }
+
+/* ====== SERVICES GRID ====== */
+.services-grid-17 {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 20px !important;
+    max-width: 1300px !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    z-index: 5 !important;
+}
+
+/* CARDS */
+.srv-card {
+    background: rgba(255,255,255,0.03) !important;
+    border: 1px solid rgba(255,255,255,0.08) !important;
+    border-radius: 18px !important;
+    padding: 24px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+.srv-card::after {
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important; left: 0 !important;
+    width: 100% !important; height: 2px !important;
+    opacity: 0 !important;
+    transition: opacity 0.3s !important;
+}
+.srv-card:hover {
+    transform: translateY(-8px) !important;
+    box-shadow: 0 24px 48px rgba(0,0,0,0.35) !important;
+}
+.srv-card:hover::after { opacity: 1 !important; }
+.srv-card.hidden { display: none !important; }
+
+/* Digital */
+[data-cat="digital"].srv-card::after { background: linear-gradient(90deg, transparent, #22d3ee, transparent) !important; }
+[data-cat="digital"].srv-card:hover { border-color: rgba(34,211,238,0.35) !important; background: rgba(34,211,238,0.04) !important; }
+[data-cat="digital"].srv-card.featured { background: rgba(34,211,238,0.06) !important; border-color: rgba(34,211,238,0.2) !important; }
+[data-cat="digital"].srv-card.featured::after { opacity: 1 !important; }
+
+/* Branding */
+[data-cat="branding"].srv-card::after { background: linear-gradient(90deg, transparent, #fbbf24, transparent) !important; }
+[data-cat="branding"].srv-card:hover { border-color: rgba(251,191,36,0.35) !important; background: rgba(251,191,36,0.04) !important; }
+[data-cat="branding"].srv-card.featured { background: rgba(251,191,36,0.06) !important; border-color: rgba(251,191,36,0.2) !important; }
+[data-cat="branding"].srv-card.featured::after { opacity: 1 !important; }
+
+/* Media */
+[data-cat="media"].srv-card::after { background: linear-gradient(90deg, transparent, #ee82ee, transparent) !important; }
+[data-cat="media"].srv-card:hover { border-color: rgba(238,130,238,0.35) !important; background: rgba(238,130,238,0.04) !important; }
+[data-cat="media"].srv-card.featured { background: rgba(238,130,238,0.06) !important; border-color: rgba(238,130,238,0.2) !important; }
+[data-cat="media"].srv-card.featured::after { opacity: 1 !important; }
+
+/* Events */
+[data-cat="events"].srv-card::after { background: linear-gradient(90deg, transparent, #34d399, transparent) !important; }
+[data-cat="events"].srv-card:hover { border-color: rgba(52,211,153,0.35) !important; background: rgba(52,211,153,0.04) !important; }
+[data-cat="events"].srv-card.featured { background: rgba(52,211,153,0.06) !important; border-color: rgba(52,211,153,0.2) !important; }
+[data-cat="events"].srv-card.featured::after { opacity: 1 !important; }
+
+/* ICONS */
+.srv-icon {
+    width: 50px !important; height: 50px !important;
+    border-radius: 14px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 20px !important;
+    flex-shrink: 0 !important;
+}
+.srv-icon.digi   { background: rgba(34,211,238,0.12) !important; border: 1px solid rgba(34,211,238,0.25) !important; color: #22d3ee !important; }
+.srv-icon.brand  { background: rgba(251,191,36,0.12) !important; border: 1px solid rgba(251,191,36,0.25) !important; color: #fbbf24 !important; }
+.srv-icon.media  { background: rgba(238,130,238,0.12) !important; border: 1px solid rgba(238,130,238,0.25) !important; color: #ee82ee !important; }
+.srv-icon.events { background: rgba(52,211,153,0.12) !important; border: 1px solid rgba(52,211,153,0.25) !important; color: #34d399 !important; }
+
+/* TAGS */
+.srv-tag {
+    display: inline-block !important;
+    font-size: 9px !important;
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px !important;
+    border-radius: 30px !important;
+    padding: 3px 10px !important;
+    width: fit-content !important;
+}
+.digi-tag  { color: #22d3ee !important; background: rgba(34,211,238,0.12) !important; border: 1px solid rgba(34,211,238,0.25) !important; }
+.brand-tag { color: #fbbf24 !important; background: rgba(251,191,36,0.12) !important; border: 1px solid rgba(251,191,36,0.25) !important; }
+.media-tag { color: #ee82ee !important; background: rgba(238,130,238,0.12) !important; border: 1px solid rgba(238,130,238,0.25) !important; }
+.events-tag{ color: #34d399 !important; background: rgba(52,211,153,0.12) !important; border: 1px solid rgba(52,211,153,0.25) !important; }
+
+.srv-name {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    font-family: "Space Grotesk", sans-serif !important;
+    line-height: 1.3 !important;
+    margin: 0 !important;
+    letter-spacing: 0.3px !important;
+    word-spacing: 2px !important;
+}
+.srv-desc {
+    font-size: 13px !important;
+    color: #94a3b8 !important;
+    line-height: 1.6 !important;
+    flex-grow: 1 !important;
+    margin: 0 !important;
+}
+
+/* BUTTONS */
+.srv-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 7px !important;
+    padding: 9px 16px !important;
+    border-radius: 10px !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+    width: fit-content !important;
+    margin-top: auto !important;
+    border: 1px solid transparent !important;
+    font-family: "Space Grotesk", sans-serif !important;
+    letter-spacing: 0.5px !important;
+    word-spacing: 1px !important;
+}
+.digi-btn  { color: #22d3ee !important; border-color: rgba(34,211,238,0.3) !important; background: rgba(34,211,238,0.07) !important; }
+.brand-btn { color: #fbbf24 !important; border-color: rgba(251,191,36,0.3) !important; background: rgba(251,191,36,0.07) !important; }
+.media-btn { color: #ee82ee !important; border-color: rgba(238,130,238,0.3) !important; background: rgba(238,130,238,0.07) !important; }
+.events-btn{ color: #34d399 !important; border-color: rgba(52,211,153,0.3) !important; background: rgba(52,211,153,0.07) !important; }
+
+.digi-btn:hover  { background: rgba(34,211,238,0.18) !important; border-color: #22d3ee !important; color: #fff !important; transform: translateX(3px) !important; }
+.brand-btn:hover { background: rgba(251,191,36,0.18) !important; border-color: #fbbf24 !important; color: #fff !important; transform: translateX(3px) !important; }
+.media-btn:hover { background: rgba(238,130,238,0.18) !important; border-color: #ee82ee !important; color: #fff !important; transform: translateX(3px) !important; }
+.events-btn:hover{ background: rgba(52,211,153,0.18) !important; border-color: #34d399 !important; color: #fff !important; transform: translateX(3px) !important; }
+
+/* BOTTOM CTA */
+.srv-bottom-cta {
+    text-align: center !important;
+    margin-top: 50px !important;
+    position: relative !important;
+    z-index: 5 !important;
+}
+.srv-bottom-cta p {
+    color: #94a3b8 !important;
+    margin-bottom: 20px !important;
+    font-size: 16px !important;
+    font-family: "Space Grotesk", sans-serif !important;
+}
+.srv-cta-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    padding: 16px 40px !important;
+    border-radius: 14px !important;
+    font-size: 17px !important;
+    text-decoration: none !important;
+    background: linear-gradient(135deg, #ee82ee, #d946ef) !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    font-family: "Montserrat", sans-serif !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 10px 30px rgba(217,70,239,0.3) !important;
+}
+.srv-cta-btn:hover { transform: translateY(-3px) !important; box-shadow: 0 16px 40px rgba(217,70,239,0.45) !important; }
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+    .services-grid-17 { grid-template-columns: repeat(3, 1fr) !important; }
+}
+@media (max-width: 900px) {
+    .services-grid-17 { grid-template-columns: repeat(2, 1fr) !important; }
+    .srv-tabs { gap: 6px !important; }
+    .srv-tab { padding: 8px 14px !important; font-size: 12px !important; }
+}
+@media (max-width: 580px) {
+    .services-grid-17 { grid-template-columns: 1fr !important; gap: 14px !important; }
+    .srv-tabs-wrapper { padding: 0 10px !important; }
+}
+</style>
+
+<script>
+(function() {
+    var tabs = document.querySelectorAll(".srv-tab");
+    var cards = document.querySelectorAll(".services-grid-17 .srv-card");
+    var dividers = document.querySelectorAll(".srv-cat-divider");
+    var catLabel = document.getElementById("srvCatLabel");
+
+    var catInfo = {
+        all:      { label: "All 17 Services",        icon: "fa-th-large",        cls: "all-pill" },
+        digital:  { label: "Digital Marketing",       icon: "fa-chart-line",      cls: "digi-pill" },
+        branding: { label: "Content & Branding",      icon: "fa-paint-brush",     cls: "brand-pill" },
+        media:    { label: "Media & Authority",        icon: "fa-newspaper",       cls: "media-pill" },
+        events:   { label: "Tech & Events",            icon: "fa-calendar-star",   cls: "events-pill" }
+    };
+
+    function filter(cat) {
+        cards.forEach(function(c) {
+            if (cat === "all" || c.getAttribute("data-cat") === cat) {
+                c.classList.remove("hidden");
+            } else {
+                c.classList.add("hidden");
+            }
+        });
+        dividers.forEach(function(d) {
+            if (cat === "all" || d.getAttribute("data-cat") === cat) {
+                d.style.display = "";
+            } else {
+                d.style.display = "none";
+            }
+        });
+        var info = catInfo[cat];
+        catLabel.innerHTML = '<span class="srv-cat-pill ' + info.cls + '"><i class="fa-solid ' + info.icon + '"></i> ' + info.label + "</span>";
+    }
+
+    tabs.forEach(function(tab) {
+        tab.addEventListener("click", function() {
+            tabs.forEach(function(t) { t.classList.remove("active"); });
+            tab.classList.add("active");
+            filter(tab.getAttribute("data-cat"));
+        });
+    });
+})();
+</script>
+
+</body>
+
+				<div class="elementor-element elementor-element-faqblock elementor-widget elementor-widget-html">
+					<span id="faq" style="display:block; position:relative; top:-100px; visibility:hidden;"></span>
+<section class="tkm-faq-section">
+    <div class="tkm-faq-glow tkm-faq-glow-left"></div>
+    <div class="tkm-faq-glow tkm-faq-glow-right"></div>
+
+    <div class="tkm-faq-header">
+        <div class="tkm-faq-badge">GOT QUESTIONS?</div>
+        <h2 class="tkm-faq-title">Frequently Asked <span class="tkm-gradient-text">Questions</span></h2>
+        <p class="tkm-faq-desc">Everything you need to know before taking the next step with Trend Kro Media.</p>
+    </div>
+
+    <div class="tkm-faq-container">
+
+        <details class="tkm-faq-item">
+            <summary>
+                <span class="tkm-faq-q"><span class="tkm-faq-num">01</span> Is the strategy call free?</span>
+                <span class="tkm-faq-icon"><i class="fa-solid fa-plus"></i></span>
+            </summary>
+            <div class="tkm-faq-answer">
+                <p>Yes, 100% free — no hidden charges, no commitments. Our Free Strategy Call is a <strong>30-minute personalized consultation</strong> where we analyze your brand, understand your goals, and share a customized roadmap. We believe in building value first before asking for anything in return.</p>
+            </div>
+        </details>
+
+        <details class="tkm-faq-item">
+            <summary>
+                <span class="tkm-faq-q"><span class="tkm-faq-num">02</span> How do I get started?</span>
+                <span class="tkm-faq-icon"><i class="fa-solid fa-plus"></i></span>
+            </summary>
+            <div class="tkm-faq-answer">
+                <p>Getting started is simple. <strong>Book a Free Strategy Call</strong> through our website or reach out directly via WhatsApp. After understanding your goals, our team designs a customized growth plan. Once approved, we begin execution immediately — no long delays.</p>
+            </div>
+        </details>
+
+        <details class="tkm-faq-item">
+            <summary>
+                <span class="tkm-faq-q"><span class="tkm-faq-num">03</span> Do you work with personal brands?</span>
+                <span class="tkm-faq-icon"><i class="fa-solid fa-plus"></i></span>
+            </summary>
+            <div class="tkm-faq-answer">
+                <p>Absolutely! Personal branding is one of our strongest specialties. We work with <strong>coaches, consultants, speakers, doctors, astrologers, educators, and industry experts</strong> to build their digital presence, grow their audience, and position them as recognized authorities in their field.</p>
+            </div>
+        </details>
+
+        <details class="tkm-faq-item">
+            <summary>
+                <span class="tkm-faq-q"><span class="tkm-faq-num">04</span> What industries do you serve?</span>
+                <span class="tkm-faq-icon"><i class="fa-solid fa-plus"></i></span>
+            </summary>
+            <div class="tkm-faq-answer">
+                <p>We serve a wide range of industries including <strong>Finance, Health & Wellness, Education, Real Estate, E-Commerce, Coaching & Consulting, Startups, Hospitality, Astrology, Legal, and more</strong>. Our strategies are tailored to your specific industry, not generic templates.</p>
+            </div>
+        </details>
+
+        <details class="tkm-faq-item">
+            <summary>
+                <span class="tkm-faq-q"><span class="tkm-faq-num">05</span> How does TEDx positioning work?</span>
+                <span class="tkm-faq-icon"><i class="fa-solid fa-plus"></i></span>
+            </summary>
+            <div class="tkm-faq-answer">
+                <p>Our TEDx positioning service is an end-to-end process. We start by identifying your <strong>signature idea worth spreading</strong>, help craft your talk concept, build the authority profile required for TEDx selection, and manage the full application process. We have successfully positioned multiple clients on TEDx stages across India.</p>
+            </div>
+        </details>
+
+        <details class="tkm-faq-item">
+            <summary>
+                <span class="tkm-faq-q"><span class="tkm-faq-num">06</span> How long does PR coverage take?</span>
+                <span class="tkm-faq-icon"><i class="fa-solid fa-plus"></i></span>
+            </summary>
+            <div class="tkm-faq-answer">
+                <p>Typically, press releases and media coverage placements are completed within <strong>7–21 working days</strong>, depending on the publication and approval process. We work with a network of 50+ verified media outlets across India. You'll receive a detailed report with all live links once coverage is published.</p>
+            </div>
+        </details>
+
+        <details class="tkm-faq-item">
+            <summary>
+                <span class="tkm-faq-q"><span class="tkm-faq-num">07</span> Do you provide podcast opportunities?</span>
+                <span class="tkm-faq-icon"><i class="fa-solid fa-plus"></i></span>
+            </summary>
+            <div class="tkm-faq-answer">
+                <p>Yes! We connect you with <strong>relevant podcasts in your niche</strong> where you can share your story, expertise, and insights. Our team handles outreach, scheduling, and talking-point preparation so you show up confident and impactful. Podcast appearances significantly boost your authority and organic reach.</p>
+            </div>
+        </details>
+
+    </div>
+
+    <div class="tkm-faq-cta">
+        <p>Still have questions? We're happy to help.</p>
+        <a href="https://wa.me/919691488875?text=Hi,%20I%20have%20a%20question%20about%20Trend%20Kro%20Media's%20services." target="_blank" rel="noopener" class="tkm-faq-cta-btn">
+            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+        </a>
+    </div>
+
+</section>
+
+<style>
+.tkm-faq-section {
+    width: 100% !important;
+    padding: 80px 20px !important;
+    background: #0f121e !important;
+    position: relative !important;
+    overflow: hidden !important;
+    font-family: "Space Grotesk", sans-serif !important;
+    color: white !important;
+}
+.tkm-faq-glow {
+    position: absolute !important;
+    width: 600px !important; height: 600px !important;
+    border-radius: 50% !important;
+    pointer-events: none !important;
+    z-index: 0 !important;
+}
+.tkm-faq-glow-left  { background: radial-gradient(circle, rgba(217,70,239,0.07), transparent 70%) !important; top: -150px !important; left: -150px !important; }
+.tkm-faq-glow-right { background: radial-gradient(circle, rgba(238,130,238,0.06), transparent 70%) !important; bottom: -150px !important; right: -150px !important; }
+
+.tkm-faq-header {
+    text-align: center !important;
+    margin-bottom: 60px !important;
+    position: relative !important;
+    z-index: 2 !important;
+}
+.tkm-faq-badge {
+    display: inline-block !important;
+    padding: 7px 22px !important;
+    background: rgba(255,255,255,0.05) !important;
+    border: 1px solid rgba(255,255,255,0.1) !important;
+    border-radius: 50px !important;
+    font-size: 11px !important;
+    color: #ee82ee !important;
+    font-weight: 700 !important;
+    letter-spacing: 2.5px !important;
+    margin-bottom: 18px !important;
+    text-transform: uppercase !important;
+}
+.tkm-faq-title {
+    font-size: clamp(32px, 5vw, 56px) !important;
+    font-weight: 800 !important;
+    color: #fff !important;
+    font-family: "Space Grotesk", sans-serif !important;
+    line-height: 1.15 !important;
+    letter-spacing: -0.2px !important;
+    word-spacing: 2px !important;
+    margin-bottom: 14px !important;
+}
+.tkm-gradient-text {
+    background: linear-gradient(135deg, #ee82ee, #d946ef, #a855f7) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+}
+.tkm-faq-desc {
+    font-size: 17px !important;
+    color: #94a3b8 !important;
+    max-width: 550px !important;
+    margin: 0 auto !important;
+    line-height: 1.6 !important;
+}
+
+.tkm-faq-container {
+    max-width: 860px !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    z-index: 5 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 14px !important;
+}
+
+.tkm-faq-item {
+    border-radius: 16px !important;
+    background: rgba(255,255,255,0.03) !important;
+    border: 1px solid rgba(255,255,255,0.07) !important;
+    overflow: hidden !important;
+    transition: all 0.3s ease !important;
+}
+.tkm-faq-item:hover {
+    border-color: rgba(238,130,238,0.2) !important;
+    background: rgba(255,255,255,0.05) !important;
+}
+.tkm-faq-item[open] {
+    background: rgba(238,130,238,0.04) !important;
+    border-color: rgba(238,130,238,0.35) !important;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2) !important;
+}
+
+.tkm-faq-item summary {
+    cursor: pointer !important;
+    list-style: none !important;
+    padding: 22px 26px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 16px !important;
+    user-select: none !important;
+}
+.tkm-faq-item summary::-webkit-details-marker { display: none !important; }
+
+.tkm-faq-q {
+    display: flex !important;
+    align-items: center !important;
+    gap: 14px !important;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+    font-family: "Montserrat", sans-serif !important;
+    text-align: left !important;
+    line-height: 1.4 !important;
+}
+.tkm-faq-num {
+    font-size: 11px !important;
+    font-weight: 800 !important;
+    color: #ee82ee !important;
+    background: rgba(238,130,238,0.12) !important;
+    border: 1px solid rgba(238,130,238,0.25) !important;
+    border-radius: 8px !important;
+    padding: 4px 9px !important;
+    flex-shrink: 0 !important;
+    font-family: "Space Grotesk", sans-serif !important;
+    letter-spacing: 0.5px !important;
+}
+.tkm-faq-icon {
+    width: 32px !important; height: 32px !important;
+    border-radius: 50% !important;
+    background: rgba(238,130,238,0.1) !important;
+    border: 1px solid rgba(238,130,238,0.25) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #ee82ee !important;
+    font-size: 13px !important;
+    flex-shrink: 0 !important;
+    transition: all 0.3s ease !important;
+}
+.tkm-faq-item[open] .tkm-faq-icon {
+    background: #ee82ee !important;
+    color: #0f121e !important;
+    transform: rotate(45deg) !important;
+}
+
+.tkm-faq-answer {
+    padding: 0 26px 22px 54px !important;
+    border-top: 1px solid rgba(255,255,255,0.05) !important;
+    margin: 0 0 0 0 !important;
+}
+.tkm-faq-answer p {
+    font-size: 15px !important;
+    line-height: 1.75 !important;
+    color: #94a3b8 !important;
+    padding-top: 16px !important;
+}
+.tkm-faq-answer strong { color: #e2e8f0 !important; font-weight: 700 !important; }
+
+.tkm-faq-cta {
+    text-align: center !important;
+    margin-top: 50px !important;
+    position: relative !important;
+    z-index: 5 !important;
+}
+.tkm-faq-cta p { color: #64748b !important; margin-bottom: 16px !important; font-size: 15px !important; }
+.tkm-faq-cta-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    padding: 14px 32px !important;
+    border-radius: 12px !important;
+    background: rgba(37,211,102,0.1) !important;
+    border: 1px solid rgba(37,211,102,0.3) !important;
+    color: #25d366 !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    font-family: "Space Grotesk", sans-serif !important;
+    transition: all 0.3s ease !important;
+}
+.tkm-faq-cta-btn:hover {
+    background: rgba(37,211,102,0.2) !important;
+    border-color: #25d366 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 10px 30px rgba(37,211,102,0.15) !important;
+}
+
+@media (max-width: 768px) {
+    .tkm-faq-section { padding: 60px 16px !important; }
+    .tkm-faq-q { font-size: 15px !important; }
+    .tkm-faq-answer { padding: 0 16px 18px 16px !important; }
+    .tkm-faq-item summary { padding: 18px !important; }
+}
+</style>
+				</div>
 </html>				</div>
 				<div class="elementor-element elementor-element-4c58a39 elementor-widget elementor-widget-html" data-id="4c58a39" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 					<!DOCTYPE html>
@@ -4157,7 +4440,6 @@ document.addEventListener('DOMContentLoaded', () => {
     height: 100% !important;
     border-radius: 50% !important;
     object-fit: cover !important;
-    object-position: center top !important;
     border: 4px solid #0f121e !important; /* Fake cutout */
     position: relative !important;
     z-index: 2 !important;
@@ -4217,7 +4499,7 @@ document.addEventListener('DOMContentLoaded', () => {
     color: white !important;
     margin-bottom: 12px !important;
     font-family: 'Space Grotesk', sans-serif !important;
-    letter-spacing: 0.8px !important;
+    letter-spacing: 0.3px !important;
     word-spacing: 2px !important;
 }
 
@@ -4335,8 +4617,6 @@ document.addEventListener('DOMContentLoaded', () => {
     color: white !important;
     margin-bottom: 8px !important;
     font-family: 'Space Grotesk', sans-serif !important;
-    letter-spacing: 0.8px !important;
-    word-spacing: 2px !important;
 }
 
 .specialist-role {
@@ -4404,7 +4684,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="member-card founder-card">
                 <div class="avatar-wrapper">
                     <div class="founder-ring"></div>
-                    <img decoding="async" loading="lazy" src="/wp-content/uploads/2026/06/founder-atul-cutout-320.png?v=2" width="320" height="320" alt="Atul Verma" class="avatar-img">
+                    <img decoding="async" loading="lazy" src="/wp-content/uploads/2026/06/founder-atul-cutout-320.png" width="320" height="320" alt="Atul Verma" class="avatar-img">
                 </div>
                 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; margin-bottom: 20px;">
                     <span class="role-badge">Founder & CEO</span>
@@ -4415,12 +4695,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     Atul Verma is a growth strategist, brand architect, and the Founder & CEO of Trend Karo Media. Over the years, he has helped entrepreneurs, industry experts, creators, and businesses build highly influential brands through strategic positioning, authority building, media visibility, collaborations, and market expansion.
                 </p>
                 <div class="social-links">
-                    <span class="social-btn instagram" style="cursor: default;">
+                    <a href="https://instagram.com/trendkromedia" target="_blank" class="social-btn instagram" rel="noopener">
                         <i class="fa-brands fa-instagram"></i> Instagram
-                    </span>
-                    <span class="social-btn linkedin" style="cursor: default;">
+                    </a>
+                    <a href="https://www.linkedin.com/in/atul-verma/" target="_blank" class="social-btn linkedin" rel="noopener">
                         <i class="fa-brands fa-linkedin"></i> LinkedIn
-                    </span>
+                    </a>
                 </div>
             </div>
 
@@ -4439,12 +4719,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     Ashish Mewada leads client relations and growth partnerships at Trend Karo Media. He works closely with founders, business owners, and industry professionals to identify growth opportunities, build valuable strategic relationships, and ensure a smooth and professional client experience.
                 </p>
                 <div class="social-links">
-                    <span class="social-btn instagram" style="cursor: default;">
+                    <a href="https://instagram.com/trendkromedia" target="_blank" class="social-btn instagram" rel="noopener">
                         <i class="fa-brands fa-instagram"></i> Instagram
-                    </span>
-                    <span class="social-btn linkedin" style="cursor: default;">
+                    </a>
+                    <a href="https://www.linkedin.com/in/ashish-mewada/" target="_blank" class="social-btn linkedin" rel="noopener">
                         <i class="fa-brands fa-linkedin"></i> LinkedIn
-                    </span>
+                    </a>
                 </div>
             </div>
 
@@ -4463,12 +4743,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     Jay Siloriya is responsible for managing and coordinating brand growth initiatives for clients at Trend Karo Media. He oversees brand communication, campaign execution, and overall brand consistency across platforms, ensuring alignment with long-term business objectives.
                 </p>
                 <div class="social-links">
-                    <span class="social-btn instagram" style="cursor: default;">
+                    <a href="https://instagram.com/trendkromedia" target="_blank" class="social-btn instagram" rel="noopener">
                         <i class="fa-brands fa-instagram"></i> Instagram
-                    </span>
-                    <span class="social-btn linkedin" style="cursor: default;">
+                    </a>
+                    <a href="https://www.linkedin.com/in/jay-siloriya/" target="_blank" class="social-btn linkedin" rel="noopener">
                         <i class="fa-brands fa-linkedin"></i> LinkedIn
-                    </span>
+                    </a>
                 </div>
             </div>
 
@@ -4580,296 +4860,6 @@ document.addEventListener('DOMContentLoaded', () => {
 </section>
 
 </body>
-</html>				</div>
-				<div class="elementor-element elementor-element-faqblock elementor-widget elementor-widget-html">
-					<span id="faq" style="display:block; position:relative; top:-100px; visibility:hidden;"></span>
-<section class="tkm-faq-section">
-    <div class="tkm-faq-glow tkm-faq-glow-left"></div>
-    <div class="tkm-faq-glow tkm-faq-glow-right"></div>
-
-    <div class="tkm-faq-header">
-        <div class="tkm-faq-badge">GOT QUESTIONS?</div>
-        <h2 class="tkm-faq-title">Frequently Asked <span class="tkm-gradient-text">Questions</span></h2>
-        <p class="tkm-faq-desc">Everything you need to know before taking the next step with Trend Kro Media.</p>
-    </div>
-
-    <div class="tkm-faq-container">
-
-        <details class="tkm-faq-item">
-            <summary>
-                <span class="tkm-faq-q"><span class="tkm-faq-num">01</span> Is the strategy call free?</span>
-                <span class="tkm-faq-icon"><i class="fa-solid fa-plus"></i></span>
-            </summary>
-            <div class="tkm-faq-answer">
-                <p>Yes, 100% free — no hidden charges, no commitments. Our Free Strategy Call is a <strong>30-minute personalized consultation</strong> where we analyze your brand, understand your goals, and share a customized roadmap. We believe in building value first before asking for anything in return.</p>
-            </div>
-        </details>
-
-        <details class="tkm-faq-item">
-            <summary>
-                <span class="tkm-faq-q"><span class="tkm-faq-num">02</span> How do I get started?</span>
-                <span class="tkm-faq-icon"><i class="fa-solid fa-plus"></i></span>
-            </summary>
-            <div class="tkm-faq-answer">
-                <p>Getting started is simple. <strong>Book a Free Strategy Call</strong> through our website or reach out directly via WhatsApp. After understanding your goals, our team designs a customized growth plan. Once approved, we begin execution immediately — no long delays.</p>
-            </div>
-        </details>
-
-        <details class="tkm-faq-item">
-            <summary>
-                <span class="tkm-faq-q"><span class="tkm-faq-num">03</span> Do you work with personal brands?</span>
-                <span class="tkm-faq-icon"><i class="fa-solid fa-plus"></i></span>
-            </summary>
-            <div class="tkm-faq-answer">
-                <p>Absolutely! Personal branding is one of our strongest specialties. We work with <strong>coaches, consultants, speakers, doctors, astrologers, educators, and industry experts</strong> to build their digital presence, grow their audience, and position them as recognized authorities in their field.</p>
-            </div>
-        </details>
-
-        <details class="tkm-faq-item">
-            <summary>
-                <span class="tkm-faq-q"><span class="tkm-faq-num">04</span> What industries do you serve?</span>
-                <span class="tkm-faq-icon"><i class="fa-solid fa-plus"></i></span>
-            </summary>
-            <div class="tkm-faq-answer">
-                <p>We serve a wide range of industries including <strong>Finance, Health & Wellness, Education, Real Estate, E-Commerce, Coaching & Consulting, Startups, Hospitality, Astrology, Legal, and more</strong>. Our strategies are tailored to your specific industry, not generic templates.</p>
-            </div>
-        </details>
-
-        <details class="tkm-faq-item">
-            <summary>
-                <span class="tkm-faq-q"><span class="tkm-faq-num">05</span> How does TEDx positioning work?</span>
-                <span class="tkm-faq-icon"><i class="fa-solid fa-plus"></i></span>
-            </summary>
-            <div class="tkm-faq-answer">
-                <p>Our TEDx positioning service is an end-to-end process. We start by identifying your <strong>signature idea worth spreading</strong>, help craft your talk concept, build the authority profile required for TEDx selection, and manage the full application process. We have successfully positioned multiple clients on TEDx stages across India.</p>
-            </div>
-        </details>
-
-        <details class="tkm-faq-item">
-            <summary>
-                <span class="tkm-faq-q"><span class="tkm-faq-num">06</span> How long does PR coverage take?</span>
-                <span class="tkm-faq-icon"><i class="fa-solid fa-plus"></i></span>
-            </summary>
-            <div class="tkm-faq-answer">
-                <p>Typically, press releases and media coverage placements are completed within <strong>7–21 working days</strong>, depending on the publication and approval process. We work with a network of 50+ verified media outlets across India. You'll receive a detailed report with all live links once coverage is published.</p>
-            </div>
-        </details>
-
-        <details class="tkm-faq-item">
-            <summary>
-                <span class="tkm-faq-q"><span class="tkm-faq-num">07</span> Do you provide podcast opportunities?</span>
-                <span class="tkm-faq-icon"><i class="fa-solid fa-plus"></i></span>
-            </summary>
-            <div class="tkm-faq-answer">
-                <p>Yes! We connect you with <strong>relevant podcasts in your niche</strong> where you can share your story, expertise, and insights. Our team handles outreach, scheduling, and talking-point preparation so you show up confident and impactful. Podcast appearances significantly boost your authority and organic reach.</p>
-            </div>
-        </details>
-
-    </div>
-
-    <div class="tkm-faq-cta">
-        <p>Still have questions? We're happy to help.</p>
-        <a href="https://wa.me/919691488875?text=Hi,%20I%20have%20a%20question%20about%20Trend%20Kro%20Media's%20services." target="_blank" rel="noopener" class="tkm-faq-cta-btn">
-            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
-        </a>
-    </div>
-
-</section>
-
-<style>
-.tkm-faq-section {
-    width: 100% !important;
-    padding: 80px 20px !important;
-    background: #0f121e !important;
-    position: relative !important;
-    overflow: hidden !important;
-    font-family: "Space Grotesk", sans-serif !important;
-    color: white !important;
-}
-.tkm-faq-glow {
-    position: absolute !important;
-    width: 600px !important; height: 600px !important;
-    border-radius: 50% !important;
-    pointer-events: none !important;
-    z-index: 0 !important;
-}
-.tkm-faq-glow-left  { background: radial-gradient(circle, rgba(217,70,239,0.07), transparent 70%) !important; top: -150px !important; left: -150px !important; }
-.tkm-faq-glow-right { background: radial-gradient(circle, rgba(238,130,238,0.06), transparent 70%) !important; bottom: -150px !important; right: -150px !important; }
-
-.tkm-faq-header {
-    text-align: center !important;
-    margin-bottom: 60px !important;
-    position: relative !important;
-    z-index: 2 !important;
-}
-.tkm-faq-badge {
-    display: inline-block !important;
-    padding: 7px 22px !important;
-    background: rgba(255,255,255,0.05) !important;
-    border: 1px solid rgba(255,255,255,0.1) !important;
-    border-radius: 50px !important;
-    font-size: 11px !important;
-    color: #ee82ee !important;
-    font-weight: 700 !important;
-    letter-spacing: 2.5px !important;
-    margin-bottom: 18px !important;
-    text-transform: uppercase !important;
-}
-.tkm-faq-title {
-    font-size: clamp(32px, 5vw, 56px) !important;
-    font-weight: 800 !important;
-    color: #fff !important;
-    font-family: "Space Grotesk", sans-serif !important;
-    line-height: 1.15 !important;
-    letter-spacing: -0.2px !important;
-    word-spacing: 2px !important;
-    margin-bottom: 14px !important;
-}
-.tkm-gradient-text {
-    background: linear-gradient(135deg, #ee82ee, #d946ef, #a855f7) !important;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
-    background-clip: text !important;
-}
-.tkm-faq-desc {
-    font-size: 17px !important;
-    color: #94a3b8 !important;
-    max-width: 550px !important;
-    margin: 0 auto !important;
-    line-height: 1.6 !important;
-}
-
-.tkm-faq-container {
-    max-width: 860px !important;
-    margin: 0 auto !important;
-    position: relative !important;
-    z-index: 5 !important;
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 14px !important;
-}
-
-.tkm-faq-item {
-    border-radius: 16px !important;
-    background: rgba(255,255,255,0.03) !important;
-    border: 1px solid rgba(255,255,255,0.07) !important;
-    overflow: hidden !important;
-    transition: all 0.3s ease !important;
-}
-.tkm-faq-item:hover {
-    border-color: rgba(238,130,238,0.2) !important;
-    background: rgba(255,255,255,0.05) !important;
-}
-.tkm-faq-item[open] {
-    background: rgba(238,130,238,0.04) !important;
-    border-color: rgba(238,130,238,0.35) !important;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.2) !important;
-}
-
-.tkm-faq-item summary {
-    cursor: pointer !important;
-    list-style: none !important;
-    padding: 22px 26px !important;
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    gap: 16px !important;
-    user-select: none !important;
-}
-.tkm-faq-item summary::-webkit-details-marker { display: none !important; }
-
-.tkm-faq-q {
-    display: flex !important;
-    align-items: center !important;
-    gap: 14px !important;
-    font-size: 17px !important;
-    font-weight: 700 !important;
-    color: #fff !important;
-    font-family: "Montserrat", sans-serif !important;
-    text-align: left !important;
-    line-height: 1.4 !important;
-}
-.tkm-faq-num {
-    font-size: 11px !important;
-    font-weight: 800 !important;
-    color: #ee82ee !important;
-    background: rgba(238,130,238,0.12) !important;
-    border: 1px solid rgba(238,130,238,0.25) !important;
-    border-radius: 8px !important;
-    padding: 4px 9px !important;
-    flex-shrink: 0 !important;
-    font-family: "Space Grotesk", sans-serif !important;
-    letter-spacing: 0.5px !important;
-}
-.tkm-faq-icon {
-    width: 32px !important; height: 32px !important;
-    border-radius: 50% !important;
-    background: rgba(238,130,238,0.1) !important;
-    border: 1px solid rgba(238,130,238,0.25) !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    color: #ee82ee !important;
-    font-size: 13px !important;
-    flex-shrink: 0 !important;
-    transition: all 0.3s ease !important;
-}
-.tkm-faq-item[open] .tkm-faq-icon {
-    background: #ee82ee !important;
-    color: #0f121e !important;
-    transform: rotate(45deg) !important;
-}
-
-.tkm-faq-answer {
-    padding: 0 26px 22px 54px !important;
-    border-top: 1px solid rgba(255,255,255,0.05) !important;
-    margin: 0 0 0 0 !important;
-}
-.tkm-faq-answer p {
-    font-size: 15px !important;
-    line-height: 1.75 !important;
-    color: #94a3b8 !important;
-    padding-top: 16px !important;
-}
-.tkm-faq-answer strong { color: #e2e8f0 !important; font-weight: 700 !important; }
-
-.tkm-faq-cta {
-    text-align: center !important;
-    margin-top: 50px !important;
-    position: relative !important;
-    z-index: 5 !important;
-}
-.tkm-faq-cta p { color: #64748b !important; margin-bottom: 16px !important; font-size: 15px !important; }
-.tkm-faq-cta-btn {
-    display: inline-flex !important;
-    align-items: center !important;
-    gap: 10px !important;
-    padding: 14px 32px !important;
-    border-radius: 12px !important;
-    background: rgba(37,211,102,0.1) !important;
-    border: 1px solid rgba(37,211,102,0.3) !important;
-    color: #25d366 !important;
-    font-size: 16px !important;
-    font-weight: 700 !important;
-    text-decoration: none !important;
-    font-family: "Space Grotesk", sans-serif !important;
-    transition: all 0.3s ease !important;
-}
-.tkm-faq-cta-btn:hover {
-    background: rgba(37,211,102,0.2) !important;
-    border-color: #25d366 !important;
-    transform: translateY(-2px) !important;
-    box-shadow: 0 10px 30px rgba(37,211,102,0.15) !important;
-}
-
-@media (max-width: 768px) {
-    .tkm-faq-section { padding: 60px 16px !important; }
-    .tkm-faq-q { font-size: 15px !important; }
-    .tkm-faq-answer { padding: 0 16px 18px 16px !important; }
-    .tkm-faq-item summary { padding: 18px !important; }
-}
-</style>
-				</div>
 </html>				</div>
 				<div class="elementor-element elementor-element-6cab7e9 elementor-widget elementor-widget-html" data-id="6cab7e9" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 					<!DOCTYPE html>
@@ -5728,9 +5718,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             <div style="margin-bottom: 15px; font-weight: 700; font-family: 'Space Grotesk', sans-serif; text-transform: uppercase; font-size: 12px; letter-spacing: 1px; color: rgba(255,255,255,0.6);">Follow Us</div>
             <div class="contact-socials">
-                <span class="social-circle-btn" style="cursor: default;"><i class="fa-brands fa-instagram"></i></span>
+                <a href="https://instagram.com/trendkromedia" class="social-circle-btn" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://facebook.com/trendkromedia" class="social-circle-btn" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a>
-                <span class="social-circle-btn" style="cursor: default;"><i class="fa-brands fa-linkedin-in"></i></span>
+                <a href="https://www.linkedin.com/in/atul-verma/" class="social-circle-btn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
                 <a href="https://youtube.com/" class="social-circle-btn" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
             </div>
         </div>
@@ -5973,9 +5963,9 @@ function handleContactSubmit(event) {
                                 </p>
                             </div>
                             <div class="tkm-footer-socials">
-                                <span class="tkm-footer-social-btn" style="cursor: default;"><i class="fa-brands fa-instagram"></i></span>
+                                <a href="https://instagram.com/trendkromedia" class="tkm-footer-social-btn" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
                                 <a href="https://facebook.com/trendkromedia" class="tkm-footer-social-btn" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a>
-                                <span class="tkm-footer-social-btn" style="cursor: default;"><i class="fa-brands fa-linkedin-in"></i></span>
+                                <a href="https://www.linkedin.com/in/atul-verma/" class="tkm-footer-social-btn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
                                 <a href="https://youtube.com/" class="tkm-footer-social-btn" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
                             </div>
                         </div>
