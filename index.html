@@ -1039,7 +1039,7 @@
                                             <li><a href="/#faq">FAQ</a></li>
                                             <li><a href="/#contact">Contact</a></li>
                                         </ul>
-                                        <a href="https://wa.me/919691488875?text=Hi,%20I'd%20like%20to%20book%20a%20free%20strategy%20call."
+                                        <a href="https://wa.me/918839989069?text=Hi,%20I'd%20like%20to%20book%20a%20free%20strategy%20call."
                                             target="_blank" rel="noopener" class="header-cta">
                                             <i class="fa-brands fa-whatsapp"></i> Free Strategy Call
                                         </a>
@@ -2139,7 +2139,7 @@
                                                 <span>Book Free Strategy Call</span>
                                                 <i class="fa-solid fa-arrow-right"></i>
                                             </a>
-                                            <a href="https://wa.me/919691488875" class="btn-secondary" target="_blank"
+                                            <a href="https://wa.me/918839989069" class="btn-secondary" target="_blank"
                                                 rel="noopener">
                                                 <i class="fa-brands fa-whatsapp"></i>
                                                 <span>WhatsApp Chat</span>
@@ -2157,7 +2157,7 @@
                                                 <!-- Founder Slide -->
                                                 <div class="founder-slide active" id="slide-0">
                                                     <img decoding="async"
-                                                        src="/wp-content/uploads/2026/06/founder-atul-cutout-320.png?v=2"
+                                                        src="/wp-content/uploads/2026/06/founder-atul-cutout-320.png"
                                                         alt="Atul Verma" class="founder-img riya" width="320"
                                                         height="320"
                                                         style="width: 100%; margin-bottom: 0px; border-radius: 0;">
@@ -2640,6 +2640,231 @@
                                     height: 140px !important;
                                 }
                             }
+
+                            /* GLOBAL PRESENCE SECTION */
+                            .global-presence-section {
+                                width: 100% !important;
+                                padding: 80px 20px !important;
+                                background: #0B1026 !important;
+                                /* Premium dark navy */
+                                position: relative !important;
+                                overflow: hidden !important;
+                                font-family: 'Space Grotesk', sans-serif !important;
+                                color: white !important;
+                                text-align: center !important;
+                                border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+                                border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+                            }
+
+                            /* World Map Pattern Background */
+                            .global-presence-section::before {
+                                content: '' !important;
+                                position: absolute !important;
+                                top: 0 !important;
+                                left: 0 !important;
+                                right: 0 !important;
+                                bottom: 0 !important;
+                                background-image: url('wp-content/uploads/world-map.svg') !important;
+                                background-size: contain !important;
+                                background-position: center center !important;
+                                background-repeat: no-repeat !important;
+                                opacity: 0.06 !important;
+                                /* Subtle 6% opacity */
+                                pointer-events: none !important;
+                                z-index: 1 !important;
+                            }
+
+                            /* Ambient Purple Glow in Background */
+                            .global-presence-section::after {
+                                content: '' !important;
+                                position: absolute !important;
+                                width: 400px !important;
+                                height: 400px !important;
+                                background: radial-gradient(circle, rgba(139, 92, 246, 0.15), transparent 70%) !important;
+                                border-radius: 50% !important;
+                                top: 50% !important;
+                                left: 50% !important;
+                                transform: translate(-50%, -50%) !important;
+                                pointer-events: none !important;
+                                z-index: 1 !important;
+                            }
+
+                            .global-presence-content {
+                                position: relative !important;
+                                z-index: 2 !important;
+                                max-width: 1200px !important;
+                                margin: 0 auto !important;
+                            }
+
+                            /* Heading with glowing globe */
+                            .global-presence-header {
+                                margin-bottom: 40px !important;
+                            }
+
+                            .global-presence-badge {
+                                display: inline-flex !important;
+                                align-items: center !important;
+                                gap: 8px !important;
+                                background: rgba(139, 92, 246, 0.1) !important;
+                                border: 1px solid rgba(139, 92, 246, 0.3) !important;
+                                padding: 8px 16px !important;
+                                border-radius: 30px !important;
+                                font-size: 14px !important;
+                                font-weight: 600 !important;
+                                text-transform: uppercase !important;
+                                letter-spacing: 1px !important;
+                                color: #c084fc !important;
+                                margin-bottom: 16px !important;
+                                box-shadow: 0 0 15px rgba(139, 92, 246, 0.2) !important;
+                            }
+
+                            .global-presence-badge i {
+                                animation: globe-spin 8s linear infinite !important;
+                                color: #a855f7 !important;
+                                filter: drop-shadow(0 0 5px rgba(168, 85, 247, 0.8)) !important;
+                            }
+
+                            @keyframes globe-spin {
+                                from {
+                                    transform: rotate(0deg);
+                                }
+
+                                to {
+                                    transform: rotate(360deg);
+                                }
+                            }
+
+                            .global-presence-title {
+                                font-size: 36px !important;
+                                font-weight: 700 !important;
+                                margin-bottom: 12px !important;
+                                letter-spacing: -0.5px !important;
+                            }
+
+                            .glowing-globe-icon {
+                                color: #a855f7 !important;
+                                font-size: 0.85em !important;
+                                margin-right: 8px !important;
+                                vertical-align: middle !important;
+                                filter: drop-shadow(0 0 8px rgba(168, 85, 247, 0.8)) !important;
+                                animation: pulse-glow 2s ease-in-out infinite alternate !important;
+                            }
+
+                            @keyframes pulse-glow {
+                                from {
+                                    filter: drop-shadow(0 0 4px rgba(168, 85, 247, 0.6)) !important;
+                                }
+
+                                to {
+                                    filter: drop-shadow(0 0 12px rgba(168, 85, 247, 0.9)) !important;
+                                }
+                            }
+
+                            .global-presence-subtitle {
+                                font-size: 18px !important;
+                                color: #94a3b8 !important;
+                                max-width: 600px !important;
+                                margin: 0 auto 50px auto !important;
+                                line-height: 1.5 !important;
+                            }
+
+                            /* MARQUEE CONTAINER */
+                            .global-marquee-container {
+                                width: 100% !important;
+                                overflow: hidden !important;
+                                position: relative !important;
+                                padding: 20px 0 !important;
+                                mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent) !important;
+                                -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent) !important;
+                            }
+
+                            .global-marquee-track {
+                                display: flex !important;
+                                width: max-content !important;
+                            }
+
+                            .marquee-group {
+                                display: flex !important;
+                                align-items: center !important;
+                                gap: 30px !important;
+                                padding-right: 30px !important;
+                                animation: global-marquee 25s linear infinite !important;
+                                flex-shrink: 0 !important;
+                            }
+
+                            /* Pause animation on hover */
+                            .global-marquee-container:hover .marquee-group {
+                                animation-play-state: paused !important;
+                            }
+
+                            /* Marquee Pill Badges (Glassmorphism) */
+                            .country-badge {
+                                display: inline-flex !important;
+                                align-items: center !important;
+                                gap: 12px !important;
+                                background: rgba(255, 255, 255, 0.03) !important;
+                                border: 1px solid rgba(255, 255, 255, 0.08) !important;
+                                backdrop-filter: blur(12px) !important;
+                                -webkit-backdrop-filter: blur(12px) !important;
+                                padding: 14px 28px !important;
+                                border-radius: 50px !important;
+                                font-size: 18px !important;
+                                font-weight: 500 !important;
+                                color: #f1f5f9 !important;
+                                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+                                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+                            }
+
+                            .country-badge:hover {
+                                background: rgba(255, 255, 255, 0.07) !important;
+                                border-color: rgba(139, 92, 246, 0.4) !important;
+                                transform: translateY(-2px) scale(1.03) !important;
+                                box-shadow: 0 10px 25px -5px rgba(139, 92, 246, 0.15), 0 0 15px rgba(139, 92, 246, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
+                            }
+
+                            .country-flag {
+                                font-size: 24px !important;
+                                line-height: 1 !important;
+                            }
+
+                            @keyframes global-marquee {
+                                0% {
+                                    transform: translateX(0);
+                                }
+
+                                100% {
+                                    transform: translateX(-100%);
+                                }
+                            }
+
+                            /* Responsive adjustments */
+                            @media (max-width: 768px) {
+                                .global-presence-section {
+                                    padding: 60px 15px !important;
+                                }
+
+                                .global-presence-title {
+                                    font-size: 28px !important;
+                                }
+
+                                .global-presence-subtitle {
+                                    font-size: 15px !important;
+                                    margin-bottom: 35px !important;
+                                }
+
+                                .country-badge {
+                                    padding: 10px 20px !important;
+                                    font-size: 15px !important;
+                                }
+
+                                .country-flag {
+                                    font-size: 20px !important;
+                                }
+
+                                .global-marquee-track {
+                                    gap: 20px !important;
+                                }
+                            }
                         </style>
                     </head>
 
@@ -2684,13 +2909,16 @@
                                     </div>
 
                                     <!-- Card 2: Organic Views -->
-                                    <div class="glass-card stat-card-center">
-                                        <div class="progress-ring">
-                                            <div class="stat-text-center">
-                                                <h3 id="stat-views">0M+</h3>
-                                                <p>Organic Views</p>
-                                            </div>
+                                    <div class="glass-card stat-card-side blue">
+                                        <div>
+                                            <h4 class="stat-value" data-target="96" data-suffix="M+" id="stat-views">0M+</h4>
+                                            <p class="stat-label">Organic Views</p>
                                         </div>
+                                        <i class="fa-solid fa-eye icon-float"
+                                            style="color: #22d3ee !important;"></i>
+                                        <svg class="sparkline" viewBox="0 0 100 40">
+                                            <path d="M0 30 Q 20 15 40 25 T 80 10 T 100 5" stroke="#22d3ee" />
+                                        </svg>
                                     </div>
 
                                     <!-- Card 3: Videos Produced -->
@@ -2722,6 +2950,51 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- GLOBAL PRESENCE SECTION -->
+                        <section class="global-presence-section">
+                            <div class="global-presence-content">
+                                <div class="global-presence-header">
+                                    <div class="global-presence-badge">
+                                        <i class="fa-solid fa-earth-americas"></i> Global reach
+                                    </div>
+                                    <h2 class="global-presence-title">
+                                        <i class="fa-solid fa-globe glowing-globe-icon"></i> 🌍 Trusted Worldwide
+                                    </h2>
+                                    <p class="global-presence-subtitle">
+                                        Helping businesses, founders, and entrepreneurs grow across multiple countries.
+                                    </p>
+                                </div>
+                                <div class="global-marquee-container">
+                                    <div class="global-marquee-track">
+                                        <div class="marquee-group">
+                                            <div class="country-badge"><span class="country-flag">🇮🇳</span> India
+                                            </div>
+                                            <div class="country-badge"><span class="country-flag">🇺🇸</span> United
+                                                States</div>
+                                            <div class="country-badge"><span class="country-flag">🇦🇺</span> Australia
+                                            </div>
+                                            <div class="country-badge"><span class="country-flag">🇦🇪</span> United
+                                                Arab Emirates (UAE)</div>
+                                            <div class="country-badge"><span class="country-flag">🇨🇦</span> Canada
+                                            </div>
+                                        </div>
+                                        <div class="marquee-group" aria-hidden="true">
+                                            <div class="country-badge"><span class="country-flag">🇮🇳</span> India
+                                            </div>
+                                            <div class="country-badge"><span class="country-flag">🇺🇸</span> United
+                                                States</div>
+                                            <div class="country-badge"><span class="country-flag">🇦🇺</span> Australia
+                                            </div>
+                                            <div class="country-badge"><span class="country-flag">🇦🇪</span> United
+                                                Arab Emirates (UAE)</div>
+                                            <div class="country-badge"><span class="country-flag">🇨🇦</span> Canada
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
 
                         <script>
                             (function () {
@@ -3163,21 +3436,23 @@
                                     <div class="srv-icon digi">
                                         <svg viewBox="0 0 24 24" width="26" height="26">
                                             <defs>
-                                                <linearGradient id="instagramGradient" x1="0%" y1="100%" x2="100%" y2="0%">
-                                                    <stop offset="0%" stop-color="#f09433"/>
-                                                    <stop offset="25%" stop-color="#e6683c"/>
-                                                    <stop offset="50%" stop-color="#dc2743"/>
-                                                    <stop offset="75%" stop-color="#cc2367"/>
-                                                    <stop offset="100%" stop-color="#962fbf"/>
+                                                <linearGradient id="instagramGradient" x1="0%" y1="100%" x2="100%"
+                                                    y2="0%">
+                                                    <stop offset="0%" stop-color="#f09433" />
+                                                    <stop offset="25%" stop-color="#e6683c" />
+                                                    <stop offset="50%" stop-color="#dc2743" />
+                                                    <stop offset="75%" stop-color="#cc2367" />
+                                                    <stop offset="100%" stop-color="#962fbf" />
                                                 </linearGradient>
                                             </defs>
-                                            <path fill="url(#instagramGradient)" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
+                                            <path fill="url(#instagramGradient)"
+                                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
                                         </svg>
                                     </div>
                                     <h3 class="srv-name">Social Media Management</h3>
                                     <p class="srv-desc">Strategic content planning, daily posting, community management
                                         &amp; growth across all major platforms.</p>
-                                    <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Social%20Media%20Management."
+                                    <a href="https://wa.me/918839989069?text=Hi,%20I'm%20interested%20in%20Social%20Media%20Management."
                                         target="_blank" rel="noopener" class="srv-btn digi-btn">Inquire Now <i
                                             class="fa-brands fa-whatsapp"></i></a>
                                 </div>
@@ -3185,21 +3460,23 @@
                                 <div class="srv-card featured" data-cat="digital">
                                     <div class="srv-tag digi-tag">Most Popular</div>
                                     <div class="srv-icon digi">
-                                         <svg viewBox="0 0 16 16" width="26" height="26">
-                                             <defs>
-                                                 <linearGradient id="metaAdsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                                     <stop offset="0%" stop-color="#0064E0" />
-                                                     <stop offset="50%" stop-color="#A200B5" />
-                                                     <stop offset="100%" stop-color="#FF3040" />
-                                                 </linearGradient>
-                                             </defs>
-                                             <path fill="url(#metaAdsGradient)" d="M8.217 5.243C9.145 3.988 10.171 3 11.483 3 13.96 3 16 6.153 16.001 9.907c0 2.29-.986 3.725-2.757 3.725-1.543 0-2.395-.866-3.924-3.424l-.667-1.123-.118-.197a55 55 0 0 0-.53-.877l-1.178 2.08c-1.673 2.925-2.615 3.541-3.923 3.541C1.086 13.632 0 12.217 0 9.973 0 6.388 1.995 3 4.598 3q.477-.001.924.122c.31.086.611.22.913.407.577.359 1.154.915 1.782 1.714m1.516 2.224q-.378-.615-.727-1.133L9 6.326c.845-1.305 1.543-1.954 2.372-1.954 1.723 0 3.102 2.537 3.102 5.653 0 1.188-.39 1.877-1.195 1.877-.773 0-1.142-.51-2.61-2.87zM4.846 4.756c.725.1 1.385.634 2.34 2.001A212 212 0 0 0 5.551 9.3c-1.357 2.126-1.826 2.603-2.581 2.603-.777 0-1.24-.682-1.24-1.9 0-2.602 1.298-5.264 2.846-5.264q.137 0 .27.018"/>
-                                         </svg>
+                                        <svg viewBox="0 0 16 16" width="26" height="26">
+                                            <defs>
+                                                <linearGradient id="metaAdsGradient" x1="0%" y1="0%" x2="100%"
+                                                    y2="100%">
+                                                    <stop offset="0%" stop-color="#0064E0" />
+                                                    <stop offset="50%" stop-color="#A200B5" />
+                                                    <stop offset="100%" stop-color="#FF3040" />
+                                                </linearGradient>
+                                            </defs>
+                                            <path fill="url(#metaAdsGradient)"
+                                                d="M8.217 5.243C9.145 3.988 10.171 3 11.483 3 13.96 3 16 6.153 16.001 9.907c0 2.29-.986 3.725-2.757 3.725-1.543 0-2.395-.866-3.924-3.424l-.667-1.123-.118-.197a55 55 0 0 0-.53-.877l-1.178 2.08c-1.673 2.925-2.615 3.541-3.923 3.541C1.086 13.632 0 12.217 0 9.973 0 6.388 1.995 3 4.598 3q.477-.001.924.122c.31.086.611.22.913.407.577.359 1.154.915 1.782 1.714m1.516 2.224q-.378-.615-.727-1.133L9 6.326c.845-1.305 1.543-1.954 2.372-1.954 1.723 0 3.102 2.537 3.102 5.653 0 1.188-.39 1.877-1.195 1.877-.773 0-1.142-.51-2.61-2.87zM4.846 4.756c.725.1 1.385.634 2.34 2.001A212 212 0 0 0 5.551 9.3c-1.357 2.126-1.826 2.603-2.581 2.603-.777 0-1.24-.682-1.24-1.9 0-2.602 1.298-5.264 2.846-5.264q.137 0 .27.018" />
+                                        </svg>
                                     </div>
                                     <h3 class="srv-name">Meta Ads (Facebook &amp; Instagram)</h3>
                                     <p class="srv-desc">High-converting ad campaigns on Meta platforms to maximize ROAS
                                         and scale your brand's reach.</p>
-                                    <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Meta%20Ads."
+                                    <a href="https://wa.me/918839989069?text=Hi,%20I'm%20interested%20in%20Meta%20Ads."
                                         target="_blank" rel="noopener" class="srv-btn digi-btn">Inquire Now <i
                                             class="fa-brands fa-whatsapp"></i></a>
                                 </div>
@@ -3207,28 +3484,31 @@
                                 <div class="srv-card" data-cat="digital">
                                     <div class="srv-icon digi">
                                         <svg viewBox="0 0 24 24" width="26" height="26">
-                                            <path fill="#FBBC05" d="M15.4632 3.072C14.3586 1.1587 11.9121.5028 9.9988 1.6074S7.4295 5.1585 8.5341 7.0718l8.0009 13.8567c1.1046 1.9133 3.5511 2.5679 5.4644 1.4646 1.9134-1.1046 2.568-3.5511 1.4647-5.4644z"/>
-                                            <path fill="#4285F4" d="M3.9998 22.9291C1.7908 22.9291 0 21.1383 0 18.9293s1.7908-3.9998 3.9998-3.9998 3.9998 1.7908 3.9998 3.9998-1.7908 3.9998-3.9998 3.9998z"/>
+                                            <path fill="#FBBC05"
+                                                d="M15.4632 3.072C14.3586 1.1587 11.9121.5028 9.9988 1.6074S7.4295 5.1585 8.5341 7.0718l8.0009 13.8567c1.1046 1.9133 3.5511 2.5679 5.4644 1.4646 1.9134-1.1046 2.568-3.5511 1.4647-5.4644z" />
+                                            <path fill="#4285F4"
+                                                d="M3.9998 22.9291C1.7908 22.9291 0 21.1383 0 18.9293s1.7908-3.9998 3.9998-3.9998 3.9998 1.7908 3.9998 3.9998-1.7908 3.9998-3.9998 3.9998z" />
                                         </svg>
                                     </div>
                                     <h3 class="srv-name">Google Ads</h3>
                                     <p class="srv-desc">Search, display &amp; YouTube campaigns optimized for quality
                                         leads and cost-effective conversions.</p>
-                                    <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Google%20Ads."
+                                    <a href="https://wa.me/918839989069?text=Hi,%20I'm%20interested%20in%20Google%20Ads."
                                         target="_blank" rel="noopener" class="srv-btn digi-btn">Inquire Now <i
                                             class="fa-brands fa-whatsapp"></i></a>
                                 </div>
 
                                 <div class="srv-card" data-cat="digital">
                                     <div class="srv-icon digi">
-                                        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z"/>
+                                        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#22d3ee"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z" />
                                         </svg>
                                     </div>
                                     <h3 class="srv-name">Lead Generation Campaigns</h3>
                                     <p class="srv-desc">Targeted campaigns across platforms designed to fill your
                                         pipeline with qualified, high-intent leads.</p>
-                                    <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Lead%20Generation."
+                                    <a href="https://wa.me/918839989069?text=Hi,%20I'm%20interested%20in%20Lead%20Generation."
                                         target="_blank" rel="noopener" class="srv-btn digi-btn">Inquire Now <i
                                             class="fa-brands fa-whatsapp"></i></a>
                                 </div>
@@ -3242,13 +3522,14 @@
                                     <div class="srv-tag brand-tag">Core Service</div>
                                     <div class="srv-icon brand">
                                         <svg viewBox="0 0 24 24" width="26" height="26">
-                                            <path fill="#0A66C2" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452z"/>
+                                            <path fill="#0A66C2"
+                                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452z" />
                                         </svg>
                                     </div>
                                     <h3 class="srv-name">Personal Branding Strategy</h3>
                                     <p class="srv-desc">Complete personal brand blueprint — positioning, messaging,
                                         content strategy &amp; audience growth.</p>
-                                    <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Personal%20Branding%20Strategy."
+                                    <a href="https://wa.me/918839989069?text=Hi,%20I'm%20interested%20in%20Personal%20Branding%20Strategy."
                                         target="_blank" rel="noopener" class="srv-btn brand-btn">Inquire Now <i
                                             class="fa-brands fa-whatsapp"></i></a>
                                 </div>
@@ -3256,13 +3537,14 @@
                                 <div class="srv-card" data-cat="branding">
                                     <div class="srv-icon brand">
                                         <svg viewBox="0 0 24 24" width="26" height="26">
-                                            <path fill="#FF0000" d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.107C19.525 3.5 12 3.5 12 3.5s-7.525 0-9.388.556a3.003 3.003 0 0 0-2.11 2.107C0 8.028 0 12 0 12s0 3.972.502 5.837a3.003 3.003 0 0 0 2.11 2.107C4.475 20.5 12 20.5 12 20.5s7.525 0 9.388-.556a3.003 3.003 0 0 0 2.11-2.107C24 15.972 24 12 24 12s0-3.972-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                                            <path fill="#FF0000"
+                                                d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.107C19.525 3.5 12 3.5 12 3.5s-7.525 0-9.388.556a3.003 3.003 0 0 0-2.11 2.107C0 8.028 0 12 0 12s0 3.972.502 5.837a3.003 3.003 0 0 0 2.11 2.107C4.475 20.5 12 20.5 12 20.5s7.525 0 9.388-.556a3.003 3.003 0 0 0 2.11-2.107C24 15.972 24 12 24 12s0-3.972-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
                                         </svg>
                                     </div>
                                     <h3 class="srv-name">Video Editing</h3>
                                     <p class="srv-desc">Professional reels, YouTube videos, ads &amp; brand content
                                         edited to captivate your audience.</p>
-                                    <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Video%20Editing."
+                                    <a href="https://wa.me/918839989069?text=Hi,%20I'm%20interested%20in%20Video%20Editing."
                                         target="_blank" rel="noopener" class="srv-btn brand-btn">Inquire Now <i
                                             class="fa-brands fa-whatsapp"></i></a>
                                 </div>
@@ -3270,17 +3552,27 @@
                                 <div class="srv-card" data-cat="branding">
                                     <div class="srv-icon brand">
                                         <svg viewBox="0 0 54 80" width="18" height="26" fill="none">
-                                            <path d="M13.3333 80C20.6933 80 26.6667 74.0267 26.6667 66.6667V53.3333H13.3333C5.97333 53.3333 0 59.3067 0 66.6667C0 74.0267 5.97333 80 13.3333 80Z" fill="#0ACF83"/>
-                                            <path d="M0 40C0 32.6398 5.97333 26.6665 13.3333 26.6665H26.6667V53.3332H13.3333C5.97333 53.3332 0 47.3598 0 40Z" fill="#A259FF"/>
-                                            <path d="M0 13.3333C0 5.97333 5.97333 0 13.3333 0H26.6667V26.6667H13.3333C5.97333 26.6667 0 20.6933 0 13.3333Z" fill="#F24E1E"/>
-                                            <path d="M26.6667 0H40.0001C47.3601 0 53.3334 5.97333 53.3334 13.3333C53.3334 20.6933 47.3601 26.6667 40.0001 26.6667H26.6667V0Z" fill="#FF7262"/>
-                                            <path d="M53.3334 40C53.3334 47.3598 47.3601 53.3332 40.0001 53.3332C32.6401 53.3332 26.6667 47.3598 26.6667 40C26.6667 32.6398 32.6401 26.6665 40.0001 26.6665C47.3601 26.6665 53.3334 32.6398 53.3334 40Z" fill="#1ABCFE"/>
+                                            <path
+                                                d="M13.3333 80C20.6933 80 26.6667 74.0267 26.6667 66.6667V53.3333H13.3333C5.97333 53.3333 0 59.3067 0 66.6667C0 74.0267 5.97333 80 13.3333 80Z"
+                                                fill="#0ACF83" />
+                                            <path
+                                                d="M0 40C0 32.6398 5.97333 26.6665 13.3333 26.6665H26.6667V53.3332H13.3333C5.97333 53.3332 0 47.3598 0 40Z"
+                                                fill="#A259FF" />
+                                            <path
+                                                d="M0 13.3333C0 5.97333 5.97333 0 13.3333 0H26.6667V26.6667H13.3333C5.97333 26.6667 0 20.6933 0 13.3333Z"
+                                                fill="#F24E1E" />
+                                            <path
+                                                d="M26.6667 0H40.0001C47.3601 0 53.3334 5.97333 53.3334 13.3333C53.3334 20.6933 47.3601 26.6667 40.0001 26.6667H26.6667V0Z"
+                                                fill="#FF7262" />
+                                            <path
+                                                d="M53.3334 40C53.3334 47.3598 47.3601 53.3332 40.0001 53.3332C32.6401 53.3332 26.6667 47.3598 26.6667 40C26.6667 32.6398 32.6401 26.6665 40.0001 26.6665C47.3601 26.6665 53.3334 32.6398 53.3334 40Z"
+                                                fill="#1ABCFE" />
                                         </svg>
                                     </div>
                                     <h3 class="srv-name">Graphic Design</h3>
                                     <p class="srv-desc">Stunning visuals, brand kits, social creatives &amp; marketing
                                         collateral that make your brand stand out.</p>
-                                    <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Graphic%20Design."
+                                    <a href="https://wa.me/918839989069?text=Hi,%20I'm%20interested%20in%20Graphic%20Design."
                                         target="_blank" rel="noopener" class="srv-btn brand-btn">Inquire Now <i
                                             class="fa-brands fa-whatsapp"></i></a>
                                 </div>
@@ -3288,13 +3580,14 @@
                                 <div class="srv-card" data-cat="branding">
                                     <div class="srv-icon brand">
                                         <svg viewBox="0 0 24 24" width="26" height="26">
-                                            <path fill="#ffffff" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.02 1.59 4.23.95 1.2 2.27 2.05 3.75 2.45v3.91c-1.37-.1-2.68-.68-3.7-1.61-.53-.48-.97-1.06-1.3-1.7v7.81c.04 2.1-.6 4.16-1.84 5.83-1.24 1.66-3.03 2.82-5.06 3.28-2.03.46-4.17.21-6.04-.71s-3.37-2.48-4.22-4.43c-.85-1.95-1.02-4.14-.49-6.2.53-2.06 1.74-3.87 3.42-5.1C7.23 6.6 9.4 6.03 11.53 6.47v4.06c-1.07-.3-2.22-.16-3.19.4-.97.56-1.66 1.51-1.93 2.62-.27 1.11-.08 2.29.53 3.27.61.98 1.59 1.64 2.72 1.83 1.13.19 2.29-.06 3.22-.72.93-.66 1.51-1.68 1.62-2.82.02-.22.02-.45.02-.67V.02z" />
+                                            <path fill="#ffffff"
+                                                d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.02 1.59 4.23.95 1.2 2.27 2.05 3.75 2.45v3.91c-1.37-.1-2.68-.68-3.7-1.61-.53-.48-.97-1.06-1.3-1.7v7.81c.04 2.1-.6 4.16-1.84 5.83-1.24 1.66-3.03 2.82-5.06 3.28-2.03.46-4.17.21-6.04-.71s-3.37-2.48-4.22-4.43c-.85-1.95-1.02-4.14-.49-6.2.53-2.06 1.74-3.87 3.42-5.1C7.23 6.6 9.4 6.03 11.53 6.47v4.06c-1.07-.3-2.22-.16-3.19.4-.97.56-1.66 1.51-1.93 2.62-.27 1.11-.08 2.29.53 3.27.61.98 1.59 1.64 2.72 1.83 1.13.19 2.29-.06 3.22-.72.93-.66 1.51-1.68 1.62-2.82.02-.22.02-.45.02-.67V.02z" />
                                         </svg>
                                     </div>
                                     <h3 class="srv-name">Influencer Marketing</h3>
                                     <p class="srv-desc">Strategic influencer partnerships for authentic reach, brand
                                         awareness &amp; trust-driven conversions.</p>
-                                    <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Influencer%20Marketing."
+                                    <a href="https://wa.me/918839989069?text=Hi,%20I'm%20interested%20in%20Influencer%20Marketing."
                                         target="_blank" rel="noopener" class="srv-btn brand-btn">Inquire Now <i
                                             class="fa-brands fa-whatsapp"></i></a>
                                 </div>
@@ -3309,13 +3602,14 @@
                                     <div class="srv-icon media">
                                         <svg viewBox="0 0 24 24" width="26" height="26">
                                             <rect x="2" y="2" width="20" height="20" rx="4" fill="#ee82ee" />
-                                            <text x="12" y="17" font-family="Georgia, serif" font-weight="bold" font-size="16" fill="#ffffff" text-anchor="middle">F</text>
+                                            <text x="12" y="17" font-family="Georgia, serif" font-weight="bold"
+                                                font-size="16" fill="#ffffff" text-anchor="middle">F</text>
                                         </svg>
                                     </div>
                                     <h3 class="srv-name">Press Release &amp; Media Coverage</h3>
                                     <p class="srv-desc">Get featured in top media publications to build credibility,
                                         trust &amp; massive brand authority.</p>
-                                    <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Press%20Release."
+                                    <a href="https://wa.me/918839989069?text=Hi,%20I'm%20interested%20in%20Press%20Release."
                                         target="_blank" rel="noopener" class="srv-btn media-btn">Inquire Now <i
                                             class="fa-brands fa-whatsapp"></i></a>
                                 </div>
@@ -3323,13 +3617,14 @@
                                 <div class="srv-card" data-cat="media">
                                     <div class="srv-icon media">
                                         <svg viewBox="0 0 24 24" width="26" height="26">
-                                            <path fill="#1DB954" d="M12 0C5.377 0 0 5.377 0 12s5.377 12 12 12 12-5.377 12-12S18.623 0 12 0zm5.667 17.26c-.15.247-.47.327-.714.178-1.97-1.202-4.453-1.474-7.377-.808-.277.063-.548-.11-.613-.385-.065-.276.11-.54.386-.605 3.193-.733 5.92-.42 8.14.957.24.148.318.468.178.763zm1.15-2.585c-.198.324-.61.428-.93.232-2.253-1.385-5.68-1.786-8.347-.978-.363.11-.746-.093-.857-.456-.11-.363.093-.746.456-.857 3.048-.92 6.837-.476 9.412 1.103.324.198.428.61.232.936zM19 11.23c-.19.32-.596.43-.915.24-2.65-1.57-6.86-1.72-9.52-1.04-.38.09-.76-.14-.85-.52-.09-.38.14-.76.52-.85 3.03-.76 7.64-.58 10.6 1.25.32.19.43.59.24.91z"/>
+                                            <path fill="#1DB954"
+                                                d="M12 0C5.377 0 0 5.377 0 12s5.377 12 12 12 12-5.377 12-12S18.623 0 12 0zm5.667 17.26c-.15.247-.47.327-.714.178-1.97-1.202-4.453-1.474-7.377-.808-.277.063-.548-.11-.613-.385-.065-.276.11-.54.386-.605 3.193-.733 5.92-.42 8.14.957.24.148.318.468.178.763zm1.15-2.585c-.198.324-.61.428-.93.232-2.253-1.385-5.68-1.786-8.347-.978-.363.11-.746-.093-.857-.456-.11-.363.093-.746.456-.857 3.048-.92 6.837-.476 9.412 1.103.324.198.428.61.232.936zM19 11.23c-.19.32-.596.43-.915.24-2.65-1.57-6.86-1.72-9.52-1.04-.38.09-.76-.14-.85-.52-.09-.38.14-.76.52-.85 3.03-.76 7.64-.58 10.6 1.25.32.19.43.59.24.91z" />
                                         </svg>
                                     </div>
                                     <h3 class="srv-name">Podcast Collaborations</h3>
                                     <p class="srv-desc">Feature on top podcasts to share your story, expertise &amp;
                                         expand your audience authentically.</p>
-                                    <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Podcast%20Collaborations."
+                                    <a href="https://wa.me/918839989069?text=Hi,%20I'm%20interested%20in%20Podcast%20Collaborations."
                                         target="_blank" rel="noopener" class="srv-btn media-btn">Inquire Now <i
                                             class="fa-brands fa-whatsapp"></i></a>
                                 </div>
@@ -3338,32 +3633,40 @@
                                     <div class="srv-tag media-tag">Premium</div>
                                     <div class="srv-icon media">
                                         <svg viewBox="0 0 32 24" width="30" height="26">
-                                            <text x="0" y="18" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="900" font-size="16" fill="#e62b1e" letter-spacing="-0.5">TED</text>
-                                            <text x="25" y="18" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="500" font-size="10" fill="#e62b1e">x</text>
+                                            <text x="0" y="18"
+                                                font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+                                                font-weight="900" font-size="16" fill="#e62b1e"
+                                                letter-spacing="-0.5">TED</text>
+                                            <text x="25" y="18"
+                                                font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+                                                font-weight="500" font-size="10" fill="#e62b1e">x</text>
                                         </svg>
                                     </div>
                                     <h3 class="srv-name">TEDx &amp; Josh Talks Positioning</h3>
                                     <p class="srv-desc">End-to-end positioning, strategic facilitation &amp; support to
                                         get you featured on TEDx and Josh Talks stages as a thought leader.</p>
-                                    <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20TEDx%20%26%20Josh%20Talks%20Positioning."
+                                    <a href="https://wa.me/918839989069?text=Hi,%20I'm%20interested%20in%20TEDx%20%26%20Josh%20Talks%20Positioning."
                                         target="_blank" rel="noopener" class="srv-btn media-btn">Inquire Now <i
                                             class="fa-brands fa-whatsapp"></i></a>
                                 </div>
 
                                 <div class="srv-card" data-cat="media">
                                     <div class="srv-icon media">
-                                        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#fbbf24"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
                                             <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
                                             <path d="M4 22h16" />
-                                            <path d="M10 14.66V17c0 .55-.45 1-1 1H4v2h16v-2h-5c-.55 0-1-.45-1-1v-2.34" />
-                                            <path d="M12 2a6 6 0 0 1 6 6v5a6 6 0 0 1-6 6 6 6 0 0 1-6-6V8a6 6 0 0 1 6-6z" />
+                                            <path
+                                                d="M10 14.66V17c0 .55-.45 1-1 1H4v2h16v-2h-5c-.55 0-1-.45-1-1v-2.34" />
+                                            <path
+                                                d="M12 2a6 6 0 0 1 6 6v5a6 6 0 0 1-6 6 6 6 0 0 1-6-6V8a6 6 0 0 1 6-6z" />
                                         </svg>
                                     </div>
                                     <h3 class="srv-name">Awards &amp; Recognition</h3>
                                     <p class="srv-desc">Identify and apply for prestigious industry awards to boost your
                                         brand's credibility &amp; authority.</p>
-                                    <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Awards%20%26%20Recognition."
+                                    <a href="https://wa.me/918839989069?text=Hi,%20I'm%20interested%20in%20Awards%20%26%20Recognition."
                                         target="_blank" rel="noopener" class="srv-btn media-btn">Inquire Now <i
                                             class="fa-brands fa-whatsapp"></i></a>
                                 </div>
@@ -3377,13 +3680,14 @@
                                     <div class="srv-tag events-tag">Dev</div>
                                     <div class="srv-icon events">
                                         <svg viewBox="0 0 24 24" width="26" height="26">
-                                            <path fill="#21759b" d="M12.163 0C5.448 0 0 5.448 0 12.163c0 6.715 5.448 12.163 12.163 12.163 6.715 0 12.163-5.448 12.163-12.163C24.326 5.448 18.878 0 12.163 0zm9.73 11.233c.061.354.092.712.092 1.077 0 1.636-.454 3.731-1.83 6.643L14.73 4.22c3.963 1.343 6.745 4.398 7.163 7.013zM12.163 1.312c1.782 0 3.447.491 4.882 1.341l-3.327 9.17-2.316-6.386 1.488-.135c.348-.032.296-.54-.053-.54H9.378c-.349 0-.401.508-.053.54l1.378.135 1.558 4.293L10.378 15.1l-4.73-12.98C7.132 1.833 9.497 1.312 12.163 1.312zM2.8 11.233c.418-2.615 3.2-5.67 7.163-7.013L4.537 18.953C3.161 16.041 2.707 13.946 2.707 12.31c0-.365.031-.723.092-1.077zm9.363 11.53c-1.884 0-3.64-.47-5.187-1.306l4.63-12.753 3.32 9.155c-.244.7-.68 1.64-1.127 2.656-.632 1.442-1.196 2.248-1.636 2.248z"/>
+                                            <path fill="#21759b"
+                                                d="M12.163 0C5.448 0 0 5.448 0 12.163c0 6.715 5.448 12.163 12.163 12.163 6.715 0 12.163-5.448 12.163-12.163C24.326 5.448 18.878 0 12.163 0zm9.73 11.233c.061.354.092.712.092 1.077 0 1.636-.454 3.731-1.83 6.643L14.73 4.22c3.963 1.343 6.745 4.398 7.163 7.013zM12.163 1.312c1.782 0 3.447.491 4.882 1.341l-3.327 9.17-2.316-6.386 1.488-.135c.348-.032.296-.54-.053-.54H9.378c-.349 0-.401.508-.053.54l1.378.135 1.558 4.293L10.378 15.1l-4.73-12.98C7.132 1.833 9.497 1.312 12.163 1.312zM2.8 11.233c.418-2.615 3.2-5.67 7.163-7.013L4.537 18.953C3.161 16.041 2.707 13.946 2.707 12.31c0-.365.031-.723.092-1.077zm9.363 11.53c-1.884 0-3.64-.47-5.187-1.306l4.63-12.753 3.32 9.155c-.244.7-.68 1.64-1.127 2.656-.632 1.442-1.196 2.248-1.636 2.248z" />
                                         </svg>
                                     </div>
                                     <h3 class="srv-name">Website Development</h3>
                                     <p class="srv-desc">High-performance, conversion-optimized websites and landing
                                         pages designed to impress and convert.</p>
-                                    <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Website%20Development."
+                                    <a href="https://wa.me/918839989069?text=Hi,%20I'm%20interested%20in%20Website%20Development."
                                         target="_blank" rel="noopener" class="srv-btn events-btn">Inquire Now <i
                                             class="fa-brands fa-whatsapp"></i></a>
                                 </div>
@@ -3392,35 +3696,39 @@
                                     <div class="srv-tag events-tag">Dev</div>
                                     <div class="srv-icon events">
                                         <svg viewBox="0 0 384 512" width="26" height="26">
-                                            <path fill="#ffffff" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-48.7-22.7-77.5-22.7-37.8 0-77.8 22-97.8 56.8-41.2 71.9-10.7 178.6 29 237.7 19.4 28 42.4 59.8 72.5 58.6 29.1-1.2 40.2-18.8 75.3-18.8 35 0 45.3 18.8 75.8 18.2 31.1-.6 51.1-28.7 70.1-56.8 22-32.2 31.2-63.3 31.7-65-1.1-.5-61.2-23.5-61.7-93.9zM302.6 70.2c20.3-25.1 33.8-60 30-94.8-29.6 1.2-65.4 19.8-86.7 44.7-19.1 22.2-35.8 57.7-31.3 91.9 32.9 2.5 67-16.1 88-41.8z"/>
+                                            <path fill="#ffffff"
+                                                d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-48.7-22.7-77.5-22.7-37.8 0-77.8 22-97.8 56.8-41.2 71.9-10.7 178.6 29 237.7 19.4 28 42.4 59.8 72.5 58.6 29.1-1.2 40.2-18.8 75.3-18.8 35 0 45.3 18.8 75.8 18.2 31.1-.6 51.1-28.7 70.1-56.8 22-32.2 31.2-63.3 31.7-65-1.1-.5-61.2-23.5-61.7-93.9zM302.6 70.2c20.3-25.1 33.8-60 30-94.8-29.6 1.2-65.4 19.8-86.7 44.7-19.1 22.2-35.8 57.7-31.3 91.9 32.9 2.5 67-16.1 88-41.8z" />
                                         </svg>
                                     </div>
                                     <h3 class="srv-name">App Development</h3>
                                     <p class="srv-desc">Custom iOS &amp; Android mobile applications designed with
                                         premium UX/UI and robust performance to scale your business.</p>
-                                    <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20App%20Development."
+                                    <a href="https://wa.me/918839989069?text=Hi,%20I'm%20interested%20in%20App%20Development."
                                         target="_blank" rel="noopener" class="srv-btn events-btn">Inquire Now <i
                                             class="fa-brands fa-whatsapp"></i></a>
                                 </div>
 
                                 <div class="srv-card" data-cat="events">
                                     <div class="srv-icon events">
-                                        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v2z" />
+                                        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#34d399"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path
+                                                d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v2z" />
                                             <line x1="12" y1="5" x2="12" y2="19" stroke-dasharray="4" />
                                         </svg>
                                     </div>
                                     <h3 class="srv-name">Event Management</h3>
                                     <p class="srv-desc">End-to-end planning, execution &amp; promotion of brand events,
                                         product launches &amp; corporate functions.</p>
-                                    <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20Event%20Management."
+                                    <a href="https://wa.me/918839989069?text=Hi,%20I'm%20interested%20in%20Event%20Management."
                                         target="_blank" rel="noopener" class="srv-btn events-btn">Inquire Now <i
                                             class="fa-brands fa-whatsapp"></i></a>
                                 </div>
 
                                 <div class="srv-card" data-cat="events">
                                     <div class="srv-icon events">
-                                        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#34d399"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
                                             <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5" />
                                         </svg>
@@ -3428,7 +3736,7 @@
                                     <h3 class="srv-name">College &amp; School Event Management</h3>
                                     <p class="srv-desc">Organizing fests, career fairs &amp; brand activation programs
                                         across schools, campuses and top educational institutions.</p>
-                                    <a href="https://wa.me/919691488875?text=Hi,%20I'm%20interested%20in%20College%20%26%20School%20Event%20Management."
+                                    <a href="https://wa.me/918839989069?text=Hi,%20I'm%20interested%20in%20College%20%26%20School%20Event%20Management."
                                         target="_blank" rel="noopener" class="srv-btn events-btn">Inquire Now <i
                                             class="fa-brands fa-whatsapp"></i></a>
                                 </div>
@@ -3438,7 +3746,7 @@
                             <!-- Bottom CTA -->
                             <div class="srv-bottom-cta">
                                 <p>Not sure which service fits your brand? Let's figure it out together.</p>
-                                <a href="https://wa.me/919691488875?text=Hi,%20I'd%20like%20to%20book%20a%20free%20strategy%20call."
+                                <a href="https://wa.me/918839989069?text=Hi,%20I'd%20like%20to%20book%20a%20free%20strategy%20call."
                                     target="_blank" rel="noopener" class="srv-cta-btn">
                                     <i class="fa-solid fa-phone"></i> Book Free Strategy Call
                                 </a>
@@ -3754,7 +4062,8 @@
                                 flex-shrink: 0 !important;
                             }
 
-                            .srv-icon svg, .srv-icon img {
+                            .srv-icon svg,
+                            .srv-icon img {
                                 width: 26px !important;
                                 height: 26px !important;
                                 object-fit: contain !important;
@@ -5109,7 +5418,7 @@
 
                                 <!-- Reviews Grid -->
                                 <div class="reviews-grid">
-                                    <!-- Review 1: Arjun Mehta -->
+                                    <!-- Review 1: Verified Client -->
                                     <div class="review-card">
                                         <div class="review-top">
                                             <div class="review-stars">
@@ -5122,22 +5431,22 @@
                                         <div class="review-screenshot-wrapper"
                                             style="margin: 12px 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: rgba(0,0,0,0.15);">
                                             <img src="wp-content/uploads/reviews/review-arjun-mehta.jpg"
-                                                alt="Review from Arjun Mehta"
+                                                alt="Review from Verified Client"
                                                 style="width: 100%; height: auto; display: block; object-fit: contain;"
                                                 loading="lazy">
                                         </div>
                                         <div class="review-author">
                                             <div class="review-avatar"
-                                                style="background: linear-gradient(135deg, #ee82ee, #d946ef);">A</div>
+                                                style="background: linear-gradient(135deg, #ee82ee, #d946ef);">C</div>
                                             <div>
-                                                <div class="review-name">Arjun Mehta</div>
+                                                <div class="review-name">Verified Client</div>
                                                 <div class="review-handle">Life & Mindset Coach</div>
                                             </div>
                                             <div class="review-badge">Verified Client</div>
                                         </div>
                                     </div>
 
-                                    <!-- Review 2: Vikram Sinha -->
+                                    <!-- Review 2: Content Creator -->
                                     <div class="review-card featured-review">
                                         <div class="review-top">
                                             <div class="review-stars">
@@ -5150,7 +5459,7 @@
                                         <div class="review-screenshot-wrapper"
                                             style="margin: 12px 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: rgba(0,0,0,0.15);">
                                             <img src="wp-content/uploads/reviews/review-vikram-sinha.png"
-                                                alt="Review from Vikram Sinha"
+                                                alt="Review from Content Creator"
                                                 style="width: 100%; height: auto; display: block; object-fit: contain;"
                                                 loading="lazy">
                                         </div>
@@ -5158,14 +5467,14 @@
                                             <div class="review-avatar"
                                                 style="background: linear-gradient(135deg, #22d3ee, #0ea5e9);">V</div>
                                             <div>
-                                                <div class="review-name">Vikram Sinha</div>
+                                                <div class="review-name">Content Creator</div>
                                                 <div class="review-handle">Finance Content Creator</div>
                                             </div>
                                             <div class="review-badge">Milestone 100K</div>
                                         </div>
                                     </div>
 
-                                    <!-- Review 3: Abhishek Sharma -->
+                                    <!-- Review 3: Entrepreneur -->
                                     <div class="review-card">
                                         <div class="review-top">
                                             <div class="review-stars">
@@ -5178,7 +5487,7 @@
                                         <div class="review-screenshot-wrapper"
                                             style="margin: 12px 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: rgba(0,0,0,0.15);">
                                             <img src="wp-content/uploads/reviews/review-abhishek-sharma.jpg"
-                                                alt="Review from Abhishek Sharma"
+                                                alt="Review from Entrepreneur"
                                                 style="width: 100%; height: auto; display: block; object-fit: contain;"
                                                 loading="lazy">
                                         </div>
@@ -5186,14 +5495,14 @@
                                             <div class="review-avatar"
                                                 style="background: linear-gradient(135deg, #fbbf24, #f59e0b);">A</div>
                                             <div>
-                                                <div class="review-name">Abhishek Sharma</div>
+                                                <div class="review-name">Entrepreneur</div>
                                                 <div class="review-handle">Business Advisor & Entrepreneur</div>
                                             </div>
                                             <div class="review-badge">Verified Client</div>
                                         </div>
                                     </div>
 
-                                    <!-- Review 4: Rahul Verma -->
+                                    <!-- Review 4: Business Owner -->
                                     <div class="review-card">
                                         <div class="review-top">
                                             <div class="review-stars">
@@ -5206,7 +5515,7 @@
                                         <div class="review-screenshot-wrapper"
                                             style="margin: 12px 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: rgba(0,0,0,0.15);">
                                             <img src="wp-content/uploads/reviews/review-rahul-verma.jpg"
-                                                alt="Review from Rahul Verma"
+                                                alt="Review from Business Owner"
                                                 style="width: 100%; height: auto; display: block; object-fit: contain;"
                                                 loading="lazy">
                                         </div>
@@ -5214,14 +5523,14 @@
                                             <div class="review-avatar"
                                                 style="background: linear-gradient(135deg, #34d399, #10b981);">R</div>
                                             <div>
-                                                <div class="review-name">Rahul Verma</div>
+                                                <div class="review-name">Business Owner</div>
                                                 <div class="review-handle">Career Coach & TEDx Speaker</div>
                                             </div>
                                             <div class="review-badge">TEDx Speaker</div>
                                         </div>
                                     </div>
 
-                                    <!-- Review 5: Muskan Rajput -->
+                                    <!-- Review 5: Content Creator -->
                                     <div class="review-card featured-review">
                                         <div class="review-top">
                                             <div class="review-stars">
@@ -5234,22 +5543,22 @@
                                         <div class="review-screenshot-wrapper"
                                             style="margin: 12px 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: rgba(0,0,0,0.15);">
                                             <img src="wp-content/uploads/reviews/review-muskan-rajput.jpg"
-                                                alt="Review from Muskan Rajput"
+                                                alt="Review from Content Creator"
                                                 style="width: 100%; height: auto; display: block; object-fit: contain;"
                                                 loading="lazy">
                                         </div>
                                         <div class="review-author">
                                             <div class="review-avatar"
-                                                style="background: linear-gradient(135deg, #f472b6, #ec4899);">M</div>
+                                                style="background: linear-gradient(135deg, #f472b6, #ec4899);">C</div>
                                             <div>
-                                                <div class="review-name">Muskan Rajput</div>
+                                                <div class="review-name">Content Creator</div>
                                                 <div class="review-handle">Digital Content Creator</div>
                                             </div>
                                             <div class="review-badge">Verified Client</div>
                                         </div>
                                     </div>
 
-                                    <!-- Review 6: Naman Agarwal -->
+                                    <!-- Review 6: Startup Founder -->
                                     <div class="review-card">
                                         <div class="review-top">
                                             <div class="review-stars">
@@ -5262,22 +5571,22 @@
                                         <div class="review-screenshot-wrapper"
                                             style="margin: 12px 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: rgba(0,0,0,0.15);">
                                             <img src="wp-content/uploads/reviews/review-naman-agarwal.png"
-                                                alt="Review from Naman Agarwal"
+                                                alt="Review from Startup Founder"
                                                 style="width: 100%; height: auto; display: block; object-fit: contain;"
                                                 loading="lazy">
                                         </div>
                                         <div class="review-author">
                                             <div class="review-avatar"
-                                                style="background: linear-gradient(135deg, #a78bfa, #7c3aed);">N</div>
+                                                style="background: linear-gradient(135deg, #a78bfa, #7c3aed);">F</div>
                                             <div>
-                                                <div class="review-name">Naman Agarwal</div>
+                                                <div class="review-name">Startup Founder</div>
                                                 <div class="review-handle">Tech Startup Founder</div>
                                             </div>
                                             <div class="review-badge">Verified Client</div>
                                         </div>
                                     </div>
 
-                                    <!-- Review 7: Divya Pratihast -->
+                                    <!-- Review 7: Verified Client -->
                                     <div class="review-card">
                                         <div class="review-top">
                                             <div class="review-stars">
@@ -5290,22 +5599,22 @@
                                         <div class="review-screenshot-wrapper"
                                             style="margin: 12px 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: rgba(0,0,0,0.15);">
                                             <img src="wp-content/uploads/reviews/review-divya-pratihast.jpg"
-                                                alt="Review from Divya Pratihast"
+                                                alt="Review from Verified Client"
                                                 style="width: 100%; height: auto; display: block; object-fit: contain;"
                                                 loading="lazy">
                                         </div>
                                         <div class="review-author">
                                             <div class="review-avatar"
-                                                style="background: linear-gradient(135deg, #fb923c, #ea580c);">D</div>
+                                                style="background: linear-gradient(135deg, #fb923c, #ea580c);">C</div>
                                             <div>
-                                                <div class="review-name">Divya Pratihast</div>
+                                                <div class="review-name">Verified Client</div>
                                                 <div class="review-handle">Vedic Astrologer & Consultant</div>
                                             </div>
                                             <div class="review-badge">Verified Client</div>
                                         </div>
                                     </div>
 
-                                    <!-- Review 8: Dr. Siddharth Bhargav -->
+                                    <!-- Review 8: Verified Client -->
                                     <div class="review-card">
                                         <div class="review-top">
                                             <div class="review-stars">
@@ -5318,15 +5627,15 @@
                                         <div class="review-screenshot-wrapper"
                                             style="margin: 12px 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: rgba(0,0,0,0.15);">
                                             <img src="wp-content/uploads/reviews/review-siddharth-bhargav.jpg"
-                                                alt="Review from Dr. Siddharth Bhargav"
+                                                alt="Review from Verified Client"
                                                 style="width: 100%; height: auto; display: block; object-fit: contain;"
                                                 loading="lazy">
                                         </div>
                                         <div class="review-author">
                                             <div class="review-avatar"
-                                                style="background: linear-gradient(135deg, #38bdf8, #0284c7);">D</div>
+                                                style="background: linear-gradient(135deg, #38bdf8, #0284c7);">C</div>
                                             <div>
-                                                <div class="review-name">Dr. Siddharth Bhargav</div>
+                                                <div class="review-name">Verified Client</div>
                                                 <div class="review-handle">Health & Wellness Expert</div>
                                             </div>
                                             <div class="review-badge">Verified Client</div>
@@ -6466,7 +6775,8 @@
                                             <strong>7–21 working days</strong>, depending on the publication and
                                             approval process. We work with a network of 50+ verified media outlets
                                             across India. You'll receive a detailed report with all live links once
-                                            coverage is published.</p>
+                                            coverage is published.
+                                        </p>
                                     </div>
                                 </details>
 
@@ -6489,7 +6799,7 @@
 
                             <div class="tkm-faq-cta">
                                 <p>Still have questions? We're happy to help.</p>
-                                <a href="https://wa.me/919691488875?text=Hi,%20I%20have%20a%20question%20about%20Trend%20Kro%20Media's%20services."
+                                <a href="https://wa.me/918839989069?text=Hi,%20I%20have%20a%20question%20about%20Trend%20Kro%20Media's%20services."
                                     target="_blank" rel="noopener" class="tkm-faq-cta-btn">
                                     <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
                                 </a>
@@ -7644,13 +7954,13 @@
                                         <div class="form-group">
                                             <label for="phoneNum">Phone Number</label>
                                             <input type="tel" id="phoneNum" name="phoneNum"
-                                                placeholder="e.g. +91 98765 43210" required>
+                                                placeholder="e.g. +91 88399 89069" required>
                                         </div>
 
                                         <div class="form-group">
                                             <label for="emailAddr">Email Address</label>
                                             <input type="email" id="emailAddr" name="emailAddr"
-                                                placeholder="name@company.com" required>
+                                                placeholder="trendkaromedia@gmail.com" required>
                                         </div>
 
                                         <div class="form-group">
@@ -7701,15 +8011,14 @@
                                             </div>
                                             <div>
                                                 <strong>WhatsApp:</strong> <br>
-                                                <a href="https://wa.me/919691488875" target="_blank" rel="noopener">+91
-                                                    96914 88875</a>
+                                                <a href="tel:+918839989069">+91 88399 89069</a>
                                             </div>
                                         </li>
                                         <li class="contact-info-item">
                                             <div class="contact-icon-wrapper"><i class="fa-solid fa-envelope"></i></div>
                                             <div>
                                                 <strong>Email Us:</strong> <br>
-                                                <a href="mailto:hello@trendkromedia.com">hello@trendkromedia.com</a>
+                                                <a href="mailto:trendkaromedia@gmail.com">trendkaromedia@gmail.com</a>
                                             </div>
                                         </li>
                                     </ul>
@@ -7986,12 +8295,11 @@
                             <div class="tkm-footer-contact">
                                 <p>
                                     <strong>WhatsApp:</strong><br>
-                                    <a href="https://wa.me/919691488875" target="_blank" rel="noopener">+91 96914
-                                        88875</a>
+                                    <a href="tel:+918839989069">+91 88399 89069</a>
                                 </p>
                                 <p>
                                     <strong>Email:</strong><br>
-                                    <a href="mailto:hello@trendkromedia.com">hello@trendkromedia.com</a>
+                                    <a href="mailto:trendkaromedia@gmail.com">trendkaromedia@gmail.com</a>
                                 </p>
                             </div>
                             <div class="tkm-footer-socials">
