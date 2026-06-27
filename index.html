@@ -910,7 +910,7 @@
                                     transform: rotate(-45deg) translate(7px, -7px);
                                 }
 
-                                @media (max-width: 968px) {
+                                @media (max-width: 1024px) {
                                     .main-nav {
                                         position: fixed;
                                         top: 58px;
@@ -1928,7 +1928,7 @@
                             /****************************
             RESPONSIVE - MOBILE FIXES
         *****************************/
-                            @media (max-width: 968px) {
+                            @media (max-width: 1024px) {
                                 .hero-redesigned {
                                     padding: 90px 15px 40px !important;
                                     flex-direction: column;
@@ -2548,7 +2548,11 @@
 
                             @media (max-width: 1024px) {
                                 .stats-deck {
+                                    flex-wrap: wrap !important;
                                     gap: 15px !important;
+                                }
+                                .stat-card-side {
+                                    flex: 1 1 calc(50% - 15px) !important;
                                 }
                             }
 
@@ -4495,7 +4499,7 @@
                                 }
                             }
 
-                            @media (max-width: 900px) {
+                            @media (max-width: 1024px) {
                                 .services-grid-17 {
                                     grid-template-columns: repeat(2, 1fr) !important;
                                 }
@@ -4904,7 +4908,7 @@
                                 }
 
                                 /* RESPONSIVE */
-                                @media (max-width: 968px) {
+                                @media (max-width: 1024px) {
                                     .timeline-section {
                                         padding: 80px 20px !important;
                                     }
@@ -5564,14 +5568,14 @@
                                     }
                                 }
 
-                                @media (min-width: 969px) and (max-width: 1200px) {
+                                @media (min-width: 1025px) and (max-width: 1200px) {
                                     .videos-grid {
                                         grid-template-columns: repeat(4, 1fr) !important;
                                         gap: 25px !important;
                                     }
                                 }
 
-                                @media (max-width: 968px) {
+                                @media (max-width: 1024px) {
                                     .testimonials-section {
                                         padding: 80px 20px !important;
                                     }
@@ -6176,7 +6180,7 @@
                                     }
                                 }
 
-                                @media (max-width: 900px) {
+                                @media (max-width: 1024px) {
                                     .reviews-grid {
                                         grid-template-columns: repeat(2, 1fr) !important;
                                     }
@@ -6723,7 +6727,7 @@
                                 }
 
                                 /* RESPONSIVE */
-                                @media (max-width: 968px) {
+                                @media (max-width: 1024px) {
                                     .about-team-section {
                                         padding: 80px 20px !important;
                                     }
@@ -8549,6 +8553,13 @@
                         justify-content: space-between !important;
                         align-items: center !important;
                         font-size: 13px !important;
+                    }
+
+                    @media (max-width: 1024px) {
+                        .tkm-footer-grid {
+                            grid-template-columns: 1fr 1fr !important;
+                            gap: 30px !important;
+                        }
                     }
 
                     @media (max-width: 768px) {
