@@ -1433,7 +1433,7 @@
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
-                                padding: 80px 20px;
+                                padding: 110px 20px 80px 20px !important;
                             }
 
                             .hero-container {
@@ -1563,26 +1563,25 @@
                                 border-radius: 16px;
                                 z-index: 10;
                                 box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
-                                animation: floatCard 6s ease-in-out infinite;
+                                animation: floatCardMotion 4s ease-in-out infinite !important;
                                 display: none;
                                 pointer-events: none;
                             }
 
-                            @keyframes floatCard {
-
+                            @keyframes floatCardMotion {
                                 0%,
                                 100% {
-                                    transform: translateY(0);
+                                    margin-top: 0px;
                                 }
 
                                 50% {
-                                    transform: translateY(-10px);
+                                    margin-top: -12px;
                                 }
                             }
 
                             /* CARD POSITIONS */
                             .card-stats-riya {
-                                top: 140px;
+                                top: 240px;
                                 left: -60px;
                                 padding: 15px 25px;
                                 border-right: 4px solid #8b5cf6;
@@ -1930,7 +1929,7 @@
         *****************************/
                             @media (max-width: 968px) {
                                 .hero-redesigned {
-                                    padding: 60px 15px 40px;
+                                    padding: 90px 15px 40px !important;
                                     flex-direction: column;
                                     text-align: center;
                                 }
@@ -2021,7 +2020,7 @@
                                 }
 
                                 .card-stats-riya {
-                                    top: 20px !important;
+                                    top: 80px !important;
                                     left: -15px !important;
                                     right: auto !important;
                                     padding: 10px 15px !important;
@@ -2168,7 +2167,7 @@
                                             <div class="float-card card-stats-riya" style="display: flex;">
                                                 <div class="stat-icon"><i class="fa-solid fa-star"></i></div>
                                                 <div class="stat-content">
-                                                    <h4>Growth&nbsp; Partner</h4>
+                                                    <h4>Growth Partner</h4>
                                                     <p>7+ Years Experience</p>
                                                 </div>
                                             </div>
@@ -2624,20 +2623,21 @@
                                 }
 
                                 .stats-deck {
-                                    flex-direction: column !important;
+                                    flex-direction: row !important;
+                                    flex-wrap: wrap !important;
+                                    gap: 12px !important;
                                 }
 
                                 .stat-card-side,
                                 .stat-card-center {
-                                    flex: 0 0 100% !important;
-                                    min-width: 100% !important;
-                                    height: auto !important;
-                                    min-height: 110px !important;
-                                    padding: 20px !important;
+                                    flex: 0 0 calc(50% - 6px) !important;
+                                    min-width: 140px !important;
+                                    height: 120px !important;
+                                    padding: 15px 18px !important;
                                 }
 
                                 .stat-card-center {
-                                    height: 140px !important;
+                                    height: 120px !important;
                                 }
                             }
 
