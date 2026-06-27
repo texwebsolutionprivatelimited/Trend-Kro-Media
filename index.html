@@ -2840,7 +2840,7 @@
                                 border-radius: 3px !important;
                                 display: inline-block !important;
                                 margin-right: 2px !important;
-                                box-shadow: 0 1px 3px rgba(0,0,0,0.2) !important;
+                                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) !important;
                             }
 
                             @keyframes global-marquee {
@@ -2880,33 +2880,65 @@
                                 display: inline-flex !important;
                                 align-items: center !important;
                                 justify-content: center !important;
-                                color: #f1f5f9 !important; /* Matches country badge font color exactly */
-                                background: rgba(255, 255, 255, 0.03) !important; /* Matches country badge background exactly */
-                                border: 1px solid rgba(255, 255, 255, 0.08) !important; /* Matches country badge border exactly */
+                                color: #f1f5f9 !important;
+                                /* Matches country badge font color exactly */
+                                background: rgba(255, 255, 255, 0.03) !important;
+                                /* Matches country badge background exactly */
+                                border: 1px solid rgba(255, 255, 255, 0.08) !important;
+                                /* Matches country badge border exactly */
                                 backdrop-filter: blur(12px) !important;
                                 -webkit-backdrop-filter: blur(12px) !important;
                                 transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
                             }
 
                             .logo-badge svg {
-                                height: 20px !important; /* Perfectly proportional inside the natural padding */
+                                height: 20px !important;
+                                /* Perfectly proportional inside the natural padding */
                                 width: auto !important;
                                 opacity: 0.95 !important;
                                 transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
                             }
 
                             /* Path and shape color mappings for default state (subtle branding) */
-                            .logo-badge .eat-icon-bg { fill: #15803d !important; opacity: 0.8; transition: all 0.3s; }
-                            .logo-badge .eat-icon-path { stroke: #ffffff !important; fill: none !important; }
-                            .logo-badge .chitika-icon { fill: #2563eb !important; opacity: 0.8; transition: all 0.3s; }
-                            .logo-badge .apn-icon { fill: #e11d48 !important; opacity: 0.8; transition: all 0.3s; }
-                            .logo-badge .logo-text { fill: currentColor !important; }
-                            .logo-badge .logo-text-main { fill: currentColor !important; }
-                            .logo-badge .logo-text-sub { fill: currentColor !important; }
+                            .logo-badge .eat-icon-bg {
+                                fill: #15803d !important;
+                                opacity: 0.8;
+                                transition: all 0.3s;
+                            }
+
+                            .logo-badge .eat-icon-path {
+                                stroke: #ffffff !important;
+                                fill: none !important;
+                            }
+
+                            .logo-badge .chitika-icon {
+                                fill: #2563eb !important;
+                                opacity: 0.8;
+                                transition: all 0.3s;
+                            }
+
+                            .logo-badge .apn-icon {
+                                fill: #e11d48 !important;
+                                opacity: 0.8;
+                                transition: all 0.3s;
+                            }
+
+                            .logo-badge .logo-text {
+                                fill: currentColor !important;
+                            }
+
+                            .logo-badge .logo-text-main {
+                                fill: currentColor !important;
+                            }
+
+                            .logo-badge .logo-text-sub {
+                                fill: currentColor !important;
+                            }
 
                             .logo-badge:hover {
                                 background: rgba(255, 255, 255, 0.06) !important;
-                                border-color: rgba(139, 92, 246, 0.4) !important; /* Matches country badge hover border color */
+                                border-color: rgba(139, 92, 246, 0.4) !important;
+                                /* Matches country badge hover border color */
                                 transform: translateY(-2px) scale(1.02) !important;
                                 color: #ffffff !important;
                             }
@@ -2915,23 +2947,33 @@
                                 opacity: 1 !important;
                             }
 
-                            .logo-badge:hover .eat-icon-bg { opacity: 1 !important; }
-                            .logo-badge:hover .chitika-icon { opacity: 1 !important; }
-                            .logo-badge:hover .apn-icon { opacity: 1 !important; }
+                            .logo-badge:hover .eat-icon-bg {
+                                opacity: 1 !important;
+                            }
+
+                            .logo-badge:hover .chitika-icon {
+                                opacity: 1 !important;
+                            }
+
+                            .logo-badge:hover .apn-icon {
+                                opacity: 1 !important;
+                            }
 
                             @keyframes global-marquee-reverse {
                                 0% {
                                     transform: translateX(-100%);
                                 }
+
                                 100% {
                                     transform: translateX(0);
                                 }
                             }
 
                             .global-marquee-track.reverse .marquee-group {
-                                animation: global-marquee-reverse 30s linear infinite !important; /* Slightly slower for readability */
+                                animation: global-marquee-reverse 30s linear infinite !important;
+                                /* Slightly slower for readability */
                             }
-                            
+
                             /* Pause reverse animation on hover */
                             .global-marquee-container:hover .global-marquee-track.reverse .marquee-group {
                                 animation-play-state: paused !important;
@@ -3036,11 +3078,11 @@
                                     <!-- Card 2: Organic Views -->
                                     <div class="glass-card stat-card-side blue">
                                         <div>
-                                            <h4 class="stat-value" data-target="96" data-suffix="M+" id="stat-views">0M+</h4>
+                                            <h4 class="stat-value" data-target="96" data-suffix="M+" id="stat-views">0M+
+                                            </h4>
                                             <p class="stat-label">Organic Views</p>
                                         </div>
-                                        <i class="fa-solid fa-eye icon-float"
-                                            style="color: #22d3ee !important;"></i>
+                                        <i class="fa-solid fa-eye icon-float" style="color: #22d3ee !important;"></i>
                                         <svg class="sparkline" viewBox="0 0 100 40">
                                             <path d="M0 30 Q 20 15 40 25 T 80 10 T 100 5" stroke="#22d3ee" />
                                         </svg>
@@ -3093,100 +3135,155 @@
                                 <div class="global-marquee-container">
                                     <div class="global-marquee-track">
                                         <div class="marquee-group">
-                                            <div class="country-badge"><img src="https://flagcdn.com/w40/in.png" class="country-flag" alt="India"> India</div>
-                                            <div class="country-badge"><img src="https://flagcdn.com/w40/us.png" class="country-flag" alt="United States"> United States</div>
-                                            <div class="country-badge"><img src="https://flagcdn.com/w40/au.png" class="country-flag" alt="Australia"> Australia</div>
-                                            <div class="country-badge"><img src="https://flagcdn.com/w40/ae.png" class="country-flag" alt="UAE"> United Arab Emirates (UAE)</div>
-                                            <div class="country-badge"><img src="https://flagcdn.com/w40/ca.png" class="country-flag" alt="Canada"> Canada</div>
+                                            <div class="country-badge"><img src="https://flagcdn.com/w40/in.png"
+                                                    class="country-flag" alt="India"> India</div>
+                                            <div class="country-badge"><img src="https://flagcdn.com/w40/us.png"
+                                                    class="country-flag" alt="United States"> United States</div>
+                                            <div class="country-badge"><img src="https://flagcdn.com/w40/au.png"
+                                                    class="country-flag" alt="Australia"> Australia</div>
+                                            <div class="country-badge"><img src="https://flagcdn.com/w40/ae.png"
+                                                    class="country-flag" alt="UAE"> United Arab Emirates (UAE)</div>
+                                            <div class="country-badge"><img src="https://flagcdn.com/w40/ca.png"
+                                                    class="country-flag" alt="Canada"> Canada</div>
                                         </div>
                                         <div class="marquee-group" aria-hidden="true">
-                                            <div class="country-badge"><img src="https://flagcdn.com/w40/in.png" class="country-flag" alt="India"> India</div>
-                                            <div class="country-badge"><img src="https://flagcdn.com/w40/us.png" class="country-flag" alt="United States"> United States</div>
-                                            <div class="country-badge"><img src="https://flagcdn.com/w40/au.png" class="country-flag" alt="Australia"> Australia</div>
-                                            <div class="country-badge"><img src="https://flagcdn.com/w40/ae.png" class="country-flag" alt="UAE"> United Arab Emirates (UAE)</div>
-                                            <div class="country-badge"><img src="https://flagcdn.com/w40/ca.png" class="country-flag" alt="Canada"> Canada</div>
+                                            <div class="country-badge"><img src="https://flagcdn.com/w40/in.png"
+                                                    class="country-flag" alt="India"> India</div>
+                                            <div class="country-badge"><img src="https://flagcdn.com/w40/us.png"
+                                                    class="country-flag" alt="United States"> United States</div>
+                                            <div class="country-badge"><img src="https://flagcdn.com/w40/au.png"
+                                                    class="country-flag" alt="Australia"> Australia</div>
+                                            <div class="country-badge"><img src="https://flagcdn.com/w40/ae.png"
+                                                    class="country-flag" alt="UAE"> United Arab Emirates (UAE)</div>
+                                            <div class="country-badge"><img src="https://flagcdn.com/w40/ca.png"
+                                                    class="country-flag" alt="Canada"> Canada</div>
                                         </div>
                                     </div>
                                 </div>
 
                                 <!-- FEATURED ON LOGOS -->
                                 <div class="featured-on-container">
-                                    <h3 class="featured-on-title-main">News Agencies We Are <span class="gradient-text">Featured On</span></h3>
+                                    <h3 class="featured-on-title-main">News Agencies We Are <span
+                                            class="gradient-text">Featured On</span></h3>
                                     <div class="global-marquee-container news-marquee">
                                         <div class="global-marquee-track reverse">
                                             <div class="marquee-group">
                                                 <div class="country-badge logo-badge">
                                                     <svg viewBox="0 0 160 40" width="130" height="30" class="logo-svg">
-                                                        <rect x="2" y="8" width="24" height="24" rx="6" class="eat-icon-bg" fill="currentColor"/>
-                                                        <path d="M8,14 H20 M8,20 H20 M8,26 H20 M12,10 V22 M16,10 V22" class="eat-icon-path" stroke="none" stroke-width="2" stroke-linecap="round"/>
-                                                        <text x="32" y="27" font-family="'Inter', sans-serif" font-weight="800" font-size="14" class="logo-text" fill="currentColor" letter-spacing="0.5">EATMYNEWS</text>
+                                                        <rect x="2" y="8" width="24" height="24" rx="6"
+                                                            class="eat-icon-bg" fill="currentColor" />
+                                                        <path d="M8,14 H20 M8,20 H20 M8,26 H20 M12,10 V22 M16,10 V22"
+                                                            class="eat-icon-path" stroke="none" stroke-width="2"
+                                                            stroke-linecap="round" />
+                                                        <text x="32" y="27" font-family="'Inter', sans-serif"
+                                                            font-weight="800" font-size="14" class="logo-text"
+                                                            fill="currentColor" letter-spacing="0.5">EATMYNEWS</text>
                                                     </svg>
                                                 </div>
                                                 <div class="country-badge logo-badge">
                                                     <svg viewBox="0 0 140 40" width="110" height="30" class="logo-svg">
-                                                        <text x="50%" y="14" font-family="'Georgia', serif" font-weight="700" font-size="8" letter-spacing="1" text-anchor="middle" class="logo-text-sub" fill="currentColor">SOCIAL</text>
-                                                        <text x="50%" y="32" font-family="'Impact', 'Arial Black', sans-serif" font-weight="900" font-size="20" letter-spacing="1.5" text-anchor="middle" class="logo-text-main" fill="currentColor">KETCHUP</text>
+                                                        <text x="50%" y="14" font-family="'Georgia', serif"
+                                                            font-weight="700" font-size="8" letter-spacing="1"
+                                                            text-anchor="middle" class="logo-text-sub"
+                                                            fill="currentColor">SOCIAL</text>
+                                                        <text x="50%" y="32"
+                                                            font-family="'Impact', 'Arial Black', sans-serif"
+                                                            font-weight="900" font-size="20" letter-spacing="1.5"
+                                                            text-anchor="middle" class="logo-text-main"
+                                                            fill="currentColor">KETCHUP</text>
                                                     </svg>
                                                 </div>
                                                 <div class="country-badge logo-badge">
                                                     <svg viewBox="0 0 160 40" width="130" height="30" class="logo-svg">
                                                         <g class="chitika-icon" fill="currentColor">
-                                                            <path d="M10,12 L22,8 L28,15 L22,25 L12,25 Z"/>
-                                                            <path d="M6,17 L18,13 L22,20 L16,28 L6,28 Z" opacity="0.6"/>
+                                                            <path d="M10,12 L22,8 L28,15 L22,25 L12,25 Z" />
+                                                            <path d="M6,17 L18,13 L22,20 L16,28 L6,28 Z"
+                                                                opacity="0.6" />
                                                         </g>
-                                                        <text x="35" y="27" font-family="'Inter', sans-serif" font-weight="800" font-size="18" class="logo-text" fill="currentColor" letter-spacing="0.5">CHITIKA</text>
+                                                        <text x="35" y="27" font-family="'Inter', sans-serif"
+                                                            font-weight="800" font-size="18" class="logo-text"
+                                                            fill="currentColor" letter-spacing="0.5">CHITIKA</text>
                                                     </svg>
                                                 </div>
                                                 <div class="country-badge logo-badge">
                                                     <svg viewBox="0 0 240 40" width="180" height="30" class="logo-svg">
-                                                        <text x="50%" y="27" font-family="'Georgia', serif" font-weight="900" font-size="14" class="logo-text" fill="currentColor" letter-spacing="2" text-anchor="middle">THE TIMES OF INDIA</text>
+                                                        <text x="50%" y="27" font-family="'Georgia', serif"
+                                                            font-weight="900" font-size="14" class="logo-text"
+                                                            fill="currentColor" letter-spacing="2"
+                                                            text-anchor="middle">THE TIMES OF INDIA</text>
                                                     </svg>
                                                 </div>
                                                 <div class="country-badge logo-badge">
                                                     <svg viewBox="0 0 160 40" width="130" height="30" class="logo-svg">
                                                         <g class="apn-icon" fill="currentColor">
-                                                            <rect x="8" y="14" width="8" height="8" transform="rotate(45 12 18)"/>
-                                                            <rect x="18" y="14" width="8" height="8" transform="rotate(45 22 18)" opacity="0.8"/>
+                                                            <rect x="8" y="14" width="8" height="8"
+                                                                transform="rotate(45 12 18)" />
+                                                            <rect x="18" y="14" width="8" height="8"
+                                                                transform="rotate(45 22 18)" opacity="0.8" />
                                                         </g>
-                                                        <text x="34" y="26" font-family="'Montserrat', sans-serif" font-weight="800" font-size="16" class="logo-text" fill="currentColor" letter-spacing="0.5">APN NEWS</text>
+                                                        <text x="34" y="26" font-family="'Montserrat', sans-serif"
+                                                            font-weight="800" font-size="16" class="logo-text"
+                                                            fill="currentColor" letter-spacing="0.5">APN NEWS</text>
                                                     </svg>
                                                 </div>
                                             </div>
                                             <div class="marquee-group" aria-hidden="true">
                                                 <div class="country-badge logo-badge">
                                                     <svg viewBox="0 0 160 40" width="130" height="30" class="logo-svg">
-                                                        <rect x="2" y="8" width="24" height="24" rx="6" class="eat-icon-bg" fill="currentColor"/>
-                                                        <path d="M8,14 H20 M8,20 H20 M8,26 H20 M12,10 V22 M16,10 V22" class="eat-icon-path" stroke="none" stroke-width="2" stroke-linecap="round"/>
-                                                        <text x="32" y="27" font-family="'Inter', sans-serif" font-weight="800" font-size="14" class="logo-text" fill="currentColor" letter-spacing="0.5">EATMYNEWS</text>
+                                                        <rect x="2" y="8" width="24" height="24" rx="6"
+                                                            class="eat-icon-bg" fill="currentColor" />
+                                                        <path d="M8,14 H20 M8,20 H20 M8,26 H20 M12,10 V22 M16,10 V22"
+                                                            class="eat-icon-path" stroke="none" stroke-width="2"
+                                                            stroke-linecap="round" />
+                                                        <text x="32" y="27" font-family="'Inter', sans-serif"
+                                                            font-weight="800" font-size="14" class="logo-text"
+                                                            fill="currentColor" letter-spacing="0.5">EATMYNEWS</text>
                                                     </svg>
                                                 </div>
                                                 <div class="country-badge logo-badge">
                                                     <svg viewBox="0 0 140 40" width="110" height="30" class="logo-svg">
-                                                        <text x="50%" y="14" font-family="'Georgia', serif" font-weight="700" font-size="8" letter-spacing="1" text-anchor="middle" class="logo-text-sub" fill="currentColor">SOCIAL</text>
-                                                        <text x="50%" y="32" font-family="'Impact', 'Arial Black', sans-serif" font-weight="900" font-size="20" letter-spacing="1.5" text-anchor="middle" class="logo-text-main" fill="currentColor">KETCHUP</text>
+                                                        <text x="50%" y="14" font-family="'Georgia', serif"
+                                                            font-weight="700" font-size="8" letter-spacing="1"
+                                                            text-anchor="middle" class="logo-text-sub"
+                                                            fill="currentColor">SOCIAL</text>
+                                                        <text x="50%" y="32"
+                                                            font-family="'Impact', 'Arial Black', sans-serif"
+                                                            font-weight="900" font-size="20" letter-spacing="1.5"
+                                                            text-anchor="middle" class="logo-text-main"
+                                                            fill="currentColor">KETCHUP</text>
                                                     </svg>
                                                 </div>
                                                 <div class="country-badge logo-badge">
                                                     <svg viewBox="0 0 160 40" width="130" height="30" class="logo-svg">
                                                         <g class="chitika-icon" fill="currentColor">
-                                                            <path d="M10,12 L22,8 L28,15 L22,25 L12,25 Z"/>
-                                                            <path d="M6,17 L18,13 L22,20 L16,28 L6,28 Z" opacity="0.6"/>
+                                                            <path d="M10,12 L22,8 L28,15 L22,25 L12,25 Z" />
+                                                            <path d="M6,17 L18,13 L22,20 L16,28 L6,28 Z"
+                                                                opacity="0.6" />
                                                         </g>
-                                                        <text x="35" y="27" font-family="'Inter', sans-serif" font-weight="800" font-size="18" class="logo-text" fill="currentColor" letter-spacing="0.5">CHITIKA</text>
+                                                        <text x="35" y="27" font-family="'Inter', sans-serif"
+                                                            font-weight="800" font-size="18" class="logo-text"
+                                                            fill="currentColor" letter-spacing="0.5">CHITIKA</text>
                                                     </svg>
                                                 </div>
                                                 <div class="country-badge logo-badge">
                                                     <svg viewBox="0 0 240 40" width="180" height="30" class="logo-svg">
-                                                        <text x="50%" y="27" font-family="'Georgia', serif" font-weight="900" font-size="14" class="logo-text" fill="currentColor" letter-spacing="2" text-anchor="middle">THE TIMES OF INDIA</text>
+                                                        <text x="50%" y="27" font-family="'Georgia', serif"
+                                                            font-weight="900" font-size="14" class="logo-text"
+                                                            fill="currentColor" letter-spacing="2"
+                                                            text-anchor="middle">THE TIMES OF INDIA</text>
                                                     </svg>
                                                 </div>
                                                 <div class="country-badge logo-badge">
                                                     <svg viewBox="0 0 160 40" width="130" height="30" class="logo-svg">
                                                         <g class="apn-icon" fill="currentColor">
-                                                            <rect x="8" y="14" width="8" height="8" transform="rotate(45 12 18)"/>
-                                                            <rect x="18" y="14" width="8" height="8" transform="rotate(45 22 18)" opacity="0.8"/>
+                                                            <rect x="8" y="14" width="8" height="8"
+                                                                transform="rotate(45 12 18)" />
+                                                            <rect x="18" y="14" width="8" height="8"
+                                                                transform="rotate(45 22 18)" opacity="0.8" />
                                                         </g>
-                                                        <text x="34" y="26" font-family="'Montserrat', sans-serif" font-weight="800" font-size="16" class="logo-text" fill="currentColor" letter-spacing="0.5">APN NEWS</text>
+                                                        <text x="34" y="26" font-family="'Montserrat', sans-serif"
+                                                            font-weight="800" font-size="16" class="logo-text"
+                                                            fill="currentColor" letter-spacing="0.5">APN NEWS</text>
                                                     </svg>
                                                 </div>
                                             </div>
@@ -3801,7 +3898,8 @@
                                     <div class="srv-tag media-tag">Authority Builder</div>
                                     <div class="srv-icon media">
                                         <svg viewBox="0 0 24 24" width="26" height="26" fill="#ee82ee">
-                                            <path d="M20 2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9H11V5h8v6zm-8 4h8v2H11v-2zm-6-4h4v6H5v-6zm0-4h4v2H5V7zm6 12h8v2H11v-2z"/>
+                                            <path
+                                                d="M20 2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9H11V5h8v6zm-8 4h8v2H11v-2zm-6-4h4v6H5v-6zm0-4h4v2H5V7zm6 12h8v2H11v-2z" />
                                         </svg>
                                     </div>
                                     <h3 class="srv-name">Press Release &amp; Media Coverage</h3>
@@ -3815,7 +3913,8 @@
                                 <div class="srv-card" data-cat="media">
                                     <div class="srv-icon media">
                                         <svg viewBox="0 0 24 24" width="26" height="26" fill="#ee82ee">
-                                            <path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z"/>
+                                            <path
+                                                d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z" />
                                         </svg>
                                     </div>
                                     <h3 class="srv-name">Podcast Collaborations</h3>
@@ -3836,10 +3935,12 @@
                                                 <!-- E -->
                                                 <path d="M12,8 h8 v4 h-5.7 v5 h5 v4 h-5 v5 h5.7 v4 h-8 Z" />
                                                 <!-- D -->
-                                                <path d="M21.5,8 h4.2 c3.2,0 4.8,2.5 4.8,10 c0,7.5 -1.6,10 -4.8,10 h-4.2 Z M23.8,12 v12 h1.9 c1.6,0 2.5,-1 2.5,-6 c0,-5 -0.9,-6 -2.5,-6 Z" />
+                                                <path
+                                                    d="M21.5,8 h4.2 c3.2,0 4.8,2.5 4.8,10 c0,7.5 -1.6,10 -4.8,10 h-4.2 Z M23.8,12 v12 h1.9 c1.6,0 2.5,-1 2.5,-6 c0,-5 -0.9,-6 -2.5,-6 Z" />
                                             </g>
                                             <!-- x -->
-                                            <path d="M31.5,14.5 l3,5 M34.5,14.5 l-3,5" stroke="#e62b1e" stroke-width="2.5" stroke-linecap="round" />
+                                            <path d="M31.5,14.5 l3,5 M34.5,14.5 l-3,5" stroke="#e62b1e"
+                                                stroke-width="2.5" stroke-linecap="round" />
                                         </svg>
                                     </div>
                                     <h3 class="srv-name">TEDx &amp; Josh Talks Positioning</h3>
@@ -3853,7 +3954,8 @@
                                 <div class="srv-card" data-cat="media">
                                     <div class="srv-icon media">
                                         <svg viewBox="0 0 24 24" width="26" height="26" fill="#fbbf24">
-                                            <path d="M19 4h-3V2H8v2H5c-1.1 0-2 .9-2 2v3c0 2.2 1.8 4 4 4h1.2c.8 1.8 2.5 3.1 4.8 3.4V19H9v2h6v-2h-4v-1.6c2.3-.3 4-1.6 4.8-3.4H17c2.2 0 4-1.8 4-4V6c0-1.1-.9-2-2-2zm-12 5H5V6h2v3zm12 0h-2V6h2v3z"/>
+                                            <path
+                                                d="M19 4h-3V2H8v2H5c-1.1 0-2 .9-2 2v3c0 2.2 1.8 4 4 4h1.2c.8 1.8 2.5 3.1 4.8 3.4V19H9v2h6v-2h-4v-1.6c2.3-.3 4-1.6 4.8-3.4H17c2.2 0 4-1.8 4-4V6c0-1.1-.9-2-2-2zm-12 5H5V6h2v3zm12 0h-2V6h2v3z" />
                                         </svg>
                                     </div>
                                     <h3 class="srv-name">Awards &amp; Recognition</h3>
@@ -5622,15 +5724,16 @@
                                             <div class="review-platform"><i class="fa-brands fa-whatsapp"></i></div>
                                         </div>
                                         <div class="review-screenshot-wrapper"
-                                             style="margin: 12px 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: rgba(0,0,0,0.15);">
-                                             <div style="position: relative; display: inline-block; max-width: 100%; max-height: 100%;">
-                                                 <img src="wp-content/uploads/reviews/review-arjun-mehta.jpg"
-                                                     alt="Review from Verified Client"
-                                                     style="width: 100%; height: auto; display: block; object-fit: contain;"
-                                                     loading="lazy">
-                                                 <div class="screenshot-blur-overlay blur-whatsapp"></div>
-                                             </div>
-                                         </div>
+                                            style="margin: 12px 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: rgba(0,0,0,0.15);">
+                                            <div
+                                                style="position: relative; display: inline-block; max-width: 100%; max-height: 100%;">
+                                                <img src="wp-content/uploads/reviews/review-arjun-mehta.jpg"
+                                                    alt="Review from Verified Client"
+                                                    style="width: 100%; height: auto; display: block; object-fit: contain;"
+                                                    loading="lazy">
+                                                <div class="screenshot-blur-overlay blur-whatsapp"></div>
+                                            </div>
+                                        </div>
                                         <div class="review-author">
                                             <div class="review-avatar"
                                                 style="background: linear-gradient(135deg, #ee82ee, #d946ef);">C</div>
@@ -5654,11 +5757,14 @@
                                         </div>
                                         <div class="review-screenshot-wrapper"
                                             style="margin: 12px 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: rgba(0,0,0,0.15);">
-                                            <div style="position: relative; display: inline-block; max-width: 100%; max-height: 100%;"><img src="wp-content/uploads/reviews/review-vikram-sinha.png"
-                                                alt="Review from Content Creator"
-                                                style="width: 100%; height: auto; display: block; object-fit: contain;"
-                                                loading="lazy">
-                                            <div class="screenshot-blur-overlay blur-email"></div></div>
+                                            <div
+                                                style="position: relative; display: inline-block; max-width: 100%; max-height: 100%;">
+                                                <img src="wp-content/uploads/reviews/review-vikram-sinha.png"
+                                                    alt="Review from Content Creator"
+                                                    style="width: 100%; height: auto; display: block; object-fit: contain;"
+                                                    loading="lazy">
+                                                <div class="screenshot-blur-overlay blur-email"></div>
+                                            </div>
                                         </div>
                                         <div class="review-author">
                                             <div class="review-avatar"
@@ -5683,11 +5789,14 @@
                                         </div>
                                         <div class="review-screenshot-wrapper"
                                             style="margin: 12px 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: rgba(0,0,0,0.15);">
-                                            <div style="position: relative; display: inline-block; max-width: 100%; max-height: 100%;"><img src="wp-content/uploads/reviews/review-abhishek-sharma.jpg"
-                                                alt="Review from Entrepreneur"
-                                                style="width: 100%; height: auto; display: block; object-fit: contain;"
-                                                loading="lazy">
-                                            <div class="screenshot-blur-overlay blur-whatsapp"></div></div>
+                                            <div
+                                                style="position: relative; display: inline-block; max-width: 100%; max-height: 100%;">
+                                                <img src="wp-content/uploads/reviews/review-abhishek-sharma.jpg"
+                                                    alt="Review from Entrepreneur"
+                                                    style="width: 100%; height: auto; display: block; object-fit: contain;"
+                                                    loading="lazy">
+                                                <div class="screenshot-blur-overlay blur-whatsapp"></div>
+                                            </div>
                                         </div>
                                         <div class="review-author">
                                             <div class="review-avatar"
@@ -5712,11 +5821,14 @@
                                         </div>
                                         <div class="review-screenshot-wrapper"
                                             style="margin: 12px 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: rgba(0,0,0,0.15);">
-                                            <div style="position: relative; display: inline-block; max-width: 100%; max-height: 100%;"><img src="wp-content/uploads/reviews/review-rahul-verma.jpg"
-                                                alt="Review from Business Owner"
-                                                style="width: 100%; height: auto; display: block; object-fit: contain;"
-                                                loading="lazy">
-                                            <div class="screenshot-blur-overlay blur-instagram"></div></div>
+                                            <div
+                                                style="position: relative; display: inline-block; max-width: 100%; max-height: 100%;">
+                                                <img src="wp-content/uploads/reviews/review-rahul-verma.jpg"
+                                                    alt="Review from Business Owner"
+                                                    style="width: 100%; height: auto; display: block; object-fit: contain;"
+                                                    loading="lazy">
+                                                <div class="screenshot-blur-overlay blur-instagram"></div>
+                                            </div>
                                         </div>
                                         <div class="review-author">
                                             <div class="review-avatar"
@@ -5741,11 +5853,14 @@
                                         </div>
                                         <div class="review-screenshot-wrapper"
                                             style="margin: 12px 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: rgba(0,0,0,0.15);">
-                                            <div style="position: relative; display: inline-block; max-width: 100%; max-height: 100%;"><img src="wp-content/uploads/reviews/review-muskan-rajput.jpg"
-                                                alt="Review from Content Creator"
-                                                style="width: 100%; height: auto; display: block; object-fit: contain;"
-                                                loading="lazy">
-                                            <div class="screenshot-blur-overlay blur-instagram"></div></div>
+                                            <div
+                                                style="position: relative; display: inline-block; max-width: 100%; max-height: 100%;">
+                                                <img src="wp-content/uploads/reviews/review-muskan-rajput.jpg"
+                                                    alt="Review from Content Creator"
+                                                    style="width: 100%; height: auto; display: block; object-fit: contain;"
+                                                    loading="lazy">
+                                                <div class="screenshot-blur-overlay blur-instagram"></div>
+                                            </div>
                                         </div>
                                         <div class="review-author">
                                             <div class="review-avatar"
@@ -5770,11 +5885,14 @@
                                         </div>
                                         <div class="review-screenshot-wrapper"
                                             style="margin: 12px 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: rgba(0,0,0,0.15);">
-                                            <div style="position: relative; display: inline-block; max-width: 100%; max-height: 100%;"><img src="wp-content/uploads/reviews/review-naman-agarwal.png"
-                                                alt="Review from Startup Founder"
-                                                style="width: 100%; height: auto; display: block; object-fit: contain;"
-                                                loading="lazy">
-                                            <div class="screenshot-blur-overlay blur-email"></div></div>
+                                            <div
+                                                style="position: relative; display: inline-block; max-width: 100%; max-height: 100%;">
+                                                <img src="wp-content/uploads/reviews/review-naman-agarwal.png"
+                                                    alt="Review from Startup Founder"
+                                                    style="width: 100%; height: auto; display: block; object-fit: contain;"
+                                                    loading="lazy">
+                                                <div class="screenshot-blur-overlay blur-email"></div>
+                                            </div>
                                         </div>
                                         <div class="review-author">
                                             <div class="review-avatar"
@@ -5799,11 +5917,14 @@
                                         </div>
                                         <div class="review-screenshot-wrapper"
                                             style="margin: 12px 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: rgba(0,0,0,0.15);">
-                                            <div style="position: relative; display: inline-block; max-width: 100%; max-height: 100%;"><img src="wp-content/uploads/reviews/review-divya-pratihast.jpg"
-                                                alt="Review from Verified Client"
-                                                style="width: 100%; height: auto; display: block; object-fit: contain;"
-                                                loading="lazy">
-                                            <div class="screenshot-blur-overlay blur-instagram"></div></div>
+                                            <div
+                                                style="position: relative; display: inline-block; max-width: 100%; max-height: 100%;">
+                                                <img src="wp-content/uploads/reviews/review-divya-pratihast.jpg"
+                                                    alt="Review from Verified Client"
+                                                    style="width: 100%; height: auto; display: block; object-fit: contain;"
+                                                    loading="lazy">
+                                                <div class="screenshot-blur-overlay blur-instagram"></div>
+                                            </div>
                                         </div>
                                         <div class="review-author">
                                             <div class="review-avatar"
@@ -5828,11 +5949,14 @@
                                         </div>
                                         <div class="review-screenshot-wrapper"
                                             style="margin: 12px 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: rgba(0,0,0,0.15);">
-                                            <div style="position: relative; display: inline-block; max-width: 100%; max-height: 100%;"><img src="wp-content/uploads/reviews/review-siddharth-bhargav.jpg"
-                                                alt="Review from Verified Client"
-                                                style="width: 100%; height: auto; display: block; object-fit: contain;"
-                                                loading="lazy">
-                                            <div class="screenshot-blur-overlay blur-whatsapp"></div></div>
+                                            <div
+                                                style="position: relative; display: inline-block; max-width: 100%; max-height: 100%;">
+                                                <img src="wp-content/uploads/reviews/review-siddharth-bhargav.jpg"
+                                                    alt="Review from Verified Client"
+                                                    style="width: 100%; height: auto; display: block; object-fit: contain;"
+                                                    loading="lazy">
+                                                <div class="screenshot-blur-overlay blur-whatsapp"></div>
+                                            </div>
                                         </div>
                                         <div class="review-author">
                                             <div class="review-avatar"
@@ -5931,7 +6055,8 @@
                                     position: absolute !important;
                                     backdrop-filter: blur(16px) saturate(180%) !important;
                                     -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
-                                    background: rgba(15, 23, 42, 0.85) !important; /* Premium dark privacy tint, very visible */
+                                    background: rgba(15, 23, 42, 0.85) !important;
+                                    /* Premium dark privacy tint, very visible */
                                     pointer-events: none !important;
                                     z-index: 10 !important;
                                     border: 1px solid rgba(255, 255, 255, 0.08) !important;
@@ -5944,7 +6069,8 @@
                                     left: 0 !important;
                                     width: 58% !important;
                                     aspect-ratio: 7.16 !important;
-                                    border-top-left-radius: 12px !important; /* Matches wrapper corner radius */
+                                    border-top-left-radius: 12px !important;
+                                    /* Matches wrapper corner radius */
                                 }
 
                                 .blur-instagram {
@@ -5958,7 +6084,8 @@
                                 .blur-email {
                                     top: 0 !important;
                                     left: 6.6% !important;
-                                    margin-top: 12.4% !important; /* Percentage-based margin-top calculates relative to width! */
+                                    margin-top: 12.4% !important;
+                                    /* Percentage-based margin-top calculates relative to width! */
                                     width: 46.6% !important;
                                     aspect-ratio: 8.79 !important;
                                     border-radius: 6px !important;
@@ -6709,7 +6836,8 @@
                                                 <div class="founder-ring"></div>
                                                 <img decoding="async" loading="lazy"
                                                     src="/wp-content/uploads/2026/06/founder-atul-cutout-320.png?v=2"
-                                                    width="320" height="320" alt="Atul Verma" class="avatar-img">
+                                                    width="320" height="320" alt="Atul Verma" class="avatar-img"
+                                                    style="object-position: 53.5% top !important;">
                                             </div>
                                             <div
                                                 style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; margin-bottom: 20px;">
@@ -6738,9 +6866,13 @@
                                         <div class="member-card founder-card">
                                             <div class="avatar-wrapper">
                                                 <div class="founder-ring"></div>
-                                                <img decoding="async" loading="lazy"
-                                                    src="/wp-content/uploads/2026/06/ashish-mewada.png" width="320"
-                                                    height="320" alt="Ashish Mewada" class="avatar-img">
+                                                <div
+                                                    style="width: 100%; height: 100%; border-radius: 50%; overflow: hidden; border: 4px solid #0f121e; position: relative; z-index: 2; background: #1a1a2e;">
+                                                    <img decoding="async" loading="lazy"
+                                                        src="/wp-content/uploads/2026/06/ashish-mewada-cutout.png"
+                                                        width="320" height="320" alt="Ashish Mewada" class="avatar-img"
+                                                        style="width: 100%; height: 100%; object-fit: cover; transform: scale(1.42) rotate(-3.5deg) translateX(-2.5%); transform-origin: center 25%; object-position: center top; border: none !important; background: transparent !important;">
+                                                </div>
                                             </div>
                                             <div
                                                 style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; margin-bottom: 20px;">
@@ -6769,9 +6901,13 @@
                                         <div class="member-card founder-card">
                                             <div class="avatar-wrapper">
                                                 <div class="founder-ring"></div>
-                                                <img decoding="async" loading="lazy"
-                                                    src="/wp-content/uploads/2026/06/jay-siloriya.png" width="320"
-                                                    height="320" alt="Jay Siloriya" class="avatar-img">
+                                                <div
+                                                    style="width: 100%; height: 100%; border-radius: 50%; overflow: hidden; border: 4px solid #0f121e; position: relative; z-index: 2; background: #1a1a2e;">
+                                                    <img decoding="async" loading="lazy"
+                                                        src="/wp-content/uploads/2026/06/jay-siloriya-cutout.png"
+                                                        width="320" height="320" alt="Jay Siloriya" class="avatar-img"
+                                                        style="width: 100%; height: 100%; object-fit: cover; transform: scale(1.22); transform-origin: center 25%; object-position: center top; border: none !important; background: transparent !important;">
+                                                </div>
                                             </div>
                                             <div
                                                 style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; margin-bottom: 20px;">
