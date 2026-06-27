@@ -2793,6 +2793,11 @@
                             .global-marquee-track {
                                 display: flex !important;
                                 width: max-content !important;
+                                animation: global-marquee 25s linear infinite !important;
+                            }
+
+                            .global-marquee-track.reverse {
+                                animation: global-marquee-reverse 30s linear infinite !important;
                             }
 
                             .marquee-group {
@@ -2800,12 +2805,11 @@
                                 align-items: center !important;
                                 gap: 30px !important;
                                 padding-right: 30px !important;
-                                animation: global-marquee 25s linear infinite !important;
                                 flex-shrink: 0 !important;
                             }
 
                             /* Pause animation on hover */
-                            .global-marquee-container:hover .marquee-group {
+                            .global-marquee-container:hover .global-marquee-track {
                                 animation-play-state: paused !important;
                             }
 
@@ -2850,7 +2854,7 @@
                                 }
 
                                 100% {
-                                    transform: translateX(-100%);
+                                    transform: translateX(-50%);
                                 }
                             }
 
@@ -2927,22 +2931,12 @@
 
                             @keyframes global-marquee-reverse {
                                 0% {
-                                    transform: translateX(-100%);
+                                    transform: translateX(-50%);
                                 }
 
                                 100% {
                                     transform: translateX(0);
                                 }
-                            }
-
-                            .global-marquee-track.reverse .marquee-group {
-                                animation: global-marquee-reverse 30s linear infinite !important;
-                                /* Slightly slower for readability */
-                            }
-
-                            /* Pause reverse animation on hover */
-                            .global-marquee-container:hover .global-marquee-track.reverse .marquee-group {
-                                animation-play-state: paused !important;
                             }
 
                             .logo-svg {
@@ -3839,8 +3833,12 @@
 
                                 <div class="srv-card" data-cat="branding">
                                     <div class="srv-icon brand">
-                                        <img src="/wp-content/uploads/2026/06/srv-tiktok.png"
-                                            alt="Influencer Marketing">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"
+                                            class="srv-tiktok-svg">
+                                            <path
+                                                d="M38.077 15.854c-2.007-.061-3.826-1.02-5.197-2.308-1.296-1.22-2.155-2.883-2.553-3.837-.399-.955-.596-1.981-.58-3.007h-5.588v20.83c0 3.514-2.096 5.588-4.897 5.588-2.31 0-4.63-.483-6.49-2.025-1.437-1.18-2.37-2.92-2.37-4.646 0-1.727.933-3.467 2.37-4.647 1.86-1.543 4.18-2.025 6.49-2.025.517 0 1.03.09 1.518.264V19.598c-.499-.108-1.008-.162-1.518-.162-2.033 0-4.02.604-5.71 1.734-1.69 1.13-3.007 2.737-3.784 4.615-.778 1.878-.98 3.946-.583 5.94.398 1.994 1.377 3.825 2.815 5.263 1.438 1.437 3.27 2.416 5.265 2.812 1.994.396 4.062.193 5.94-.585 1.878-.778 3.484-2.384 4.614-4.114 1.13-1.73 1.733-3.717 1.733-5.752V18.832c2.165 1.51 4.753 2.208 7.515 2.253V15.854z"
+                                                fill="#ffffff" />
+                                        </svg>
                                     </div>
                                     <h3 class="srv-name">Influencer Marketing</h3>
                                     <p class="srv-desc">Strategic influencer partnerships for authentic reach, brand
@@ -4294,6 +4292,10 @@
                                 height: 26px !important;
                                 object-fit: contain !important;
                                 flex-shrink: 0 !important;
+                            }
+
+                            .srv-tiktok-svg {
+                                filter: drop-shadow(1.5px 0 0 #fe2c55) drop-shadow(-1.5px -1.5px 0 #25f4ee) !important;
                             }
 
                             .srv-icon.digi {
@@ -6765,10 +6767,13 @@
                                         <div class="member-card founder-card">
                                             <div class="avatar-wrapper">
                                                 <div class="founder-ring"></div>
-                                                <img decoding="async" loading="lazy"
-                                                    src="/wp-content/uploads/2026/06/founder-atul-cutout-320.png?v=2"
-                                                    width="320" height="320" alt="Atul Verma" class="avatar-img"
-                                                    style="object-position: 53.5% top !important;">
+                                                <div
+                                                    style="width: 100%; height: 100%; border-radius: 50%; overflow: hidden; border: 4px solid #0f121e; position: relative; z-index: 2; background: #1a1a2e;">
+                                                    <img decoding="async" loading="lazy"
+                                                        src="/wp-content/uploads/2026/06/founder-atul-cutout-320.png?v=2"
+                                                        width="320" height="320" alt="Atul Verma" class="avatar-img"
+                                                        style="width: 100%; height: 100%; object-fit: cover; transform: scale(1.35) translateY(10%) translateX(2%); transform-origin: center 25%; object-position: 53.5% top; border: none !important; background: transparent !important;">
+                                                </div>
                                             </div>
                                             <div
                                                 style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; margin-bottom: 20px;">
